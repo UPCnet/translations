@@ -1,0 +1,132 @@
+# translation of plone-plone-poi-ca.po to
+# Pilar Marinas Luis <pilar.marinas@upcnet.es>, 2008.
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# never generate this file with i18ndude, it is managed manual
+msgid ""
+msgstr ""
+"Project-Id-Version: Poi\n"
+"POT-Creation-Date: 2009-09-05 23:00+0000\n"
+"PO-Revision-Date: 2011-10-06 12:36+0100\n"
+"Last-Translator: Ariel von Barnekow <ariel.von.barnekow@upcnet.es>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: ca\n"
+"Language-Name: Catalan\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plone\n"
+
+msgid "A response to an issue."
+msgstr "Una resposta a una incidència."
+
+msgid "An issue tracker"
+msgstr "Un gestor d'incidències"
+
+msgid "An issue. Issues begin in the 'unconfirmed' state, and can be responded to by project managers."
+msgstr "Una incidència. Les incidències comencen en l'estat 'sense confirmar', i són ateses pels gestors del projecte."
+
+msgid "Begin work"
+msgstr "Començar treball"
+
+msgid "Being created"
+msgstr "Sent creada"
+
+# tracker transitions
+msgid "Close tracker"
+msgstr "Tancar gestor"
+
+msgid "Closed for submissions"
+msgstr "Tancat"
+
+msgid "Confirm resolved"
+msgstr "Confirmar resolució"
+
+msgid "Confirmed"
+msgstr "Confirmat"
+
+msgid "In progress"
+msgstr "En curs"
+
+msgid "Issue"
+msgstr "Incidència"
+
+# portal type nams
+msgid "Issue Tracker"
+msgstr "Gestor d'Incidències"
+
+# browser/respsonse.py:transitions_for_display
+msgid "No change"
+msgstr "Cap canvi"
+
+msgid "Only members can submit"
+msgstr "Només membres poden enviar"
+
+msgid "Open"
+msgstr "Oberta"
+
+# tracker states
+msgid "Open for submissions"
+msgstr "Obert"
+
+msgid "Open tracker"
+msgstr "Obrir gestor"
+
+msgid "Post issue on save"
+msgstr "Publicar incidència al guardar"
+
+# response transitions
+msgid "Post response on save"
+msgstr "Publicar resposta al guardar"
+
+# response states
+msgid "Posted"
+msgstr "Publicada"
+
+msgid "Postpone"
+msgstr "Posposar"
+
+msgid "Postponed"
+msgstr "Posposada"
+
+msgid "Protect tracker"
+msgstr "Protegeix el gestor"
+
+msgid "Protected against anonymous views"
+msgstr "Protegit contra visites anònimes"
+
+msgid "Put on hold"
+msgstr "Deixar en espera"
+
+msgid "Re-open"
+msgstr "Re-obrir"
+
+msgid "Reject"
+msgstr "Rebutjar"
+
+msgid "Rejected"
+msgstr "Rebutjada"
+
+msgid "Resolve"
+msgstr "Resoldre"
+
+msgid "Resolve immediately"
+msgstr "Solucionar inmediatament"
+
+msgid "Resolved"
+msgstr "Resolta"
+
+msgid "Response"
+msgstr "Resposta"
+
+msgid "Restrict tracker"
+msgstr "Restringeix el gestor"
+
+# issue states
+msgid "Tested and confirmed closed"
+msgstr "Revisada i confirmada"
+
+msgid "Unconfirmed"
+msgstr "Sense confirmar"
+

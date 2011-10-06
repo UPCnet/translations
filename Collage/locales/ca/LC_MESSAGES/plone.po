@@ -1,0 +1,51 @@
+# Malthe Borch <mborch@gmail.com>, 2007.
+# Ariel von Barnekow <ariel.von.barnekow@upcnet.es>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: Collage\n"
+"POT-Creation-Date: 2007-06-28 13:40+0000\n"
+"PO-Revision-Date: 2011-10-05 13:02+0100\n"
+"Last-Translator: Ariel von Barnekow <ariel.von.barnekow@upcnet.es>\n"
+"Language-Team: Catalan <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: ca\n"
+"Language-Name: Catalan\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: plone\n"
+"X-Generator: Lokalize 1.0\n"
+
+msgid "Alias"
+msgstr "Alies"
+
+# Object action
+msgid "Back to Collage"
+msgstr "Tornar a Collage"
+
+# content-types
+msgid "Collage"
+msgstr "Collage"
+
+msgid "Column"
+msgstr "Columna"
+
+msgid "Compose"
+msgstr "Composició"
+
+msgid "Row"
+msgstr "Fila"
+
+msgid "desc_type_collage"
+msgstr "Una estructura pot mostrar els seus elements en diversos llocs."
+
+msgid "desc_type_collagealias"
+msgstr "Un objecte que representa un àlies per un altre objecte."
+
+msgid "desc_type_collagecolumn"
+msgstr "Una columna pot contenir objectes."
+
+msgid "desc_type_collagerow"
+msgstr "Una fila pot contenir columnes de pàgina."
+

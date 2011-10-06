@@ -1,0 +1,377 @@
+# Malthe Borch <mborch@gmail.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: Collage\n"
+"POT-Creation-Date: 2010-10-04 12:13+0000\n"
+"PO-Revision-Date: 2011-10-05 13:56+0100\n"
+"Last-Translator: Ariel von Barnekow <ariel.von.barnekow@upcnet.es>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: ca\n"
+"Language-Name: Catalan\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collage\n"
+
+#: ../browser/actions.py:131
+msgid "${title} deleted."
+msgstr "S'ha esborrat ${title}."
+
+#: ../browser/views.py:142
+msgid "Album"
+msgstr "Àlbum"
+
+#: ../browser/views.py:117
+msgid "Automatic"
+msgstr "Automàtic"
+
+#: ../browser/views.py:194
+msgid "Clickable"
+msgstr "Clicable"
+
+#: ../browser/viewlets/delete.pt:46
+msgid "Delete"
+msgstr "Suprimeix"
+
+#: ../browser/views.py:135
+msgid "Featured"
+msgstr "Destacat"
+
+#: ../browser/views.py:153
+msgid "Inherit"
+msgstr "Hereta"
+
+#: ../browser/templates/existing_items_form.pt:117
+msgid "Insert"
+msgstr "Afegir"
+
+#: ../browser/views.py:120
+msgid "Large left"
+msgstr "Llarg a l'esquerra"
+
+#: ../browser/views.py:123
+msgid "Large right"
+msgstr "Llarg a la dreta"
+
+#: ../browser/viewlet.py:59
+msgid "Missing: $name"
+msgstr "Manca: $name"
+
+#: ../browser/views.py:138
+msgid "Portlet"
+msgstr "Portlet"
+
+#: ../browser/viewlets/delete.pt:39
+msgid "Remove"
+msgstr "Elimina"
+
+#: ../browser/actions.py:40
+msgid "Skin changed."
+msgstr "Aspecte modificat."
+
+#: ../browser/views.py:129
+msgid "Standard"
+msgstr "Estàndard"
+
+#: ../browser/views.py:145
+msgid "Summary"
+msgstr "Resum"
+
+#: ../browser/views.py:148
+msgid "Tabular"
+msgstr "Tabular"
+
+#: ../browser/views.py:132
+msgid "Text"
+msgstr "Text"
+
+#: ../browser/viewlets/delete.pt:43
+msgid "This will delete the item."
+msgstr "Elimina l'element seleccionat."
+
+#: ../browser/viewlets/delete.pt:36
+msgid "This will remove the alias."
+msgstr "Elimina l'àlies"
+
+#: ../browser/views.py:126
+msgid "Unbatched"
+msgstr "Sense lots"
+
+#: ../browser/actions.py:30
+msgid "View changed."
+msgstr "Vista canviada."
+
+#: ../browser/viewlets/delete.pt:27
+msgid "Warning"
+msgstr "Avís"
+
+#. Default: "Add row"
+#: ../browser/templates/collage_compose.pt:21
+msgid "button_add_collagerow"
+msgstr "Afegir fila"
+
+#. Default: "Default"
+#: ../browser/skins.py:6
+msgid "default"
+msgstr "Per defecte"
+
+#. Default: "Select item types that can be aliased in a Collage object."
+#: ../interfaces.py:90
+msgid "help_alias_whitelist"
+msgstr "Només els tipus d'element seleccionats en la llista blanca podran ser un àlies a un objecte Collage."
+
+#. Default: "If the number of Columns in a row exceeds this number, \"Collage will put these in a new \"batch\". The new batch will be displayed below the first batch, but it's technically still the same row. "
+#: ../interfaces.py:101
+msgid "help_batch_size"
+msgstr "Sí el nombre de columnes en una fila excedeix aquest nombre, Collage mostrarà les columnes en un nou \"lot\". El nou lot es mostrarà sota del primer, però tècnicament continuarà sent la mateixà fila."
+
+#. Default: "Site wide options for Collage"
+#: ../browser/controlpanel.py:65
+msgid "help_collage_controlpanel"
+msgstr "Opcions de Collage"
+
+#. Default: "This action can't be undone."
+#: ../browser/viewlets/delete.pt:28
+msgid "help_confirm_delete"
+msgstr "Aquesta acció no es podrà desfer."
+
+#. Default: "Show this collage in results when searching for terms appearing in a contained item. Note: Checking this option may slow down the system while editing the collage."
+#: ../content/_collage.py:67
+msgid "help_index_subobjects"
+msgstr "Afegir els elements de collage en el cercador?"
+
+#. Default: "Browse to content or search below the current location. Then click to insert."
+#: ../browser/viewlets/insert-existing-item.pt:20
+msgid "help_insert_existing_items"
+msgstr "Explora el contingut o cerca per sota de la ruta actual. A continuació clica a afegir."
+
+#. Default: "Select a content-type to insert."
+#: ../browser/viewlets/insert-new-item.pt:20
+msgid "help_insert_new_item"
+msgstr "Seleccioni el tipus d'element a afegir."
+
+#. Default: "You may optionally supply a title for this column."
+#: ../content/_column.py:26
+msgid "help_optional_column_title"
+msgstr "Pot donar un títol opcional per a aquesta columna."
+
+#. Default: "You may optionally supply a title for this row."
+#: ../content/_row.py:24
+msgid "help_optional_row_title"
+msgstr "Pot donar un títol opcional per a aquesta fila."
+
+#. Default: "Use this if you have lots of items in your containers."
+#: ../interfaces.py:54
+msgid "help_ref_browser_empty"
+msgstr "Utilitzar si hi ha molts elements en els teus contenidors."
+
+#. Default: "When set to True, the reference browser shows up a content type filter."
+#: ../interfaces.py:63
+msgid "help_ref_browser_types"
+msgstr "Permet filtrar al navegador de referències segons el tipus dels elements."
+
+#. Default: "Choose a layout for this object."
+#: ../browser/viewlets/layout.pt:22
+msgid "help_select_layout"
+msgstr "Seleccioni la disposició per a aquest objecte."
+
+#. Default: "Choose a skin to apply to the selected layout."
+#: ../browser/viewlets/skin.pt:22
+msgid "help_select_skin"
+msgstr "Esculli l'aspecte a aplicar"
+
+#. Default: "Show description in page composition."
+#: ../content/_collage.py:55
+msgid "help_show_description"
+msgstr "Mostrar descripció a la pàgina de composició."
+
+#. Default: "Show title in page composition."
+#: ../content/_collage.py:46
+msgid "help_show_title"
+msgstr "Mostra la columna de títol a la pàgina de composició."
+
+#. Default: "Help"
+#: ../browser/skins.py:12
+msgid "help_skin"
+msgstr "Ajuda"
+
+#. Default: "Select item types that can be added in a Collage object."
+#: ../interfaces.py:79
+msgid "help_types_whitelist"
+msgstr "Seleccióna els tipus d'element que es poden afegir a un Collage."
+
+#. Default: "Only types in below whitelist can be added in a Collage."
+#: ../interfaces.py:71
+msgid "help_use_whitelist"
+msgstr "Només els tipus d'objecte seleccionats en la llista blanca es podran afegir al collage."
+
+#. Default: "Selected target object"
+#: ../content/_alias.py:40
+msgid "label_alias_target"
+msgstr "Objecte destí seleccionat"
+
+#. Default: "Alias whitelist"
+#: ../interfaces.py:89
+msgid "label_alias_whitelist"
+msgstr "Llista blanca d'àlies"
+
+#. Default: "Number of Columns"
+#: ../interfaces.py:100
+msgid "label_batch_size"
+msgstr "Nombre de columnes"
+
+#. Default: "Copy"
+#: ../browser/viewlets/copy.pt:9
+msgid "label_copy_object"
+msgstr "Enganxa"
+
+#. Default: "Delete"
+#: ../browser/viewlets/delete.pt:21
+msgid "label_delete"
+msgstr "Suprimeix"
+
+#. Default: "Add collage contents in searchable text?"
+#: ../content/_collage.py:66
+msgid "label_index_subobjects"
+msgstr "Mostra els elements del collage en el cercador?"
+
+#. Default: "Browse"
+#: ../browser/viewlets/insert-existing-item.pt:11
+msgid "label_insert_existing_item"
+msgstr "Explora"
+
+#. Default: "Create"
+#: ../browser/viewlets/insert-new-item.pt:10
+msgid "label_insert_new_item"
+msgstr "Afegeix"
+
+#. Default: "Loading..."
+#: ../browser/viewlets/insert-existing-item.pt:26
+msgid "label_loading"
+msgstr "Carregant..."
+
+#. Default: "Move down"
+#: ../browser/viewlets/modify_order_vertical.pt:11
+msgid "label_move_down"
+msgstr "Moure a baix"
+
+#. Default: "Move left"
+#: ../browser/viewlets/modify_order_horizontal.pt:11
+msgid "label_move_left"
+msgstr "Moure a l'esquerra"
+
+#. Default: "Move right"
+#: ../browser/viewlets/modify_order_horizontal.pt:18
+msgid "label_move_right"
+msgstr "Moure a la dreta"
+
+#. Default: "Move up"
+#: ../browser/viewlets/modify_order_vertical.pt:18
+msgid "label_move_up"
+msgstr "Moure a dalt"
+
+#. Default: "Empty composition. Add one or more rows to get started."
+#: ../browser/templates/collage_compose.pt:13
+msgid "label_no_items_added"
+msgstr "Composició buida. Per començar afegeix una o més files."
+
+#. Default: "Title"
+#: ../content/_column.py:25
+msgid "label_optional_column_title"
+msgstr "Títol de columna (opcional)"
+
+#. Default: "Title"
+#: ../content/_row.py:23
+msgid "label_optional_row_title"
+msgstr "Títol de fila (opcional)"
+
+#. Default: "paste"
+#: ../browser/viewlets/paste.pt:10
+msgid "label_paste_object"
+msgstr "enganxar"
+
+#. Default: "Open reference Browser without initial item listing"
+#: ../interfaces.py:52
+msgid "label_ref_browser_empty"
+msgstr "Obrir el navegador de referències sense llistar el elements inicials"
+
+#. Default: "Provide type filter in reference browser"
+#: ../interfaces.py:61
+msgid "label_ref_browser_types"
+msgstr "Mostra un filtre per tipus al navegador de referències"
+
+#. Default: "Layout"
+#: ../browser/viewlets/layout.pt:12
+msgid "label_select_layout"
+msgstr "Disposició"
+
+#. Default: "Skins"
+#: ../browser/viewlets/skin.pt:12
+msgid "label_select_skin"
+msgstr "Aspectes"
+
+#. Default: "Show description"
+#: ../content/_collage.py:54
+msgid "label_show_description"
+msgstr "Mostra la descripció"
+
+#. Default: "Show title"
+#: ../content/_collage.py:45
+msgid "label_show_title"
+msgstr "Mostra el títol"
+
+#. Default: "split"
+#: ../browser/viewlets/split-column.pt:9
+msgid "label_split_column"
+msgstr "dividir"
+
+#. Default: "Types whitelist"
+#: ../interfaces.py:78
+msgid "label_types_whitelist"
+msgstr "Llista blanca de tipus"
+
+#. Default: "Use types whitelist"
+#: ../interfaces.py:70
+msgid "label_use_whitelist"
+msgstr "Utilitzar llista blanca de tipus"
+
+#: ../browser/views.py:202
+msgid "minimal"
+msgstr "mínim"
+
+#. Default: "Alias inserted."
+#: ../browser/actions.py:117
+msgid "msg_alias_inserted"
+msgstr "S'ha afegit un àlies."
+
+#. Default: "Column inserted."
+#: ../browser/actions.py:92
+msgid "msg_column_inserted"
+msgstr "S'ha afegit una columna."
+
+#. Default: "Row was added."
+#: ../browser/actions.py:82
+msgid "msg_row_added"
+msgstr "S'ha afegit una fila."
+
+#. Default: "Target object not found."
+#: ../browser/actions.py:119
+msgid "msg_target_object_not_found"
+msgstr "No s'ha trobat l'element destí."
+
+#. Default: "Notification"
+#: ../browser/skins.py:9
+msgid "notification_skin"
+msgstr "Notificació"
+
+#: ../browser/templates/existing_items_form.pt:70
+msgid "searching this path and below"
+msgstr "busca en aquesta ruta i per sota"
+
+#. Default: "Collage control panel"
+#: ../browser/controlpanel.py:63
+msgid "title_collage_controlpanel"
+msgstr "Tauler de control de Collage"
+

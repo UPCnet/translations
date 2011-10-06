@@ -1,0 +1,382 @@
+# Malthe Borch <mborch@gmail.com>, 2007.
+# Mikel Larreategi <mlarreategi@codesyntax.com>, 2008
+# Pilar Marinas Luis <pilar.marinas@upcnet.es>
+# Leonardo J. Caballero G. <leonardocaballero@gmail.com>, 2010
+msgid ""
+msgstr ""
+"Project-Id-Version: Collage\n"
+"POT-Creation-Date: 2010-10-04 12:13+0000\n"
+"PO-Revision-Date: 2010-10-20 18:11+0000\n"
+"Last-Translator: Noe Nieto <noe@iservices.com.mx>"
+"Language-Team: Spanish <plone-conosur@lists.plone.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: es\n"
+"Language-Name: Spanish\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: collage\n"
+"X-Is-Fallback-For: es-ar es-bo es-cl es-co es-cr es-do es-ec es-es es-sv es-gt es-hn es-mx es-ni es-pa es-py es-pe es-pr es-us es-uy es-ve\n"
+
+#: ../browser/actions.py:131
+msgid "${title} deleted."
+msgstr "${title} eliminado."
+
+#: ../browser/views.py:142
+msgid "Album"
+msgstr "Álbum"
+
+#: ../browser/views.py:117
+msgid "Automatic"
+msgstr "Atomático"
+
+#: ../browser/views.py:194
+msgid "Clickable"
+msgstr "Pulsable"
+
+#: ../browser/viewlets/delete.pt:46
+msgid "Delete"
+msgstr "Eliminar"
+
+#: ../browser/views.py:135
+msgid "Featured"
+msgstr "Destacado"
+
+#: ../browser/views.py:153
+msgid "Inherit"
+msgstr "Heredar"
+
+#: ../browser/templates/existing_items_form.pt:117
+msgid "Insert"
+msgstr "Insertar"
+
+#: ../browser/views.py:120
+msgid "Large left"
+msgstr "Alargado hacia la izquerda"
+
+#: ../browser/views.py:123
+msgid "Large right"
+msgstr "Alargado hacia la derecha"
+
+#: ../browser/viewlet.py:59
+msgid "Missing: $name"
+msgstr "No disponible: $name"
+
+#: ../browser/views.py:138
+msgid "Portlet"
+msgstr "Portlet"
+
+#: ../browser/viewlets/delete.pt:39
+msgid "Remove"
+msgstr "Remover"
+
+#: ../browser/actions.py:40
+msgid "Skin changed."
+msgstr "Piel modificado."
+
+#: ../browser/views.py:129
+msgid "Standard"
+msgstr "Estándar"
+
+#: ../browser/views.py:145
+msgid "Summary"
+msgstr "Resumen"
+
+#: ../browser/views.py:148
+msgid "Tabular"
+msgstr "Tabular"
+
+#: ../browser/views.py:132
+msgid "Text"
+msgstr "Texto"
+
+#: ../browser/viewlets/delete.pt:43
+msgid "This will delete the item."
+msgstr "Esto eliminará el elemento."
+
+#: ../browser/viewlets/delete.pt:36
+msgid "This will remove the alias."
+msgstr "Esto removerá el alias."
+
+#: ../browser/views.py:126
+msgid "Unbatched"
+msgstr "Sin lotificar"
+
+#: ../browser/actions.py:30
+msgid "View changed."
+msgstr "Vista cambiada."
+
+#: ../browser/viewlets/delete.pt:27
+msgid "Warning"
+msgstr "Advertencia"
+
+#. Default: "Add row"
+#: ../browser/templates/collage_compose.pt:21
+msgid "button_add_collagerow"
+msgstr "Añadir fila"
+
+#. Default: "Default"
+#: ../browser/skins.py:6
+msgid "default"
+msgstr "Por defecto"
+
+#. Default: "Select item types that can be aliased in a Collage object."
+#: ../interfaces.py:90
+msgid "help_alias_whitelist"
+msgstr "Seleccione los tipos de elementos que pueden ser alias en un objeto de Collage."
+
+#. Default: "If the number of Columns in a row exceeds this number, \"Collage will put these in a new \"batch\". The new batch will be displayed below the first batch, but it's technically still the same row. "
+#: ../interfaces.py:101
+msgid "help_batch_size"
+msgstr "Collage acomodará estas nuevas Columnas en un nuevo \"lote\" en caso de que el número de Columnas en una fila exceda este número. El nuevo lote se mostrará abajo del primero, pero técnicamente es aún la misma fila."
+
+#. Default: "Site wide options for Collage"
+#: ../browser/controlpanel.py:65
+msgid "help_collage_controlpanel"
+msgstr "Opciones globales de Collage"
+
+#. Default: "This action can't be undone."
+#: ../browser/viewlets/delete.pt:28
+msgid "help_confirm_delete"
+msgstr "Esta acción no se puede deshacer."
+
+#. Default: "Show this collage in results when searching for terms appearing in a contained item. Note: Checking this option may slow down the system while editing the collage."
+#: ../content/_collage.py:67
+msgid "help_index_subobjects"
+msgstr "Mostrar este collage en los resultados en la búsqueda de los términos que aparecen en un elemento de contenido. Nota: Al seleccionar esta opción puede ralentizar el sistema, mientras esta en modo de edición el collage."
+
+#. Default: "Browse to content or search below the current location. Then click to insert."
+#: ../browser/viewlets/insert-existing-item.pt:20
+msgid "help_insert_existing_items"
+msgstr "Echar un vistazo al contenido o búsqueda por debajo de la ubicación actual. A continuación, haga clic en Insertar."
+
+#. Default: "Select a content-type to insert."
+#: ../browser/viewlets/insert-new-item.pt:20
+msgid "help_insert_new_item"
+msgstr "Seleccione el tipo de elemento a añadir."
+
+#. Default: "You may optionally supply a title for this column."
+#: ../content/_column.py:26
+msgid "help_optional_column_title"
+msgstr "Puede dar un título opcional para esta columna."
+
+#. Default: "You may optionally supply a title for this row."
+#: ../content/_row.py:24
+msgid "help_optional_row_title"
+msgstr "Puede dar un título opcional para esta fila."
+
+#. Default: "Use this if you have lots of items in your containers."
+#: ../interfaces.py:54
+msgid "help_ref_browser_empty"
+msgstr "Use esto si tiene muchos elementos en carpetas o contenedores."
+
+#. Default: "When set to True, the reference browser shows up a content type filter."
+#: ../interfaces.py:63
+msgid "help_ref_browser_types"
+msgstr "Cuando se establece a True (Verdadero) el navegador de referencias muestra un filtro de tipos de contenido."
+
+#. Default: "Choose a layout for this object."
+#: ../browser/viewlets/layout.pt:22
+msgid "help_select_layout"
+msgstr "Seleccione un diseño para este objeto."
+
+#. Default: "Choose a skin to apply to the selected layout."
+#: ../browser/viewlets/skin.pt:22
+msgid "help_select_skin"
+msgstr "Elija una piel que se aplicará al diseño seleccionado."
+
+#. Default: "Show description in page composition."
+#: ../content/_collage.py:55
+msgid "help_show_description"
+msgstr "Mostrar descripción en la composición de página"
+
+#. Default: "Show title in page composition."
+#: ../content/_collage.py:46
+msgid "help_show_title"
+msgstr "Mostrar titulo en la composición de página"
+
+#. Default: "Help"
+#: ../browser/skins.py:12
+msgid "help_skin"
+msgstr "Ayuda"
+
+#. Default: "Select item types that can be added in a Collage object."
+#: ../interfaces.py:79
+msgid "help_types_whitelist"
+msgstr "Seleccione los tipos de elementos que se pueden agregar en un objeto de Collage."
+
+#. Default: "Only types in below whitelist can be added in a Collage."
+#: ../interfaces.py:71
+msgid "help_use_whitelist"
+msgstr "Sólo los tipos de objeto seleccionados en la lista blanca se podrán añadir a Collage."
+
+#. Default: "Selected target object"
+#: ../content/_alias.py:40
+msgid "label_alias_target"
+msgstr "Seleccionado objeto destino"
+
+#. Default: "Alias whitelist"
+#: ../interfaces.py:89
+msgid "label_alias_whitelist"
+msgstr "Lista blanca de alias"
+
+#. Default: "Number of Columns"
+#: ../interfaces.py:100
+msgid "label_batch_size"
+msgstr "Número de Columnas"
+
+#. Default: "Copy"
+#: ../browser/viewlets/copy.pt:9
+#, fuzzy
+msgid "label_copy_object"
+msgstr "Copiar"
+
+#. Default: "Delete"
+#: ../browser/viewlets/delete.pt:21
+msgid "label_delete"
+msgstr "Eliminar"
+
+#. Default: "Add collage contents in searchable text?"
+#: ../content/_collage.py:66
+msgid "label_index_subobjects"
+msgstr "¿Agregar los contenidos de Collage al buscador de texto?"
+
+#. Default: "Browse"
+#: ../browser/viewlets/insert-existing-item.pt:11
+msgid "label_insert_existing_item"
+msgstr "Navegar"
+
+#. Default: "Create"
+#: ../browser/viewlets/insert-new-item.pt:10
+msgid "label_insert_new_item"
+msgstr "Crear"
+
+#. Default: "Loading..."
+#: ../browser/viewlets/insert-existing-item.pt:26
+msgid "label_loading"
+msgstr "Cargando..."
+
+#. Default: "Move down"
+#: ../browser/viewlets/modify_order_vertical.pt:11
+msgid "label_move_down"
+msgstr "Mover abajo"
+
+#. Default: "Move left"
+#: ../browser/viewlets/modify_order_horizontal.pt:11
+msgid "label_move_left"
+msgstr "Mover a la izquierda"
+
+#. Default: "Move right"
+#: ../browser/viewlets/modify_order_horizontal.pt:18
+msgid "label_move_right"
+msgstr "Mover a la derecha"
+
+#. Default: "Move up"
+#: ../browser/viewlets/modify_order_vertical.pt:18
+msgid "label_move_up"
+msgstr "Mover arriba"
+
+#. Default: "Empty composition. Add one or more rows to get started."
+#: ../browser/templates/collage_compose.pt:13
+msgid "label_no_items_added"
+msgstr "Composición vacía. Agregar una o más filas para empezar."
+
+#. Default: "Title"
+#: ../content/_column.py:25
+msgid "label_optional_column_title"
+msgstr "Título de columna (opcional)"
+
+#. Default: "Title"
+#: ../content/_row.py:23
+msgid "label_optional_row_title"
+msgstr "Título de fila (opcional)"
+
+#. Default: "paste"
+#: ../browser/viewlets/paste.pt:10
+msgid "label_paste_object"
+msgstr "pegar"
+
+#. Default: "Open reference Browser without initial item listing"
+#: ../interfaces.py:52
+msgid "label_ref_browser_empty"
+msgstr "Abrir el navegador de referencias sin listar los objetos inicialmente"
+
+#. Default: "Provide type filter in reference browser"
+#: ../interfaces.py:61
+msgid "label_ref_browser_types"
+msgstr "Asigne un filtro de tipos de datos al navegador de referencias"
+
+#. Default: "Layout"
+#: ../browser/viewlets/layout.pt:12
+msgid "label_select_layout"
+msgstr "Diseño/Disposición"
+
+#. Default: "Skins"
+#: ../browser/viewlets/skin.pt:12
+msgid "label_select_skin"
+msgstr "Pieles"
+
+#. Default: "Show description"
+#: ../content/_collage.py:54
+msgid "label_show_description"
+msgstr "Mostrar descripción"
+
+#. Default: "Show title"
+#: ../content/_collage.py:45
+msgid "label_show_title"
+msgstr "Mostrar título"
+
+#. Default: "split"
+#: ../browser/viewlets/split-column.pt:9
+msgid "label_split_column"
+msgstr "dividir"
+
+#. Default: "Types whitelist"
+#: ../interfaces.py:78
+msgid "label_types_whitelist"
+msgstr "Lista blanca de tipos"
+
+#. Default: "Use types whitelist"
+#: ../interfaces.py:70
+msgid "label_use_whitelist"
+msgstr "Utilizar lista blanca de tipos"
+
+#: ../browser/views.py:202
+msgid "minimal"
+msgstr "Mínima"
+
+#. Default: "Alias inserted."
+#: ../browser/actions.py:117
+msgid "msg_alias_inserted"
+msgstr "Alias insertado"
+
+#. Default: "Column inserted."
+#: ../browser/actions.py:92
+msgid "msg_column_inserted"
+msgstr "Columna insertada"
+
+#. Default: "Row was added."
+#: ../browser/actions.py:82
+msgid "msg_row_added"
+msgstr "Fila agregada."
+
+#. Default: "Target object not found."
+#: ../browser/actions.py:119
+msgid "msg_target_object_not_found"
+msgstr "Elemento destino no encontrado."
+
+#. Default: "Notification"
+#: ../browser/skins.py:9
+msgid "notification_skin"
+msgstr "Notificación"
+
+#: ../browser/templates/existing_items_form.pt:70
+msgid "searching this path and below"
+msgstr "buscando esta ruta y la siguiente"
+
+#. Default: "Collage control panel"
+#: ../browser/controlpanel.py:63
+msgid "title_collage_controlpanel"
+msgstr "Panel de control de Collage"
+
