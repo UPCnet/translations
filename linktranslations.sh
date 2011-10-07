@@ -18,17 +18,25 @@ function add {
 
 
 # Collage
+# Collage ja té locales només actualitzar traduccions
 add '/Collage/locales/es/LC_MESSAGES/*' '/src/Products.Collage/Products/Collage/locales/es/LC_MESSAGES/'
 add '/Collage/locales/ca/LC_MESSAGES/*' '/src/Products.Collage/Products/Collage/locales/ca/LC_MESSAGES/'
 
+#PloneSurvey
+add '/PloneSurvey/configure.zcml' '/src/Products.PloneSurvey/Products/PloneSurvey/'
+add '/PloneSurvey/locales/' '/src/Products.PloneSurvey/Products/PloneSurvey/'
+
+
 # Poi
-add '/Poi/locales/ca/' '/src/Products.Poi/Products/Poi/locales/ca/'
-add '/Poi/locales/es/' '/src/Products.Poi/Products/Poi/locales/es/'
+# Poi ja té locales només actualitzar traduccions
+add '/Poi/locales/ca/LC_MESSAGES/*' '/src/Products.Poi/Products/Poi/locales/ca/'
+add '/Poi/locales/es/LC_MESSAGES/*' '/src/Products.Poi/Products/Poi/locales/es/'
 
 # WindowZ
 add '/windowZ/locales/' '/src/Products.windowZ/Products/windowZ/'
 # WindowZ no te locales al configure el sobreescribim
-add '/windowZ/configure.zcml' '/src/Products.windowZ/Products/windowZ/' 
+add '/windowZ/configure.zcml' '/src/Products.windowZ/Products/windowZ/'
+
 
 
 
