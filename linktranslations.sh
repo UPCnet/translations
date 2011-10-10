@@ -22,6 +22,10 @@ function add {
 add '/Collage/locales/es/LC_MESSAGES/*' '/src/Products.Collage/Products/Collage/locales/es/LC_MESSAGES/'
 add '/Collage/locales/ca/LC_MESSAGES/*' '/src/Products.Collage/Products/Collage/locales/ca/LC_MESSAGES/'
 
+#Ploneboard
+add '/PloneBoard/configure.zcml' '/src/Products.Ploneboard/Products/Ploneboard/'
+add '/PloneBoard/locales/' '/src/Products.Ploneboard/Products/Ploneboard/'
+
 #PloneSurvey
 add '/PloneSurvey/configure.zcml' '/src/Products.PloneSurvey/Products/PloneSurvey/'
 add '/PloneSurvey/locales/' '/src/Products.PloneSurvey/Products/PloneSurvey/'
