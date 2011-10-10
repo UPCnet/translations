@@ -26,10 +26,13 @@ add '/Collage/locales/ca/LC_MESSAGES/*' '/src/Products.Collage/Products/Collage/
 add '/PloneBoard/configure.zcml' '/src/Products.Ploneboard/Products/Ploneboard/'
 add '/PloneBoard/locales/' '/src/Products.Ploneboard/Products/Ploneboard/'
 
+#PlonePopoll
+add '/PlonePopoll/configure.zcml' '/src/Products.PlonePopoll/Products/PlonePopoll/'
+add '/PlonePopoll/locales/' '/src/Products.PlonePopoll/Products/PlonePopoll/'
+
 #PloneSurvey
 add '/PloneSurvey/configure.zcml' '/src/Products.PloneSurvey/Products/PloneSurvey/'
 add '/PloneSurvey/locales/' '/src/Products.PloneSurvey/Products/PloneSurvey/'
-
 
 # Poi
 # Poi ja té locales només actualitzar traduccions
