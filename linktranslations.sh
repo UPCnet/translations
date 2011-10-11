@@ -1,6 +1,4 @@
 #!/bin/bash
-echo  'NOTA: Si heu actualitzat versions de paquets, cal modificar aquest arxiu.'
-
 #Directori on estan les traduccions
 TRANS=`pwd`
 # BUILD tindria que ser el directori on esta el gw4, el valor seguent es la ruta relativa sense barra al final
@@ -15,7 +13,9 @@ function add {
     DESTINATIONS[${#DESTINATIONS[*]}]="$2"
 }
 
-
+############
+# SRC LINKS
+############
 
 # Collage
 # Collage ja té locales només actualitzar traduccions
@@ -43,6 +43,16 @@ add '/Poi/locales/es/LC_MESSAGES/*' '/src/Products.Poi/Products/Poi/locales/es/'
 add '/windowZ/locales/' '/src/Products.windowZ/Products/windowZ/'
 # WindowZ no te locales al configure el sobreescribim
 add '/windowZ/configure.zcml' '/src/Products.windowZ/Products/windowZ/'
+
+
+########
+# EGGS
+########
+
+# PloneFormGen
+# PloneFormGen no te traducció al català linkem tota la carpeta
+# TODO comprovar que compila la traducció!
+add '/PloneFormGen/locales/ca/' '/eggs/Products.PloneFormGen*.egg/Products/PloneFormGen/locales/'
 
 
 
