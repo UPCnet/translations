@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2011-10-13 09:43+0000\n"
-"PO-Revision-Date: 2011-10-13 13:28+0100\n"
+"PO-Revision-Date: 2011-10-14 09:25+0100\n"
 "Last-Translator: Ariel von Barnekow <ariel.von.barnekow@upcnet.es>\n"
 "Language-Team: Plone i18n <plone-i18n@lista.plone.org>\n"
 "MIME-Version: 1.0\n"
@@ -315,12 +315,12 @@ msgstr "Establece el valor por defecto para los campos de direcciones para los n
 #. Default: "You may set up a default body and MIME type for the mail-action adapter here. These values will be used whenever a new mail-action adapter is created."
 #: ../skins/PloneFormGen/prefs_pfg_mtemplate.cpt:63
 msgid "description_ploneformgen_mtemplate"
-msgstr ""
+msgstr "Usted puede definir el cuerpo y el MIME por defecto para el adaptador de acción de correo. Estos valores se usarán cuando un nuevo adaptador de acción de correo se cree."
 
 #. Default: "You may hide or expose PloneFormGen functionality from classes of users by adjusting the permissions allowed to particular portal security roles. The form below adjusts role/permission settings at the site level. You may fine tune permissions on a folder-by-folder basis via the security tab in the ZMI."
 #: ../skins/PloneFormGen/prefs_pfg_permits.cpt:65
 msgid "description_ploneformgen_permissions"
-msgstr ""
+msgstr "Usted puede ocultar o mostrar las funcionalidades de PloneFormGen a grupos de usuarios ajustando los permisos en los roles de la seguridad del portal. El formulario de debajo ajusta la configuración de rol/permisos a nivel de sitio. Puedes refinar los permisos en carpetas vía la pestaña de seguridad de ZMI."
 
 #. Default: "Set defaults for data adapters."
 #: ../skins/PloneFormGen/prefs_pfg_savedata.cpt:63
@@ -331,6 +331,9 @@ msgstr "Establece el valor por defector para los adaptadores de datos."
 #: ../content/fieldsBase.py:257
 msgid "description_server_side_text"
 msgstr ""
+"Selecciona este campo como valor a añadir\n"
+" a los datos del formulario para el adaptador de acción y que no sea\n"
+" visible ni modificable por el el usuario."
 
 #. Default: "Field"
 #: ../browser/jsvariables.py:17
@@ -374,17 +377,17 @@ msgstr "Adaptador de guardado de datos por defecto para PloneFormGen"
 #: ../content/form.py:236
 msgid "help_AfterValidationOverride_text"
 msgstr ""
-"Una expresión TALES que será llamada despues que la planilla es\n"
-"validada exitosamente, pero antes de llamar un adaptador de acción (si\n"
-"hay alguno) o mostar la página de agradecimiento.\n"
-"La entrada de la planilla estará en el diccionario \"request.form\".\n"
-"Déjela vacía si no la necesita.\n"
+"Una expresión TALES que será llamada cuando el formulario se valide\n"
+"exitosamente, pero antes de llamar un adaptador de acción (si\n"
+"hay alguno) o mostrar la página de agradecimiento.\n"
+"La entrada del formulario estará en el diccionario \"request.form\".\n"
+"Déjela en blanco si no se necesita.\n"
 "El uso más común de este campo es para llamar un guión Python para\n"
-"limpiar la entrada de la planilla o para ejecutar una acción\n"
+"limpiar la entrada del formulario o para ejecutar una acción\n"
 "alternativa.\n"
-"Cualquier valor retornado por la expresión se ignora.\n"
+"Cualquier valor devuelto por la expresión se ignora.\n"
 "NOTAR, POR FAVOR: errores en la evaluación de esta expresión causarán\n"
-"un error al mostar la planilla."
+"errores al mostrar el formulario."
 
 # Form Folder
 # description="""
@@ -400,14 +403,14 @@ msgstr ""
 #: ../content/form.py:212
 msgid "help_OnDisplayOverride_text"
 msgstr ""
-"Una expresión TALES que será llamada cuando la planilla se muestra.\n"
-"Déjela vacía si no la necesita.\n"
-"El uso más común de este campo es para llamar un guión Python que\n"
-"asigna valores por omisión para múltiples campos pre-populando\n"
+"Una expresión TALES que será llamada cuando el formulario se muestre.\n"
+"Déjela en blanco si no se necesita.\n"
+"El uso habitual de este campo es para llamar a un guión Python que\n"
+"asigna valores por omisión para múltiples campos pre-llenando\n"
 "\"request.form\".\n"
-"Cualquier valor retornado por la expresión es ignorado.\n"
-"NOTE POR FAVOR: errores en la evaluación de esta expresión causarán un\n"
-"error al mostrar la planilla."
+"Cualquier valor devuelto por la expresión será ignorado.\n"
+"NOTAR, POR FAVOR: errores en la evaluación de esta expresión causarán\n"
+"errores al mostrar el formulario."
 
 #. Default: "\n                To make your form do something useful when submitted:\n                add one or more form action adapters to the form folder,\n                configure them, then return to this\n                form and select the active ones.\n                "
 #: ../content/form.py:86
@@ -422,6 +425,14 @@ msgstr ""
 #: ../content/formMailerAdapter.py:441
 msgid "help_bcc_override_text"
 msgstr ""
+"Una expresión TALES que se evaluará para sobreescribir cualquier valor introducido en la lista BCC.\n"
+"Déjela en blanco si no se necesita.\n"
+"El uso habitual de este campo es para llamar a un guión Python que\n"
+"asigna valores por omisión para múltiples campos pre-llenando\n"
+"\"request.form\".\n"
+"Cualquier valor devuelto por la expresión será ignorado.\n"
+"NOTAR, POR FAVOR: errores en la evaluación de esta expresión causarán\n"
+"errores al mostrar el formulario."
 
 #. Default: "NOTE: For a checkbox field, the required flag doesn't do anything beyond\n           putting a 'required' marker next to the label. If you wish to require a\n           particular input, choose a validator below.\n        "
 #: ../content/fields.py:350
@@ -799,7 +810,7 @@ msgstr ""
 #. Default: "\n                Check this to include titles\n                for fields that received no input. Uncheck\n                to leave fields with no input out of the e-mail.\n                "
 #: ../content/formMailerAdapter.py:267
 msgid "help_mailEmpties_text"
-msgstr ""
+msgstr "Seleccionar para incluir los títulos de los campos sin respuesta. Si no se selecciona no se incluirán los campos sin respuesta en el correo."
 
 #. Default: "\n                Check this to include input for all fields\n                (except label and file fields). If you check\n                this, the choices in the pick box below\n                will be ignored.\n                "
 #: ../content/formMailerAdapter.py:239

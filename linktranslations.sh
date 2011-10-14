@@ -53,6 +53,8 @@ add '/windowZ/configure.zcml' '/src/Products.windowZ/Products/windowZ/'
 # PloneFormGen no te traducció al català linkem tota la carpeta
 # TODO comprovar que compila la traducció!
 add '/PloneFormGen/locales/ca/' '/eggs/Products.PloneFormGen*.egg/Products/PloneFormGen/locales/'
+# plone form gen si té traducció al español
+add '/PloneFormGen/locales/es/LC_MESSAGES/*' '/eggs/Products.PloneFormGen*.egg/Products/PloneFormGen/locales/es/LC_MESSAGES/'
 
 
 
