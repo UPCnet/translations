@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
 "POT-Creation-Date: 2011-05-15 21:02+0000\n"
-"PO-Revision-Date: 2010-09-04 20:36+0100\n"
-"Last-Translator: Lidia Esparraguera <lidia@2tweb.com>\n"
+"PO-Revision-Date: 2011-10-17 10:34+0100\n"
+"Last-Translator: Ariel von Barnekow <ariel.von.barnekow@upcnet.es>\n"
 "Language-Team: Català <plone-cat@lists.plone.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -25,6 +25,7 @@ msgstr ""
 "Preferred-Encodings: utf-8\n"
 "Domain: plone\n"
 "X-Is-Fallback-For: ca-ad ca-es ca-fr ca-it\n"
+"X-Poedit-Language: Catalan\n"
 
 #: plone.locking/plone/locking/browser/locking.py:133
 msgid "$d day and $h hours"
@@ -175,7 +176,7 @@ msgstr "Un registre de configuració semblant a 'Mozilla about:config'"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/talesexpression.py:69
 msgid "A TALES expression condition makes the rule apply only if TALES expression is not False in context."
-msgstr ""
+msgstr "Una condició d'expressió TALES  fa que la regla s'apliqui només si l'expressió TALES no es Falsa en el context."
 
 #. Default: "A boolean criterion"
 #: CMFPlone/profiles/default/types/ATBooleanCriterion.xml
@@ -464,7 +465,7 @@ msgstr "Afegeix un portlet de cerca"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/talesexpression.py:68
 msgid "Add TALES Expression Condition"
-msgstr ""
+msgstr "Afegeix una condició d'expressió TALES"
 
 #: plone.app.contentrules/plone/app/contentrules/actions/workflow.py:83
 msgid "Add Workflow Action"
@@ -795,7 +796,7 @@ msgstr "Col·lecció"
 
 #: plone.app.collection/plone/app/collection/profiles/default/types/Collection.xml
 msgid "Collection of searchable information"
-msgstr ""
+msgstr "Col·lecció d'informació cercable"
 
 #: plone.portlet.collection/plone/portlet/collection/profiles/default/portlets.xml
 msgid "Collection portlet"
@@ -888,7 +889,7 @@ msgstr "Tipus de contingut"
 
 #: plone.app.collection/plone/app/collection/browser/templates/tabular_view.pt:25
 msgid "Content listing"
-msgstr ""
+msgstr "Llistat de contingut"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/portaltype.py:23
 msgid "Content type"
@@ -922,7 +923,7 @@ msgstr "Copia o retalla un o diversos elements per enganxar."
 
 #: plone.app.contentrules/plone/app/contentrules/actions/configure.zcml
 msgid "Copy to folder"
-msgstr ""
+msgstr "Copia a la carpeta ${folder}."
 
 #: plone.app.contentrules/plone/app/contentrules/actions/copy.py:47
 msgid "Copy to folder ${folder}."
@@ -939,7 +940,7 @@ msgstr "No s'ha trobat cap adreça de correu vàlida"
 
 #: plone.app.layout/plone/app/layout/viewlets/content.py:163
 msgid "Create"
-msgstr ""
+msgstr "Crea"
 
 #: CMFPlone/browser/templates/plone-addsite.pt:181
 msgid "Create Plone Site"
@@ -1234,7 +1235,7 @@ msgstr "Edita el portlet de cerca"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/talesexpression.py:83
 msgid "Edit TALES Expression Condition"
-msgstr ""
+msgstr "Edita la condició de l'expressió TALES"
 
 #: plone.app.contentrules/plone/app/contentrules/actions/workflow.py:97
 msgid "Edit Workflow Action"
@@ -1452,7 +1453,7 @@ msgstr "Fitxer"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/configure.zcml
 msgid "File Extension"
-msgstr ""
+msgstr "Extensió de fitxer"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/fileextension.py:20
 msgid "File extension"
@@ -1696,7 +1697,7 @@ msgstr "Si es selecciona, les carpetes d'inici on els usuaris poden crear contin
 
 #: plone.app.collection/plone/app/collection/collection.py:80
 msgid "If selected, only the 'Number of Items' indicated below will be displayed."
-msgstr ""
+msgstr "Si seleccionat, només es mostraran el  \"Nombre d'elements' indicats a continuació."
 
 #. Default: "If you submitted the item by mistake or want to perform additional edits, this will take it back."
 #: CMFPlone/profiles/default/workflows/folder_workflow/definition.xml
@@ -1890,7 +1891,7 @@ msgstr "Límit"
 
 #: plone.app.collection/plone/app/collection/collection.py:79
 msgid "Limit Search Results"
-msgstr ""
+msgstr "Limita els resultats de la cerca"
 
 #: LinguaPlone/configure.zcml
 msgid "LinguaPlone"
@@ -1963,7 +1964,7 @@ msgstr "Usuaris connectats"
 
 #: plone.app.contentrules/plone/app/contentrules/actions/configure.zcml
 msgid "Logger"
-msgstr ""
+msgstr "Registre"
 
 #: plone.app.contentrules/plone/app/contentrules/actions/logger.py:31
 msgid "Logger name"
@@ -2171,7 +2172,7 @@ msgstr "Trobareu més informació del procediment d'actualització a la secció 
 
 #: plone.app.event/plone/app/event/browser/event_view.pt:114
 msgid "More occurrences of this event:"
-msgstr ""
+msgstr "Més aparicions de l'esdeveniment:"
 
 #: CMFPlone/skins/plone_forms/search_form.pt:115
 msgid "More search options"
@@ -2185,7 +2186,7 @@ msgstr "Mou avall"
 
 #: plone.app.contentrules/plone/app/contentrules/actions/configure.zcml
 msgid "Move to folder"
-msgstr ""
+msgstr "Mou a carpeta"
 
 #: plone.app.contentrules/plone/app/contentrules/actions/move.py:48
 msgid "Move to folder ${folder}"
@@ -2280,7 +2281,7 @@ msgstr "No s'han realitzat canvis."
 
 #: plone.app.event/plone/app/event/browser/ical.py:16
 msgid "No events found."
-msgstr ""
+msgstr "No s'han trobat esdeveniments."
 
 #: plone.app.controlpanel/plone/app/controlpanel/usergroups.py:311
 msgid "No mailhost defined. Unable to reset passwords."
@@ -2296,7 +2297,7 @@ msgstr "Cap"
 
 #: plone.app.contentrules/plone/app/contentrules/actions/configure.zcml
 msgid "Notify user"
-msgstr ""
+msgstr "Notifica a l'usuari"
 
 #: plone.app.contentrules/plone/app/contentrules/actions/notify.py:44
 msgid "Notify with message ${message}"
@@ -2304,7 +2305,7 @@ msgstr "Notifica amb el missatge ${message}"
 
 #: plone.app.collection/plone/app/collection/collection.py:92
 msgid "Number of Items"
-msgstr ""
+msgstr "Nombre d'elements"
 
 #: plone.app.event/plone/app/event/portlets/events.py:23
 #: plone.app.portlets/plone/app/portlets/portlets/events.py:23
@@ -2314,15 +2315,15 @@ msgstr "Nombre d'elements a mostrar"
 
 #: ./plone.app.contentrules/plone/app/contentrules/configure.zcml
 msgid "Object added to this container"
-msgstr ""
+msgstr "S'ha afegit l'objecte al seu contenidor"
 
 #: ./plone.app.contentrules/plone/app/contentrules/configure.zcml
 msgid "Object modified"
-msgstr ""
+msgstr "S'ha modificat l'objecte"
 
 #: ./plone.app.contentrules/plone/app/contentrules/configure.zcml
 msgid "Object removed from this container"
-msgstr ""
+msgstr "S'ha eliminat l'objecte del seu contenidor"
 
 #: plone.portlet.static/plone/portlet/static/static.py:40
 msgid "Omit portlet border"
@@ -2363,7 +2364,7 @@ msgstr "Inici de sessió OpenID"
 
 #: plone.session/plone/session/profiles.zcml
 msgid "Optional plone.session refresh support."
-msgstr ""
+msgstr "Suport opcional d'actualització per plone.session "
 
 #. Default: "Order in folder"
 #: CMFPlone/profiles/default/portal_atct.xml
@@ -2770,7 +2771,7 @@ msgstr "Lector"
 
 #: plone.stringinterp/plone/stringinterp/adapters.py:330
 msgid "Readers"
-msgstr ""
+msgstr "Lectors"
 
 #: CMFPlone/profiles/default/portlets.xml
 #: plone.app.portlets/plone/app/portlets/portlets/recent.py:34
@@ -3046,7 +3047,7 @@ msgstr "Seleccioneu valors de la llista"
 
 #: plone.app.collection/plone/app/collection/collection.py:107
 msgid "Select which fields to display when 'Display as Table' is checked."
-msgstr ""
+msgstr "Seleccioni quins camps es mostraran quan ' Mostra com a taula'  estigui marcat."
 
 #: plone.app.controlpanel/plone/app/controlpanel/markup.py:87
 msgid "Select which formats are available for users as alternative to the default format. Note that if new formats are installed, they will be enabled for text fields by default unless explicitly turned off here or by the relevant installer."
@@ -3066,7 +3067,7 @@ msgstr "Retorna"
 
 #: plone.app.contentrules/plone/app/contentrules/actions/configure.zcml
 msgid "Send email"
-msgstr ""
+msgstr "Envia correu electrònic"
 
 # Action icon title for Send To
 #. Default: "Send this page to somebody"
@@ -3083,7 +3084,7 @@ msgstr "Retornant l'element s'enviarà a l'autor original enlloc de publicar-lo.
 
 #: plone.session/plone/session/profiles.zcml
 msgid "Session refresh support"
-msgstr ""
+msgstr "Suport d'actualització de sessió"
 
 #: plone.app.controlpanel/plone/app/controlpanel/skins.py:157
 msgid "Settings that affect the site's look and feel."
@@ -3189,7 +3190,7 @@ msgstr "Nom 'De' del lloc"
 
 # Specific to Plone 4.1
 msgid "Site Administrator"
-msgstr ""
+msgstr "Administrador del lloc web"
 
 # Site Map Link
 #. Default: "Site Map"
@@ -3259,11 +3260,11 @@ msgstr "Ordena els resultats de la cerca en base al criteri seleccionat"
 
 #: plone.app.collection/plone/app/collection/collection.py:53
 msgid "Sort the collection on this index"
-msgstr ""
+msgstr "Ordena la col·lecció amb aquest index"
 
 #: plone.app.collection/plone/app/collection/collection.py:66
 msgid "Sort the results in reversed order"
-msgstr ""
+msgstr "Ordena els resultats en ordre invers"
 
 #: validation/validators/IdValidator.py:32
 msgid "Spaces are not allowed in ids"
@@ -3385,15 +3386,15 @@ msgstr "S'han actualitzat les propietats de sindicació."
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/talesexpression.py:22
 msgid "TALES expression"
-msgstr ""
+msgstr "Expressió TALES"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/talesexpression.py:38
 msgid "TALES expression is: ${tales_expression}"
-msgstr ""
+msgstr "L'expressió TALES es: ${tales_expression}"
 
 #: plone.app.collection/plone/app/collection/collection.py:106
 msgid "Table Columns"
-msgstr ""
+msgstr "Columnes de la taula"
 
 #. Default: "Tabular view"
 #: dynamic view name template folder_tabular_view on type Folder
@@ -3475,7 +3476,7 @@ msgstr "L'ID de l'usuari que va realitzar la transició anterior"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/talesexpression.py:23
 msgid "The TALES expression to check."
-msgstr ""
+msgstr "L'expressió TALES per revisar."
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/portaltype.py:24
 msgid "The content type to check for."
@@ -3666,7 +3667,7 @@ msgstr "Els estats de flux de treball que s'han de mostrar en l'arbre de navegac
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/wftransition.py:21
 msgid "The workflow transitions to check for."
-msgstr ""
+msgstr "Les transicions del circuit per revisar."
 
 #: plone.app.controlpanel/plone/app/controlpanel/skins.py:156
 msgid "Theme settings"
@@ -3709,7 +3710,7 @@ msgstr "En desar, aquests atributs s'eliminen de qualsevol etiqueta."
 
 #: plone.app.controlpanel/plone/app/controlpanel/filter.py:77
 msgid "These attributes are stripped from those tags when saving."
-msgstr ""
+msgstr "Aquests atributs s'han eliminat de les etiquetes al desar."
 
 #: plone.app.controlpanel/plone/app/controlpanel/filter.py:94
 msgid "These class names are not allowed in class attributes."
@@ -3717,7 +3718,7 @@ msgstr "Aquests noms de classe no estan permesos en els atributs de classe."
 
 #: CMFPlone/skins/plone_scripts/folder_delete.cpy:62
 msgid "These items are locked for editing: ${lockeditems}."
-msgstr ""
+msgstr "Aquests elements estan bloquejats per edició: ${lockeditems}."
 
 #: plone.app.controlpanel/plone/app/controlpanel/filter.py:50
 msgid "These tags are stripped when saving or rendering, but any content is preserved."
@@ -3855,7 +3856,7 @@ msgstr "Títol de transició"
 
 #: plone.app.contentrules/plone/app/contentrules/actions/configure.zcml
 msgid "Transition workflow state"
-msgstr ""
+msgstr "Estat de la transició del circuit"
 
 #: plone.app.contentrules/plone/app/contentrules/browser/controlpanel.py:70
 msgid "Trigger: ${name}"
@@ -3966,11 +3967,11 @@ msgstr "Configuració dels usuaris i dels grups per a aquest lloc."
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/configure.zcml
 msgid "User's group"
-msgstr ""
+msgstr "Grup de l'usuari"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/configure.zcml
 msgid "User's role"
-msgstr ""
+msgstr "Rol de l'usuari"
 
 #: plone.app.controlpanel/plone/app/controlpanel/usergroups.py:75
 msgid "User/Groups settings"
@@ -4162,7 +4163,7 @@ msgstr "Estat del circuit"
 
 #: ./plone.app.contentrules/plone/app/contentrules/configure.zcml
 msgid "Workflow state changed"
-msgstr ""
+msgstr "S'ha canviat l'estat del circuit"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/wfstate.py:36
 msgid "Workflow states are: ${states}"
@@ -4174,7 +4175,7 @@ msgstr "Estat del circuit que s'han de mostrar al calendari"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/wftransition.py:20
 msgid "Workflow transition"
-msgstr ""
+msgstr "Transicions del circuit"
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/wftransition.py:36
 msgid "Workflow transitions are: ${transitions}"
@@ -5614,7 +5615,7 @@ msgstr "Eines personals"
 #. Default: "Please wait while you are logged in"
 #: CMFPlone/skins/plone_login/external_login_return.cpt:34
 msgid "heading_please_wait_while_you_are_logged_in"
-msgstr ""
+msgstr "Espera mentre et connectes"
 
 #. Default: "Portlets assigned here"
 #: plone.app.portlets/plone/app/portlets/browser/templates/edit-manager-macros.pt:40
@@ -5933,7 +5934,7 @@ msgstr "Quan estigui marcat, a cada pàgina es farà visible una opció que us p
 #. Default: "&e = the triggering event, &c = the context, &u = the user"
 #: plone.app.contentrules/plone/app/contentrules/actions/logger.py:38
 msgid "help_contentrules_logger_message"
-msgstr ""
+msgstr "&e = l'esdeveniment que l'activarà, &c = el context, &u  = l'usuari"
 
 #. Default: "The names of people that have contributed to this item. Each contributor should be on a separate line."
 #: Archetypes/ExtensibleMetadata.py:115
@@ -7007,7 +7008,7 @@ msgstr "Drets d'autor"
 #. Default: "Create and apply new tags."
 #: Archetypes/skins/archetypes/widgets/keyword.pt:127
 msgid "label_create_new_tags"
-msgstr ""
+msgstr "Crea i aplica noves etiquetes."
 
 #. Default: "Creation Date"
 #: Archetypes/ExtensibleMetadata.py:191
@@ -7305,7 +7306,7 @@ msgstr "Exclou de la navegació"
 #. Default: "Use Control/Command/Shift keys to select multiple tags."
 #: Archetypes/skins/archetypes/widgets/keyword.pt:45
 msgid "label_existingTagsHelp"
-msgstr ""
+msgstr "Utilitzi la tecla Control/Ordre/Majúscules per seleccionar varies etiquetes."
 
 #. Default: "Existing tags"
 #: Archetypes/skins/archetypes/widgets/keyword.pt:53
@@ -7686,7 +7687,7 @@ msgstr "Filtre sobre l'estat del circuit de treball"
 #. Default: "Enter one tag per line, multiple words allowed."
 #: Archetypes/skins/archetypes/widgets/keyword.pt:131
 msgid "label_newTagsHelp"
-msgstr ""
+msgstr "Introdueixi una etiqueta per línia, poden ser de varies paraules."
 
 #. Default: "New items since"
 #: CMFPlone/skins/plone_forms/search_form.pt:177
@@ -7743,7 +7744,7 @@ msgstr "Següent: ${itemtitle}"
 #. Default: "No tags currently selected."
 #: Archetypes/skins/archetypes/widgets/keyword.pt:78
 msgid "label_noTagsSelected"
-msgstr ""
+msgstr "No s'han seleccionat etiquetes."
 
 #. Default: "No change"
 #: CMFPlone/skins/plone_forms/content_status_history.cpt:319
@@ -7795,7 +7796,7 @@ msgstr "D'acord"
 #. Default: "% tags currently selected."
 #: Archetypes/skins/archetypes/widgets/keyword.pt:79
 msgid "label_oneOrMoreTagsSelected"
-msgstr ""
+msgstr "% etiquetes seleccionades."
 
 #. Default: "Log in"
 #: plone.app.openid/plone/app/openid/portlets/login.pt:39
@@ -8181,7 +8182,7 @@ msgstr "Seleccioneu un element…"
 #. Default: "Select from existing tags."
 #: Archetypes/skins/archetypes/widgets/keyword.pt:41
 msgid "label_select_existing_tags"
-msgstr ""
+msgstr "Seleccionar etiquetes existents."
 
 #. Default: "Value"
 #: widget label of MultiSelectionWidget - description "Existing values."
@@ -9151,7 +9152,7 @@ msgstr "No teniu permís per modificar el nom curt d'aquest element."
 #. Default: "The following users have been sent an e-mail with link to reset their password: ${user_ids}"
 #: plone.app.controlpanel/plone/app/controlpanel/usergroups.py:328
 msgid "reset_passwords_msg"
-msgstr ""
+msgstr "Els següents usuaris han rebut un correu amb un enllaç per reinicialitzar la seva contrasenya: ${user_ids}"
 
 #. Default: "by ${author}, ${date}"
 #: CMFPlone/skins/plone_templates/default_error_message.pt:92
@@ -9345,7 +9346,7 @@ msgstr "Aquest producte no està instal·lat correctament."
 #. Default: "Caught &e at &c by &u"
 #: plone.app.contentrules/plone/app/contentrules/actions/logger.py:40
 msgid "text_contentrules_logger_message"
-msgstr ""
+msgstr "S'ha capturat &e en &c per &u"
 
 #. Default: "Contributors: ${name}"
 #: plone.app.layout/plone/app/layout/viewlets/document_byline.pt:58

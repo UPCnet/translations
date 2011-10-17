@@ -36,8 +36,8 @@ add '/PloneSurvey/locales/' '/src/Products.PloneSurvey/Products/PloneSurvey/'
 
 # Poi
 # Poi ja té locales només actualitzar traduccions
-add '/Poi/locales/ca/LC_MESSAGES/*' '/src/Products.Poi/Products/Poi/locales/ca/'
-add '/Poi/locales/es/LC_MESSAGES/*' '/src/Products.Poi/Products/Poi/locales/es/'
+add '/Poi/locales/ca/LC_MESSAGES/*' '/src/Products.Poi/Products/Poi/locales/ca/LC_MESSAGES/'
+add '/Poi/locales/es/LC_MESSAGES/*' '/src/Products.Poi/Products/Poi/locales/es/LC_MESSAGES/'
 
 # WindowZ
 add '/windowZ/locales/' '/src/Products.windowZ/Products/windowZ/'
@@ -51,13 +51,19 @@ add '/windowZ/configure.zcml' '/src/Products.windowZ/Products/windowZ/'
 
 # PloneFormGen
 # PloneFormGen no te traducció al català linkem tota la carpeta
-# TODO comprovar que compila la traducció!
 add '/PloneFormGen/locales/ca/' '/eggs/Products.PloneFormGen*.egg/Products/PloneFormGen/locales/'
 # plone form gen si té traducció al español
 add '/PloneFormGen/locales/es/LC_MESSAGES/*' '/eggs/Products.PloneFormGen*.egg/Products/PloneFormGen/locales/es/LC_MESSAGES/'
 
+#plone.app.locales
+add '/plone.app.locales/locales/ca/LC_MESSAGES/*' '/eggs/plone.app.locales*.egg/plone/app/locales/locales/ca/LC_MESSAGES/'
 
+#plone.app.discussion
+add '/plone.app.discussion/ca/*' '/eggs/plone.app.discussion*.egg/plone/app/discussion/locales/ca/LC_MESSAGES/'
+add '/plone.app.discussion/es/*' '/eggs/plone.app.discussion*.egg/plone/app/discussion/locales/es/LC_MESSAGES/'
 
+#Products.CMFCalendar
+add '/CMFCalendar/ca' '/eggs/Products.CMFCalendar*.egg/Products/CMFCalendar/locales/'
 
 i=0
 

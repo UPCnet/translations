@@ -1,0 +1,268 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: CMF Calendar\n"
+"POT-Creation-Date: $Date: 2010-04-08 17:59:45 +0200 (Thu, 08 Apr 2010) $\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Ariel von Barnekow <ariel.von.barnekow@upcnet.es>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Domain: cmf_calendar\n"
+"X-Poedit-Language: Catalan\n"
+
+
+#: Products/CMFCalendar/browser/event.py:104
+msgid "URL"
+msgstr "URL"
+
+#: Products/CMFCalendar/browser/event.py:110
+msgid "From"
+msgstr "De"
+
+#: Products/CMFCalendar/browser/event.py:113
+msgid "To"
+msgstr "A"
+
+#: Products/CMFCalendar/browser/event.py:116
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:160
+#: Products/CMFCalendar/skins/zpt_calendar/event_view_template.pt:61
+msgid "Description"
+msgstr "Descripció"
+
+#: Products/CMFCalendar/browser/event.py:70
+msgid "Title"
+msgstr "Títol"
+
+#: Products/CMFCalendar/browser/event.py:76
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:21
+#: Products/CMFCalendar/skins/zpt_calendar/event_view_template.pt:16
+msgid "Contact Name"
+msgstr "Nom de contacte"
+
+#: Products/CMFCalendar/browser/event.py:82
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:29
+#: Products/CMFCalendar/skins/zpt_calendar/event_view_template.pt:20
+msgid "Location"
+msgstr "Ubicació"
+
+#: Products/CMFCalendar/browser/event.py:88
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:35
+#: Products/CMFCalendar/skins/zpt_calendar/event_view_template.pt:22
+msgid "Contact Email"
+msgstr "Correu de contacte:"
+
+#: Products/CMFCalendar/browser/event.py:92
+msgid "Category"
+msgstr "Categoria"
+
+#: Products/CMFCalendar/browser/event.py:98
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:56
+#: Products/CMFCalendar/skins/zpt_calendar/event_view_template.pt:33
+msgid "Contact Phone"
+msgstr "Telèfon de contacte"
+
+#: Products/CMFCalendar/browser/templates/calendar_widgets.pt:13
+#: Products/CMFCalendar/skins/zpt_calendar/calendarBox.pt:12
+msgid "CMF Calendar"
+msgstr "CMF Calendar"
+
+#: Products/CMFCalendar/browser/templates/calendar_widgets.pt:29
+#: Products/CMFCalendar/browser/templates/calendar_widgets.pt:42
+#: Products/CMFCalendar/skins/zpt_calendar/calendarBox.pt:28
+#: Products/CMFCalendar/skins/zpt_calendar/calendarBox.pt:41
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:49
+#: Products/CMFCalendar/skins/zpt_calendar/event_view_template.pt:31
+msgid "${DYNAMIC_CONTENT}"
+msgstr "${DYNAMIC_CONTENT}"
+
+#: Products/CMFCalendar/configure.zcml:32
+msgid "Import various settings for CMF Calendar."
+msgstr "Importa configuracions per CMF Calendar"
+
+#: Products/CMFCalendar/configure.zcml:32
+msgid "Various Calendar Settings"
+msgstr "Configuracions varies de Calendari"
+
+#: Products/CMFCalendar/configure.zcml:42
+msgid "CMFCalendar"
+msgstr "CMFCaledar"
+
+#: Products/CMFCalendar/configure.zcml:42
+msgid "Adds calendar support."
+msgstr "Afegeix suport de calendari."
+
+#: Products/CMFCalendar/configure.zcml:50
+msgid "Hooks up the oldstyle skins."
+msgstr ""
+
+#: Products/CMFCalendar/configure.zcml:50
+msgid "CMFCalendar Oldstyle Skins"
+msgstr ""
+
+#: Products/CMFCalendar/locales/cmf_calendar-manual.pot:1
+msgid "Su"
+msgstr "Dg"
+
+#: Products/CMFCalendar/locales/cmf_calendar-manual.pot:10
+msgid "We"
+msgstr "Dc"
+
+#: Products/CMFCalendar/locales/cmf_calendar-manual.pot:13
+msgid "Th"
+msgstr "Dj"
+
+#: Products/CMFCalendar/locales/cmf_calendar-manual.pot:16
+msgid "Fr"
+msgstr "Dv"
+
+#: Products/CMFCalendar/locales/cmf_calendar-manual.pot:19
+msgid "Sa"
+msgstr "Ds"
+
+#: Products/CMFCalendar/locales/cmf_calendar-manual.pot:22
+msgid "January"
+msgstr "Gener"
+
+#: Products/CMFCalendar/locales/cmf_calendar-manual.pot:25
+msgid "February"
+msgstr "Febrer"
+
+#: Products/CMFCalendar/locales/cmf_calendar-manual.pot:28
+msgid "March"
+msgstr "Març"
+
+#: Products/CMFCalendar/locales/cmf_calendar-manual.pot:31
+msgid "April"
+msgstr "Abril"
+
+#: Products/CMFCalendar/locales/cmf_calendar-manual.pot:34
+msgid "May"
+msgstr "Maig"
+
+#: Products/CMFCalendar/locales/cmf_calendar-manual.pot:37
+msgid "June"
+msgstr "Juny"
+
+#: Products/CMFCalendar/locales/cmf_calendar-manual.pot:4
+msgid "Mo"
+msgstr "Dl"
+
+#: Products/CMFCalendar/locales/cmf_calendar-manual.pot:40
+msgid "July"
+msgstr "Juliol"
+
+#: Products/CMFCalendar/locales/cmf_calendar-manual.pot:43
+msgid "August"
+msgstr "Agost"
+
+#: Products/CMFCalendar/locales/cmf_calendar-manual.pot:46
+msgid "September"
+msgstr "Setembre"
+
+#: Products/CMFCalendar/locales/cmf_calendar-manual.pot:49
+msgid "October"
+msgstr "Octubre"
+
+#: Products/CMFCalendar/locales/cmf_calendar-manual.pot:52
+msgid "November"
+msgstr "Novembre"
+
+#: Products/CMFCalendar/locales/cmf_calendar-manual.pot:55
+msgid "December"
+msgstr "Desembre"
+
+#: Products/CMFCalendar/locales/cmf_calendar-manual.pot:7
+msgid "Tu"
+msgstr "Dm"
+
+#: Products/CMFCalendar/profiles/default/types/Event.xml:5
+msgid "Event"
+msgstr "Esdeveniment"
+
+#: Products/CMFCalendar/profiles/default/types/Event.xml:6
+#, fuzzy
+msgid "Events are objects for use in Calendar topical queries on the catalog."
+msgstr "Els esdeveniments són objectes per fer servir a les crides al catàleg del Calendari."
+
+#: Products/CMFCalendar/setuphandlers.py:51
+msgid "Appointment"
+msgstr "Reunió"
+
+#: Products/CMFCalendar/setuphandlers.py:52
+msgid "Convention"
+msgstr "Congrés"
+
+#: Products/CMFCalendar/setuphandlers.py:53
+msgid "Meeting"
+msgstr "Reunió"
+
+#: Products/CMFCalendar/setuphandlers.py:54
+msgid "Social Event"
+msgstr "Esdeveniment social"
+
+#: Products/CMFCalendar/setuphandlers.py:55
+msgid "Work"
+msgstr "Feina"
+
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_control.py:11
+msgid "Event changed."
+msgstr "S'ha canviat l'esdeveniment."
+
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_form.py:50
+msgid "Change"
+msgstr "Canvia"
+
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_form.py:51
+msgid "Change and View"
+msgstr "Canvia i mostra"
+
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:126
+#: Products/CMFCalendar/skins/zpt_calendar/event_view_template.pt:52
+msgid "Start Time"
+msgstr "Hora d'inici"
+
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:137
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:153
+msgid "am"
+msgstr "am"
+
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:140
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:156
+msgid "pm"
+msgstr "pm"
+
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:142
+#: Products/CMFCalendar/skins/zpt_calendar/event_view_template.pt:54
+msgid "Stop Time"
+msgstr "Hora de parada"
+
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:15
+#: Products/CMFCalendar/skins/zpt_calendar/event_view_template.pt:14
+msgid "Event Name"
+msgstr "Nom de l'esdeveniment"
+
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:43
+#: Products/CMFCalendar/skins/zpt_calendar/event_view_template.pt:29
+msgid "Event type"
+msgstr "Tipus d'esdeveniment"
+
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:5
+msgid "Edit: ${obj_title}"
+msgstr "Edita: ${obj_title}"
+
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:64
+#: Products/CMFCalendar/skins/zpt_calendar/event_view_template.pt:37
+msgid "Event URL"
+msgstr "URL de l'esdeveniment"
+
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:72
+#: Products/CMFCalendar/skins/zpt_calendar/event_view_template.pt:46
+msgid "Start Date"
+msgstr "Data d'inici"
+
+#: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:98
+#: Products/CMFCalendar/skins/zpt_calendar/event_view_template.pt:48
+msgid "Stop Date"
+msgstr "Data de finalització"
+
