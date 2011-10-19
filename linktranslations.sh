@@ -56,7 +56,7 @@ add '/PloneFormGen/locales/ca/' '/eggs/Products.PloneFormGen*.egg/Products/Plone
 add '/PloneFormGen/locales/es/LC_MESSAGES/*' '/eggs/Products.PloneFormGen*.egg/Products/PloneFormGen/locales/es/LC_MESSAGES/'
 
 #plone.app.locales
-add '/plone.app.locales/locales/ca/LC_MESSAGES/*' '/eggs/plone.app.locales*.egg/plone/app/locales/locales/ca/LC_MESSAGES/'
+add '/plone.app.locales/locales/ca/LC_MESSAGES/*.po' '/eggs/plone.app.locales*.egg/plone/app/locales/locales/ca/LC_MESSAGES/'
 
 #plone.app.discussion
 add '/plone.app.discussion/ca/*' '/eggs/plone.app.discussion*.egg/plone/app/discussion/locales/ca/LC_MESSAGES/'
@@ -69,8 +69,11 @@ i=0
 
 for s in ${SOURCES[@]}; do
     
-    #echo $TRANS$s $BUILD${DESTINATIONS[$i]}
-    ln -s -f $TRANS$s $BUILD${DESTINATIONS[$i]}
+    #Expandim las rutes destí (aixi poden contenir *)
+    for a in `echo $BUILD${DESTINATIONS[$i]}`; do
+        echo 'Link to: '$a
+        ln -s -f $TRANS$s $a
+    done
     i=$(( $i + 1 ))
 
 done
