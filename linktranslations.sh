@@ -56,7 +56,7 @@ add '/PloneFormGen/locales/ca/' '/eggs/Products.PloneFormGen*.egg/Products/Plone
 add '/PloneFormGen/locales/es/LC_MESSAGES/*' '/eggs/Products.PloneFormGen*.egg/Products/PloneFormGen/locales/es/LC_MESSAGES/'
 
 #plone.app.locales
-add '/plone.app.locales/locales/ca/LC_MESSAGES/*.po' '/eggs/plone.app.locales*.egg/plone/app/locales/locales/ca/LC_MESSAGES/'
+# Esborrat: al nou paquet està la traducció de la Lidia
 
 #plone.app.discussion
 add '/plone.app.discussion/ca/*' '/eggs/plone.app.discussion*.egg/plone/app/discussion/locales/ca/LC_MESSAGES/'
