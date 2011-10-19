@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ploneboard-ca\n"
 "POT-Creation-Date: 2009-03-27 21:46+0000\n"
-"PO-Revision-Date: 2011-10-05 16:44+0100\n"
+"PO-Revision-Date: 2011-10-17 11:37+0100\n"
 "Last-Translator: Corina Riba Santos <corina.riba@upcnet.es>\n"
 "Language-Team:  <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -192,29 +192,28 @@ msgstr "Previsualitzar comentari"
 
 #. Default: "This portlet shows conversations with recent comments."
 #: ../portlet/recent.py:107
-#, fuzzy
 msgid "help_add_portlet"
-msgstr "Afegeix un portlet de comentaris recents"
+msgstr "Afegeix un portlet de comentaris recents."
 
 #. Default: "The maximum allowed attachment size is ${maxsize} kilobytes."
 #: ../skins/ploneboard_templates/add_comment_form.cpt:141
 msgid "help_body_attachments_maxsize"
-msgstr "La grandària màxima de l'arxiu adjunt és de ${maxsize} kilobytes"
+msgstr "La grandària màxima de l'arxiu adjunt és de ${maxsize} kB"
 
 #. Default: "Select a file to upload as an attachment to this comment."
 #: ../skins/ploneboard_templates/add_comment_form.cpt:135
 msgid "help_body_attachments_posting"
-msgstr "Seleccioni un fitxer per posar com a annex a aquest comentari"
+msgstr "Seleccioni un fitxer per posar com a annex a aquest comentari."
 
 #. Default: "Basic HTML tags are OK."
 #: ../skins/ploneboard_templates/add_comment_form.cpt:105
 msgid "help_body_text_posting"
-msgstr "Els tags HTML estan OK."
+msgstr "Els tags HTML són correctes."
 
 #. Default: "URLs will be automatically hyperlinked."
 #: ../skins/ploneboard_templates/add_comment_form.cpt:100
 msgid "help_body_text_posting_linkify_enabled"
-msgstr "Les URLS seran automaticament enllaçades"
+msgstr "Els enllaços seran enllaçats automaticament."
 
 msgid "help_categories_board"
 msgstr "Introdueixi les categories que vol tenir disponibles pels taulells, una categoria per a cada línia"
@@ -282,13 +281,13 @@ msgid "label_category"
 msgstr "Categoria"
 
 msgid "label_description_board"
-msgstr "Descripció taulell"
+msgstr "Descripció del taulell"
 
 msgid "label_description_conversation"
-msgstr "Descripció conversa"
+msgstr "Descripció de la conversa"
 
 msgid "label_description_forum"
-msgstr "Descripció Fòrum"
+msgstr "Descripció del Fòrum"
 
 #. Default: "in ${forum}"
 #: ../skins/ploneboard_templates/ploneboard_recent.pt:102
@@ -314,7 +313,7 @@ msgstr "Resposta ràpida"
 #. Default: "Previously ${author} wrote: ${quote}"
 #: ../browser/comment.py:75
 msgid "label_quote"
-msgstr "${author} anteriormenr va escriure: ${quote}"
+msgstr "${author} anteriorment va escriure: ${quote}"
 
 #. Default: "Required"
 #: ../skins/ploneboard_templates/add_comment_form.cpt:66
@@ -452,7 +451,7 @@ msgstr "Al ${forum} &rarr; ${conversation}."
 #. Default: "Show all recent activity"
 #: ../skins/ploneboard_templates/board_view.pt:47
 msgid "show_new_conversations_all"
-msgstr "Veure totes les noves converses"
+msgstr "Veure totes les converses noves"
 
 #. Default: "Show only unanswered"
 #: ../skins/ploneboard_templates/forum_view.pt:42
@@ -462,7 +461,7 @@ msgstr "Sense respostes"
 #. Default: "Show all unanswered"
 #: ../skins/ploneboard_templates/board_view.pt:54
 msgid "show_no_replies_all"
-msgstr "Veure tots els no resposts"
+msgstr "Veure totes les converses sense resposta"
 
 #. Default: "at"
 #: ../skins/ploneboard_templates/comment_view.pt:75

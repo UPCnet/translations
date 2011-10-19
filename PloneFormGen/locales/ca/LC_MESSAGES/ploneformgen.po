@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.7b5\n"
 "POT-Creation-Date: 2011-10-13 09:43+0000\n"
-"PO-Revision-Date: 2011-10-13 13:54+0100\n"
-"Last-Translator: Ariel von Barnekow <ariel.von.barnekow@upcnet.es>\n"
+"PO-Revision-Date: 2011-10-19 12:51+0100\n"
+"Last-Translator: Corina Riba Santos <corina.riba@upcnet.es>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -396,10 +396,10 @@ msgstr ""
 #: ../content/form.py:86
 msgid "help_actionadapter_text"
 msgstr ""
-"Per fer que el formulari realitzi accions al enviar:\n"
-"afegeix un o més adaptadors d'accions a la carpeta del formulari,\n"
+"Per fer que el formulari realitzi accions a l'enviar:\n"
+"afegeixi un o més adaptadors d'accions a la carpeta del formulari,\n"
 "configuri'ls, torni a aquest formulari\n"
-" i selecciona els que ha activat."
+" i seleccioni els que ha activat."
 
 #. Default: "\n                A TALES expression that will be evaluated to override any value\n                otherwise entered for the BCC list. You are strongly\n                cautioned against using unvalidated data from the request for this purpose.\n                Leave empty if unneeded. Your expression should evaluate as a sequence of strings.\n                PLEASE NOTE: errors in the evaluation of this expression will cause\n                an error on form display.\n            "
 #: ../content/formMailerAdapter.py:441
@@ -475,7 +475,6 @@ msgid "help_fgendingyear_text"
 msgstr "L'ultim any que apareixerà en el desplegable. Deixi'l buit si vol utilitzar el número d'anys indicat en el camp següent."
 
 #: ../content/fields.py:698
-#, fuzzy
 msgid "help_fgformat_text"
 msgstr "Control de Presentació"
 
@@ -518,7 +517,6 @@ msgid "help_fgmaxlength_text"
 msgstr "El nombre màxim de caràcters que l'usuari podrà introduir."
 
 #: ../content/fields.py:795
-#, fuzzy
 msgid "help_fgmsformat_text"
 msgstr "Control de Presentació"
 
@@ -538,7 +536,7 @@ msgstr "La mida en caràcters de la caixa d'entrada de text."
 
 #: ../content/fields.py:448
 msgid "help_fgstartingyear_text"
-msgstr "El primer any que que apareixerà en el desplegable."
+msgstr "El primer any que apareixerà en el desplegable."
 
 #. Default: "Tests input against simple string patterns."
 #: ../content/fields.py:49
@@ -628,8 +626,8 @@ msgstr "Introdueixi 0 per no tenir límit."
 #: ../content/form.py:115
 msgid "help_force_ssl"
 msgstr ""
-"Activa això per fer una redirecció SSL de si mateix (https: / /) en cas d'accedir a través d'un no-SSL URL (http://). \n"
-"Per funcionar correctament, requereix un servidor web configurat el protocol HTTPS en el port 443 i ho remetrà a Zope."
+"Activa aquesta opció per fer una redirecció SSL de si mateix (https://) en cas d'accedir a través d'una adreça no-SSL (http://). \n"
+"Per funcionar correctament, requereix un servidor web configurat amb protocol HTTPS en el port 443 i ho reenviarà a Zope.\n"
 
 #. Default: "\n                Use this field to override the form action attribute.\n                Specify a URL to which the form will post.\n                This will bypass form validation, success action\n                adapter and thanks page.\n            "
 #: ../content/form.py:193
@@ -731,7 +729,7 @@ msgstr ""
 #: ../content/fields.py:259
 msgid "help_fprequired_text"
 msgstr ""
-"NOTA: Per un camp decimal, si està seleccionat el flag requerit no\n"
+"NOTA: Per a un camp decimal, si està seleccionat el flag requerit no\n"
 "permetrà l'entrada del valor '0'."
 
 #. Default: "\n                    Give your key-id, e-mail address or\n                    whatever works to match a public key from current keyring.\n                    It will be used to encrypt the message body.\n                    Contact the site administrator if you need to\n                    install a new public key.\n                    Note that you will probably wish to change your message\n                    template to plain text if you're using encryption.\n                    TEST THIS FEATURE BEFORE GOING PUBLIC!\n                    "
@@ -844,9 +842,8 @@ msgid "help_savedataextra_text"
 msgstr "Seleccioni qualsevol de les dades addicionals que voldrà desar amb el formulari."
 
 #: ../content/saveDataAdapter.py:90
-#, fuzzy
 msgid "help_savedatainput_text"
-msgstr "Entrada del Formulari Guardada"
+msgstr "Entrada del formulari guardada"
 
 #. Default: " Write your script here. "
 #: ../content/customScriptAdapter.py:108

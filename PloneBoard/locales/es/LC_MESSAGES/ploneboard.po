@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Ploneboard 1.0\n"
 "POT-Creation-Date: 2009-03-27 21:46+0000\n"
-"PO-Revision-Date: 2011-10-05 17:14+0100\n"
+"PO-Revision-Date: 2011-10-17 12:55+0100\n"
 "Last-Translator: Corina Riba Santos <corina.riba@upcnet.es>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../skins/ploneboard_scripts/validate_add_comment.vpy:43
 msgid "Attachment is too large"
-msgstr ""
+msgstr "El adjunto es demasiado grande."
 
 #. Default: "Cancel"
 #: ../skins/ploneboard_templates/add_comment_preview.cpt:85
@@ -57,7 +57,6 @@ msgid "Conversation is pending moderation"
 msgstr "Conversación pendiente de moderación"
 
 #: ../skins/ploneboard_scripts/add_dpmapping_script.cpy:22
-#, fuzzy
 msgid "Data provider updated."
 msgstr "Proveedor de datos"
 
@@ -71,7 +70,7 @@ msgstr "Haga login para añadir comentarios"
 
 #: ../skins/ploneboard_scripts/validate_add_comment.vpy:35
 msgid "No content entered"
-msgstr ""
+msgstr "No se ha introducido contenido."
 
 #: ../skins/ploneboard_scripts/validate_add_comment.vpy:48
 msgid "Please correct the indicated errors."
@@ -259,9 +258,8 @@ msgstr "Agregar portlet"
 
 #. Default: "Back to discussion board"
 #: ../browser/search.pt:15
-#, fuzzy
 msgid "label_back_to_board"
-msgstr "Categorías"
+msgstr "Volvel al espacio de foros"
 
 #. Default: "Attachments"
 #: ../skins/ploneboard_templates/add_comment_form.cpt:132
@@ -317,7 +315,7 @@ msgstr "Respuesta rápida"
 #. Default: "Previously ${author} wrote: ${quote}"
 #: ../browser/comment.py:75
 msgid "label_quote"
-msgstr ""
+msgstr "${author} escribió: ${quote}"
 
 #. Default: "Required"
 #: ../skins/ploneboard_templates/add_comment_form.cpt:66
@@ -414,19 +412,16 @@ msgstr "Conversaciones"
 
 #. Default: "Ploneboard configuration"
 #: ../browser/controlpanel.py:55
-#, fuzzy
 msgid "ploneboard_configuration"
-msgstr "Aquí puede configurar Ploneboard"
+msgstr "Aquí puede configurar el Espacio de foros"
 
 #. Default: "Text transformations"
 #: ../browser/controlpanel.py:60
-#, fuzzy
 msgid "ploneboard_transform_panel"
-msgstr "Transformaciones del texto"
+msgstr "Configuración del texto"
 
 #. Default: "Post comment"
 #: ../skins/ploneboard_templates/add_comment_form.cpt:167
-#, fuzzy
 msgid "post_comment"
 msgstr "Publicar"
 
@@ -442,9 +437,8 @@ msgstr "Previsualizar el mensaje"
 
 #. Default: "The following conversations have had recent activity."
 #: ../skins/ploneboard_templates/ploneboard_recent.pt:53
-#, fuzzy
 msgid "recent_conversations_description"
-msgstr "Estas conversaciones están publicadas pero no tienen comentarios todavía."
+msgstr "Las siguinetes conversaciones han tenido actividad recientemente."
 
 #. Default: "Replies"
 #: ../skins/ploneboard_templates/forum_view.pt:130
@@ -504,5 +498,5 @@ msgstr "Mensajes sin respuesta en ${title}"
 #. Default: "The following conversations have been posted, but have not yet received any replies."
 #: ../skins/ploneboard_templates/ploneboard_unanswered.pt:53
 msgid "unanswered_conversations"
-msgstr ""
+msgstr "Las siguientes conversaciones han sido publicadas, pero todavía no han recibido respuestas."
 

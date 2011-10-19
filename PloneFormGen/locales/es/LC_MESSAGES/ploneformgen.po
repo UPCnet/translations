@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2011-10-13 09:43+0000\n"
-"PO-Revision-Date: 2011-10-14 09:25+0100\n"
-"Last-Translator: Ariel von Barnekow <ariel.von.barnekow@upcnet.es>\n"
+"PO-Revision-Date: 2011-10-19 11:45+0100\n"
+"Last-Translator: Corina Riba Santos <corina.riba@upcnet.es>\n"
 "Language-Team: Plone i18n <plone-i18n@lista.plone.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -503,7 +503,7 @@ msgstr ""
 
 #: ../content/fields.py:698
 msgid "help_fgformat_text"
-msgstr ""
+msgstr "Control de la presentación"
 
 #. Default: "The number of future years to offer in the year drop-down.\n                 (This is only applicable if you have not specified an ending year.)"
 #: ../content/fields.py:467
@@ -545,7 +545,7 @@ msgstr ""
 
 #: ../content/fields.py:795
 msgid "help_fgmsformat_text"
-msgstr ""
+msgstr "Control de Presentación"
 
 # Rich Text Field
 # description="""Input tests using HTMLTidy (if installed).""",
@@ -556,7 +556,7 @@ msgstr "Prueba la entrada con HTMLTidy (de estar instalado)."
 
 #: ../content/fields.py:439
 msgid "help_fgshowhm_text"
-msgstr ""
+msgstr "Mostrar las opciones de selección horaria"
 
 #. Default: "The size of the text-entry box, in characters."
 #: ../content/fieldsBase.py:140
@@ -565,7 +565,7 @@ msgstr "El tamaño de la caja de entrada de texto, en caracteres."
 
 #: ../content/fields.py:448
 msgid "help_fgstartingyear_text"
-msgstr ""
+msgstr "El primer año que aparecerá en el desplegable"
 
 #. Default: "Tests input against simple string patterns."
 #: ../content/fields.py:49
@@ -588,6 +588,12 @@ msgstr ""
 #: ../content/fieldsBase.py:237
 msgid "help_fgtenable_text"
 msgstr ""
+"Una expresión TALES que será evaluada cuando el formulario se muestre\n"
+"para obtener el valor por omisión del campo.\n"
+"Deje-la vacía si no la necesita. Su expresión se tendría que evaluar como\n"
+"una cadena.\n"
+"NOTA: los errores en la evaluación de esta expresión causarán\n"
+"un error al mostrar el formulario."
 
 #. Default: "\n                    The text the field should contain when the form is first displayed.\n                    Note that this may be overridden dynamically.\n                "
 #: ../content/fieldsBase.py:333
@@ -767,6 +773,8 @@ msgstr ""
 #: ../content/fields.py:259
 msgid "help_fprequired_text"
 msgstr ""
+"NOTA: Para un campo decimal, si está seleccionado el flag requerido no\n"
+"permitirá la entrada del valor '0'."
 
 #. Default: "\n                    Give your key-id, e-mail address or\n                    whatever works to match a public key from current keyring.\n                    It will be used to encrypt the message body.\n                    Contact the site administrator if you need to\n                    install a new public key.\n                    Note that you will probably wish to change your message\n                    template to plain text if you're using encryption.\n                    TEST THIS FEATURE BEFORE GOING PUBLIC!\n                    "
 #: ../content/formMailerAdapter.py:353
@@ -885,7 +893,7 @@ msgstr ""
 
 #: ../content/fieldsBase.py:96
 msgid "help_rows_text"
-msgstr ""
+msgstr "Introduzca el número de filas para este campo. Este valores aplicable únicamente en el tipo 'área de texto'"
 
 #. Default: "\n                    Pick any extra data you'd like saved with the form input.\n                    "
 #: ../content/saveDataAdapter.py:56
@@ -894,7 +902,7 @@ msgstr "Seleccione cualquier dato adicional que quiera guardar con los datos del
 
 #: ../content/saveDataAdapter.py:90
 msgid "help_savedatainput_text"
-msgstr ""
+msgstr "Entrada del formulario guardada"
 
 #. Default: " Write your script here. "
 #: ../content/customScriptAdapter.py:108
@@ -931,7 +939,7 @@ msgstr ""
 
 #: ../content/form.py:71
 msgid "help_showcancel_text"
-msgstr ""
+msgstr "Muestra el botón \"Reinicia\""
 
 #. Default: "\n                Pick the fields whose inputs you'd like to display on\n                the success page.\n                "
 #: ../content/thanksPage.py:55
@@ -943,7 +951,7 @@ msgstr ""
 #: ../content/fields.py:1309
 #: ../content/fieldset.py:46
 msgid "help_showlegend_text"
-msgstr ""
+msgstr "Muestra el título como leyenda"
 
 # A TALES expression that will be evaluated to override any value
 # otherwise entered for the e-mail subject header.
@@ -962,7 +970,7 @@ msgstr ""
 
 #: ../content/form.py:61
 msgid "help_submitlabel_text"
-msgstr ""
+msgstr "Nombre que aparecerá en el botón que se utilizará para enviar."
 
 #. Default: "The text will be displayed after the field inputs."
 #: ../content/thanksPage.py:103
