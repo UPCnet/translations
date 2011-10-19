@@ -1,10 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: plone.app.discussion\n"
-"POT-Creation-Date: YEAR-MO-DA HO:MI +ZONE\n"
-"PO-Revision-Date: 2011-10-17 11:56+0100\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-10-19 11:33+0100\n"
 "Last-Translator: Ariel von Barnekow <ariel.von.barnekow@upcnet.es>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team:   < >\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -115,7 +115,7 @@ msgstr "Nom"
 msgid "Notify me of new comments via email."
 msgstr "Notifica'm de la creació de nous comentaris via correu electrònic."
 
-#: ./plone.app.discussion/plone/app/discussion/configure.zcml
+#: plone.app.discussion/plone/app/discussion/configure.zcml
 msgid "Plone Discussions"
 msgstr "Plone Discussions"
 
@@ -208,7 +208,7 @@ msgstr "En resposta a"
 msgid "heading_moderate_comments"
 msgstr "Moderar comentaris"
 
-#. Default: "If selected, anonymous users are able to post comments without loggin in. It is highly recommended to use a captcha solution to prevent spam if this setting is enabled."
+#. Default: "If selected, anonymous users are able to post comments without logging in. It is highly recommended to use a captcha solution to prevent spam if this setting is enabled."
 #: ../interfaces.py:38
 msgid "help_anonymous_comments"
 msgstr "Si està seleccionada, els usuaris anònims podran afegir comentaris sense identificar-se. Es recomana la utilització de una eina de captcha per evitar comentaris spam si aquesta opció està activada."
@@ -223,7 +223,7 @@ msgstr "Utilitzeu aquesta opció per activar o desactivar una eina de captcha pe
 msgid "help_discussion_settings_editform"
 msgstr "Algunes de les configuracions dels comentaris no estan en la element de configuració 'Comentaris' del panell de control de l'espai. Per activar els comentaris per un tipus de contingut específic, dirigiu-vos al element de configuració 'Tipus' i activeu la opció 'Permetre comentaris'. Per activar el circuit de treball (workflow) de moderació de comentaris, dirigiu-vos al element de configuració de 'Tipus', seleccioneu 'Comentari' i escolliu el 'Workflow de moderació de comentaris'."
 
-#. Default: "If selected, users are able to post comments on the site. Though, you have to enable comments for specific content types, folders or content objects before users will be able to post comments."
+#. Default: "If selected, users are able to post comments on the site. However, you must enable comments for specific content types, folders or content objects before users will be able to post comments."
 #: ../interfaces.py:26
 msgid "help_globally_enabled"
 msgstr "Si està seleccionada, es permet que els usuaris puguin afegir comentaris a l'espai. De tota manera, teniu que activar els comentaris per a cada tipus de contingut específicament abans de que pogueu afegir comentaris."
