@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "POT-Creation-Date: 2011-10-13 09:43+0000\n"
-"PO-Revision-Date: 2011-10-19 11:45+0100\n"
+"PO-Revision-Date: 2011-10-19 17:01+0100\n"
 "Last-Translator: Corina Riba Santos <corina.riba@upcnet.es>\n"
 "Language-Team: Plone i18n <plone-i18n@lista.plone.org>\n"
 "MIME-Version: 1.0\n"
@@ -299,13 +299,13 @@ msgstr "No se ha podido cargar el recurso:"
 #. Default: "Clear Saved Input"
 #: ../skins/PloneFormGen/fg_savedata_view_p3.pt:78
 msgid "clear-save-input"
-msgstr "Limpiar Datos Guardados"
+msgstr "Borrar  los datos guardados"
 
 # value="Clear Saved Input"
 #. Default: "Clear all saved input?"
 #: ../skins/PloneFormGen/fg_savedata_view_p3.pt:85
 msgid "clear-saved-input-confirm"
-msgstr "Limpiar todos lso datos guardados?"
+msgstr "¿Borrar todos los datos guardados?"
 
 #. Default: "Set defaults for addressing fields for new mail-action adapters. Please note that your input here is not verified. So, make sure you use valid addresses."
 #: ../skins/PloneFormGen/prefs_pfg_addressing.cpt:63
@@ -383,7 +383,7 @@ msgstr ""
 "La entrada del formulario estará en el diccionario \"request.form\".\n"
 "Déjela en blanco si no se necesita.\n"
 "El uso más común de este campo es para llamar un guión Python para\n"
-"limpiar la entrada del formulario o para ejecutar una acción\n"
+"borrar la entrada del formulario o para ejecutar una acción\n"
 "alternativa.\n"
 "Cualquier valor devuelto por la expresión se ignora.\n"
 "NOTAR, POR FAVOR: errores en la evaluación de esta expresión causarán\n"
@@ -458,7 +458,7 @@ msgstr "Escoja un delimitador por defecto para usar al descargar el contenido co
 #. Default: "The text will be displayed after the form fields."
 #: ../content/form.py:156
 msgid "help_epilogue_text"
-msgstr "El texto se mostrará después de los campos de la planilla."
+msgstr "El texto se mostrará después de los campos del formulario."
 
 #. Default: "\n                A TALES expression that will be evaluated to determine whether or not\n                to execute this action.\n                Leave empty if unneeded, and the action will be executed. \n                Your expression should evaluate as a boolean; return True if you wish\n                the action to execute.\n                PLEASE NOTE: errors in the evaluation of this expression will cause\n                an error on form display.\n            "
 #: ../content/actionAdapter.py:40
@@ -467,10 +467,10 @@ msgstr ""
 "Una expresión TALES que será evaluada para determinar si se ejecuta\n"
 "esta acción o no.\n"
 "Dejar vacía si no se necesita, y la acción será ejecutada.\n"
-"Su expresión debería evaluar a booleano; retornar True si desea que se\n"
+"Su expresión debería evaluar a booleano; retornar \"True\" si desea que se\n"
 "ejecute la acción.\n"
 "NOTAR, POR FAVOR: errores en la evaluación de esta expresión causarán un\n"
-"error al mostrar la planilla."
+"error al mostrar el formulario."
 
 #. Default: "String to use in thanks page and mail when the field's checkbox is unchecked."
 #: ../content/fields.py:345
@@ -515,7 +515,7 @@ msgstr ""
 #. Default: "\n                    The text to display in the form.\n                "
 #: ../content/fields.py:1098
 msgid "help_fglabelbody_text"
-msgstr "El texto a mostrar en la planilla."
+msgstr "El texto a mostrar en el formulario."
 
 #. Default: "List of possible answers for each of the questions;\n                    these will be the columns of the table."
 #: ../content/formLikertField.py:80
@@ -670,9 +670,9 @@ msgstr ""
 #: ../content/form.py:193
 msgid "help_formactionoverride_text"
 msgstr ""
-"Use este campo para reescribir el atributo ACTION de la planilla.\n"
-"Especifique un URL al cual la planilla enviará los datos.  Esto\n"
-"evitará la validación de la planilla, adaptadores de acción exitosa, y\n"
+"Use este campo para reescribir el atributo \"ACTION\" del formulario.\n"
+"Especifique un enlace al cual el formulario enviará los datos.  Esto\n"
+"evitará la validación del formulario, adaptadores de acción realizada con éxito, y\n"
 "página de agradecimiento."
 
 #. Default: "\n                Additional e-mail-header lines.\n                Only use RFC822-compliant headers.\n                "
@@ -710,8 +710,8 @@ msgid "help_formmailer_body_pt"
 msgstr ""
 "Esto es una plantilla de página de Zope (\"Zope Page Template\") usada para la\n"
 "composición del cuerpo del mensaje. Usted no necesita modificarla,\n"
-"pero si conoce TAL (Lenguaje de Atributos para Planillas de Zope)\n"
-"usted tiene el poder total para personalizar sus mensajes salientes."
+"pero si conoce TAL (Lenguaje de Atributos para plantillas de Zope)\n"
+"usted puede personalizar sus mensajes salientes."
 
 #. Default: "Set the mime-type of the mail-body. \n            Change this setting only if you know exactly what you are doing. \n            Leave it blank for default behaviour."
 #: ../content/formMailerAdapter.py:296
@@ -784,7 +784,7 @@ msgstr ""
 "para encontrar una llave pública del anillo de llaves actual. Se usará\n"
 "para encriptar el cuerpo del mensaje. Contacte el administrador del\n"
 "sitio si necesita instalar una llave publica nueva. Note que usted\n"
-"probablemente deseará cambiar su planilla del mensaje a texto plano si\n"
+"probablemente deseará cambiar su plantilla del mensaje a texto plano si\n"
 "usa encriptación.\n"
 "¡PRUEBE ESTA FUNCIONALIDAD ANTES DE HACER PÚBLICA LA PLANILLA!"
 
@@ -805,7 +805,7 @@ msgstr ""
 "personalizado. Especifique una expresión TALES que retorne una\n"
 "cadena. La caden se insertará sin interpretación.\n"
 "NOTAR, POR FAVOR: errores en la evaluación de esta expresión causarán\n"
-"un error al mostrar la planilla."
+"un error al mostrar el formulario."
 
 #. Default: "\n                Check this to display field titles\n                for fields that received no input. Uncheck\n                to leave fields with no input off the list.\n                "
 #: ../content/thanksPage.py:67
@@ -871,7 +871,7 @@ msgstr "CUIDADO: el texto de entrada no se valida. XHTML o TAL invalido puede ca
 #. Default: "This text will be displayed above the form fields."
 #: ../content/form.py:137
 msgid "help_prologue_text"
-msgstr "Este texto se mostrará encima de los campos de la planilla."
+msgstr "Este texto se mostrará encima de los campos del formulario."
 
 # A TALES expression that will be evaluated to override any value
 # otherwise entered for the recipient e-mail address. You are strongly
@@ -888,8 +888,8 @@ msgstr ""
 "no usar para este propósito datos de la solicitud [HTTP] sin\n"
 "validar. Dejar vacío si no se necesita. Su expresión debería evaluarse\n"
 "como cadena.\n"
-"NOTAR, POR FAVOR: errores en la evaluación de esta expresión causarán\n"
-"un error al mostrar la planilla."
+"NOTA: errores en la evaluación de esta expresión causarán\n"
+"un error al mostrar el formulario."
 
 #: ../content/fieldsBase.py:96
 msgid "help_rows_text"
@@ -925,9 +925,9 @@ msgid "help_sender_override_text"
 msgstr ""
 "Una expresión TALES que será evaluada para sobreescribir cualquier\n"
 "valor dado para el encabezado \"De\".\n"
-"Déjela vacía si no se necesita. Su expresión debería evaluar como una cadena.\n"
-"NOTAR, POR FAVOR: errores en la evaluación de esta expresión causarán\n"
-"un error al mostrar la planilla."
+"Déjela vacía si no se necesita. Su expresión debería evaluarse como una cadena.\n"
+"NOTA: errores en la evaluación de esta expresión causarán\n"
+"un error al mostrar el formulario."
 
 #. Default: "\n                Check this to display input for all fields\n                (except label and file fields). If you check\n                this, the choices in the pick box below\n                will be ignored.\n                "
 #: ../content/thanksPage.py:41
@@ -965,8 +965,8 @@ msgstr ""
 "Una expresión TALES que será evaluada para sobreescribir cualquier\n"
 "valor que se haya dado para el asunto del mensaje.\n"
 "Déjelo vacío si no lo necesita. Su expresión debería evaluar como una cadena.\n"
-"NOTAR, POR FAVOR: errores en la evaluación de esta expresión causarán\n"
-"un error al mostrar la planilla."
+"NOTA: errores en la evaluación de esta expresión causarán\n"
+"un error al mostrar el formulario."
 
 #: ../content/form.py:61
 msgid "help_submitlabel_text"
@@ -990,9 +990,9 @@ msgid "help_thankspageoverride_text"
 msgstr ""
 "Use este campo en lugar de una página de agradecimiento para\n"
 "determinar una acción final después de llamar su adaptador de acción\n"
-"(si tiene uno). Usualmente usaría esteo para una planilla o guión de\n"
-"éxito personalidos.  Dejar vacío si no se necesita. Si no, especifique\n"
-"como lo haría con un tipo de acción y argumento de un\n"
+"(si tiene uno). Usualmente usaría este para un formulario o script\n"
+"personalizado ejecutados con éxito. Dejar vacío si no se necesita.\n"
+"Si no, especifique como lo haría con un tipo de acción y argumento de un\n"
 "CMFFormController, completo con el tipo de acción a ejecutar (ej.:\n"
 "\"redirect_to\" o \"traverse_to\") y una expresión TALES. Por ejemplo:\n"
 "\"redirect_to:string:muchas-gracias\" redireccionaría a la página\n"
@@ -1036,7 +1036,7 @@ msgstr "Guión Posterior a la Validación"
 #. Default: "Form Setup Script"
 #: ../content/form.py:210
 msgid "label_OnDisplayOverride_text"
-msgstr "Guión de preparación de la planilla"
+msgstr "Script de preparación del formulario."
 
 #. Default: "Action Adapter"
 #: ../content/form.py:85
@@ -1066,7 +1066,7 @@ msgstr "Formato de Descarga"
 #. Default: "Form Epilogue"
 #: ../content/form.py:155
 msgid "label_epilogue_text"
-msgstr "Epílogo de la Planilla"
+msgstr "Epílogo del formulario."
 
 # ## All Action Adapters
 #. Default: "Execution Condition"
@@ -1226,7 +1226,7 @@ msgstr "Forzar conexión SSL"
 #. Default: "Custom Form Action"
 #: ../content/form.py:192
 msgid "label_formactionoverride_text"
-msgstr "Acción Personalizada de la Planilla"
+msgstr "Acción Personalizada del formulario"
 
 #. Default: "Additional Headers"
 #: ../content/formMailerAdapter.py:335
@@ -1256,7 +1256,7 @@ msgstr "Cuerpo (al principio)"
 #. Default: "Mail-Body Template"
 #: ../content/formMailerAdapter.py:284
 msgid "label_formmailer_body_pt"
-msgstr "Planilla del cuerpo del mensaje"
+msgstr "Plantilla del cuerpo del mensaje"
 
 #. Default: "Mail Format"
 #: ../content/formMailerAdapter.py:300
@@ -1418,7 +1418,7 @@ msgstr "Datos guardados"
 #. Default: "Form Prologue"
 #: ../content/form.py:136
 msgid "label_prologue_text"
-msgstr "Prólogo de la Planilla"
+msgstr "Prólogo del formulario."
 
 # "Recipient Expression"
 #. Default: "Recipient Expression"
@@ -1449,7 +1449,7 @@ msgstr "Datos Extra"
 #. Default: "Saved Form Input"
 #: ../content/saveDataAdapter.py:89
 msgid "label_savedatainput_text"
-msgstr "Entrada de la Planilla Guardada"
+msgstr "Entrada del formulario guardada"
 
 # 'Script body'
 #. Default: "Script body"
