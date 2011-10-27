@@ -3,8 +3,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Collage\n"
 "POT-Creation-Date: 2010-10-04 12:13+0000\n"
-"PO-Revision-Date: 2011-10-05 13:56+0100\n"
-"Last-Translator: Ariel von Barnekow <ariel.von.barnekow@upcnet.es>\n"
+"PO-Revision-Date: 2011-10-27 12:15+0100\n"
+"Last-Translator: Corina Riba Santos <corina.riba@upcnet.es>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -120,17 +120,17 @@ msgstr "Per defecte"
 #. Default: "Select item types that can be aliased in a Collage object."
 #: ../interfaces.py:90
 msgid "help_alias_whitelist"
-msgstr "Només els tipus d'element seleccionats en la llista blanca podran ser un àlies a un objecte Collage."
+msgstr "Només els tipus d'element seleccionats en la llista blanca podran ser un àlies a un objecte collage."
 
 #. Default: "If the number of Columns in a row exceeds this number, \"Collage will put these in a new \"batch\". The new batch will be displayed below the first batch, but it's technically still the same row. "
 #: ../interfaces.py:101
 msgid "help_batch_size"
-msgstr "Sí el nombre de columnes en una fila excedeix aquest nombre, Collage mostrarà les columnes en un nou \"lot\". El nou lot es mostrarà sota del primer, però tècnicament continuarà sent la mateixà fila."
+msgstr "Sí el nombre de columnes en una fila excedeix aquest nombre, el collage mostrarà les columnes en un nou \"lot\". El nou lot es mostrarà sota del primer, però tècnicament continuarà sent la mateixà fila."
 
 #. Default: "Site wide options for Collage"
 #: ../browser/controlpanel.py:65
 msgid "help_collage_controlpanel"
-msgstr "Opcions de Collage"
+msgstr "Opcions del collage"
 
 #. Default: "This action can't be undone."
 #: ../browser/viewlets/delete.pt:28
@@ -200,7 +200,7 @@ msgstr "Ajuda"
 #. Default: "Select item types that can be added in a Collage object."
 #: ../interfaces.py:79
 msgid "help_types_whitelist"
-msgstr "Seleccióna els tipus d'element que es poden afegir a un Collage."
+msgstr "Seleccióna els tipus d'element que es poden afegir a un collage."
 
 #. Default: "Only types in below whitelist can be added in a Collage."
 #: ../interfaces.py:71
@@ -225,7 +225,7 @@ msgstr "Nombre de columnes"
 #. Default: "Copy"
 #: ../browser/viewlets/copy.pt:9
 msgid "label_copy_object"
-msgstr "Enganxa"
+msgstr "Copia"
 
 #. Default: "Delete"
 #: ../browser/viewlets/delete.pt:21
@@ -373,5 +373,5 @@ msgstr "busca en aquesta ruta i per sota"
 #. Default: "Collage control panel"
 #: ../browser/controlpanel.py:63
 msgid "title_collage_controlpanel"
-msgstr "Tauler de control de Collage"
+msgstr "Tauler de control del collage"
 
