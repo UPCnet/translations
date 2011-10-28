@@ -1,4 +1,10 @@
-# """ Write your script here. """
+# PloneFormGen
+# Steve McMahon <steve@dcn.org>, 2006.
+# -------------------------------------------------------
+# Mikel Larreategi <mlarreategi@codesyntax.com> , 2008
+# Ariel von Barnekow <ariel.von.barnekow@upcnet.es>, 2011
+# Corina Riba <corina.riba@upcnet.es>, 2011
+
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
@@ -10,8 +16,8 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
+"Language-Code: es\n"
+"Language-Name: Spanish\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: DOMAIN\n"
 "X-Poedit-Language: Spanish\n"

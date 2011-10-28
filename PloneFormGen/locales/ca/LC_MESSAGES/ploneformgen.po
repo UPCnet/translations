@@ -1,6 +1,10 @@
 # PloneFormGen
 # Steve McMahon <steve@dcn.org>, 2006.
+# -------------------------------------------------------
 # Pilar Marinas Luis <pilar.marinas@upcnet.es>, 2009
+# Corina Riba <corina.riba@upcnet.es>, 2011
+# Ariel von Barnekow <ariel.von.barnekow@upcnet.es>, 2011
+
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.7b5\n"
@@ -16,7 +20,6 @@ msgstr ""
 "Language-Name: Catalan\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: ploneformgen\n"
-"X-Poedit-Bookmarks: -1,259,258,239,224,176,177,164,157,145\n"
 "X-Poedit-Language: Catalan\n"
 "X-Poedit-Country: SPAIN\n"
 

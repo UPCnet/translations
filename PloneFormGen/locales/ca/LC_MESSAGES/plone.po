@@ -1,25 +1,27 @@
-# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
-# SOME DESCRIPTIVE TITLE.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# PloneFormGen
+# Steve McMahon <steve@dcn.org>, 2006.
+# -------------------------------------------------------
+# Pilar Marinas Luis <pilar.marinas@upcnet.es>, 2009
+# Corina Riba Santos <corina.riba@upcnet.es>, 2011
+
 msgid ""
 msgstr ""
 "Project-Id-Version: 1.7b5\n"
 "POT-Creation-Date: 2011-10-13 08:33+0000\n"
 "PO-Revision-Date: 2011-10-19 16:24+0100\n"
 "Last-Translator: Corina Riba Santos <corina.riba@upcnet.es>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0\n"
-"Language-Code: en\n"
-"Language-Name: English\n"
+"Language-Code: ca\n"
+"Language-Name: Catalan\n"
 "Preferred-Encodings: utf-8 latin1\n"
 "Domain: plone\n"
 "X-Poedit-Language: Catalan\n"
 "X-Poedit-Country: SPAIN\n"
-"X-Poedit-Basepath: .\n"
-"X-Poedit-SearchPath-0: /var/plone/gw4/eggs/Products.PloneFormGen-1.7b5-py2.6.egg/Products/PloneFormGen\n"
+
 
 #: ./browser/quickedit.pt:222
 #: ./skins/PloneFormGen/fg_savedata_tabview_p3.pt:44
