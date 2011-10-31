@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PloneFormGen 0.2\n"
 "POT-Creation-Date: 2011-10-31 07:54+0000\n"
-"PO-Revision-Date: 2011-10-31 10:13+0100\n"
-"Last-Translator: Ariel von Barnekow <ariel.von.barnekow@upcnet.es>\n"
+"PO-Revision-Date: 2011-10-31 12:15+0100\n"
+"Last-Translator: Corina Riba Santos <corina.riba@upcnet.es>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -124,7 +124,6 @@ msgstr "Una carpeta que crea una vista de plantilla a partir de los campos de pl
 
 #. Default: "A folder which groups form fields as a fieldset."
 #: content/fieldset.py
-#, fuzzy
 msgid "A folder which groups form fields as a fieldset."
 msgstr "Una carpeta que agrupa campos de formulario como un conjunto."
 
@@ -188,7 +187,6 @@ msgid "A thank-you page that can display form input."
 msgstr "Una página de agradecimiento que puede mostrar la entrada de la plantilla."
 
 #: ../skins/PloneFormGen/fg_savedata_tabview_p3.pt:44
-#, fuzzy
 msgid "Action"
 msgstr "Acción"
 
@@ -222,13 +220,11 @@ msgid "Executes a Python script for form data."
 msgstr "Ejecuta un guión Python para los datos de la plantilla."
 
 #: ../profiles/default/actions.xml
-#, fuzzy
 msgid "Export"
 msgstr "Exportar"
 
 #. Default: "Fieldset Folder"
 #: content/fieldset.py
-#, fuzzy
 msgid "Fieldset Folder"
 msgstr "Carpeta de conjunto de campos"
 
@@ -248,17 +244,14 @@ msgid "Form Folder"
 msgstr "Carpeta de Plantilla"
 
 #: ../browser/exportimport.py:57
-#, fuzzy
 msgid "Form imported."
 msgstr "Se ha importado el formulario."
 
 #: ../profiles/default/actions.xml
-#, fuzzy
 msgid "Import"
 msgstr "Importar"
 
 #: ../skins/PloneFormGen/fg_edit_macros_p3.pt:36
-#, fuzzy
 msgid "Info"
 msgstr "Información"
 
@@ -298,23 +291,19 @@ msgid "Password Field"
 msgstr "Campo de Contraseña"
 
 #: ../skins/PloneFormGen/fgvalidate_base.vpy:37
-#, fuzzy
 msgid "Please correct the indicated errors."
 msgstr "Por favor, corrija los errores indicados."
 
 #. Likert Field Name
-#, fuzzy
 msgid "Rating-Scale Field"
 msgstr "Campo de puntuación con escala"
 
 #: ../interfaces/exportimport.py:23
-#, fuzzy
 msgid "Remove Existing Form Items?"
 msgstr "¿Eliminar los elementos existentes del formulario?"
 
 #. Rich Label Field
 #. Default: 'Rich Label Field',
-#, fuzzy
 msgid "Rich Label Field"
 msgstr "Campo de etiqueta con formato"
 
@@ -349,13 +338,11 @@ msgid "Thanks Page"
 msgstr "Página de agradecimiento"
 
 #: ../interfaces/exportimport.py:19
-#, fuzzy
 msgid "Upload"
-msgstr "Subir"
+msgstr "Guardar"
 
 #. Default: "Actions"
 #: ../browser/jsvariables.py:18
-#, fuzzy
 msgid "actions"
 msgstr "Acciones"
 
@@ -366,7 +353,6 @@ msgstr "direccionado"
 
 #. Default: "Unable to load resource: "
 #: ../browser/jsvariables.py:20
-#, fuzzy
 msgid "ajax_failed_msg"
 msgstr "No se ha podido cargar el recurso:"
 
@@ -382,7 +368,6 @@ msgstr "por omisión"
 
 #. Default: "\n                    Mark this field as a value to be injected into the\n                    request form for use by action adapters and is not \n                    modifiable by or exposed to the client.\n                "
 #: ../content/fieldsBase.py:257
-#, fuzzy
 msgid "description_server_side_text"
 msgstr ""
 "Selecciona este campo como valor a añadir\n"
@@ -401,7 +386,6 @@ msgstr "encriptación"
 
 #. Default: "Field"
 #: ../browser/jsvariables.py:17
-#, fuzzy
 msgid "field"
 msgstr "Campo"
 
@@ -412,7 +396,6 @@ msgstr "encabezados"
 
 #. Default: "Add ${itemtype}"
 #: ../skins/PloneFormGen/fg_edit_macros_p3.pt:16
-#, fuzzy
 msgid "heading_add_item"
 msgstr "Agregar ${itemtype}"
 
@@ -423,16 +406,15 @@ msgstr "Editar ${itemtype}"
 
 #. Default: "\n                A TALES expression that will be called after the form is\n                successfully validated, but before calling an action adapter\n                (if any) or displaying a thanks page.\n                Form input will be in the request.form dictionary.\n                Leave empty if unneeded.\n                The most common use of this field is to call a python script\n                to clean up form input or to script an alternative action.\n                Any value returned by the expression is ignored.\n                PLEASE NOTE: errors in the evaluation of this expression will\n                cause an error on form display.\n            "
 #: ../content/form.py:236
-#, fuzzy
 msgid "help_AfterValidationOverride_text"
 msgstr ""
-"Una expresión TALES que será llamada despues que la planilla es\n"
+"Una expresión TALES que será llamada despues que el formulario es\n"
 "validada exitosamente, pero antes de llamar un adaptador de acción (si\n"
 "hay alguno) o mostar la página de agradecimiento.\n"
-"La entrada de la planilla estará en el diccionario \"request.form\".\n"
+"La entrada del formulario estará en el diccionario \"request.form\".\n"
 "Déjela vacía si no la necesita.\n"
 "El uso más común de este campo es para llamar un guión Python para\n"
-"limpiar la entrada de la planilla o para ejecutar una acción\n"
+"limpiar la entrada del formulario o para ejecutar una acción\n"
 "alternativa.\n"
 "Cualquier valor retornado por la expresión se ignora.\n"
 "NOTAR, POR FAVOR: errores en la evaluación de esta expresión causarán\n"
@@ -440,30 +422,27 @@ msgstr ""
 
 #. Default: "\n                A TALES expression that will be called when the form is\n                displayed.\n                Leave empty if unneeded.\n                The most common use of this field is to call a python script\n                that sets defaults for multiple fields by pre-populating\n                request.form.\n                Any value returned by the expression is ignored.\n                PLEASE NOTE: errors in the evaluation of this expression\n                will cause an error on form display.\n            "
 #: ../content/form.py:212
-#, fuzzy
 msgid "help_OnDisplayOverride_text"
 msgstr ""
-"Una expresión TALES que será llamada cuando la planilla se muestra.\n"
+"Una expresión TALES que será llamada cuando el formulario se muestra.\n"
 "Déjela vacía si no la necesita.\n"
 "El uso más común de este campo es para llamar un guión Python que\n"
 "asigna valores por omisión para múltiples campos pre-populando\n"
 "\"request.form\".\n"
 "Cualquier valor retornado por la expresión es ignorado.\n"
 "NOTE POR FAVOR: errores en la evaluación de esta expresión causarán un\n"
-"error al mostrar la planilla."
+"error al mostrar el formulario."
 
 #. Default: "\n                To make your form do something useful when submitted:\n                add one or more form action adapters to the form folder,\n                configure them, then return to this\n                form and select the active ones.\n                "
 #: ../content/form.py:86
-#, fuzzy
 msgid "help_actionadapter_text"
 msgstr ""
-"Para que su planilla haga algo útil al ser enviada: adicione uno o más\n"
-"adaptadores de acción a la carpeta de la planilla, configúrelos,\n"
-"entonces retorne a esta planilla y seleccione los activos."
+"Para que su formulario haga algo útil al ser enviada: adicione uno o más\n"
+"adaptadores de acción a la carpeta del formulario, configúrelos,\n"
+"entonces retorne a este formulario y seleccione los activos."
 
 #. Default: "\n                A TALES expression that will be evaluated to override any value\n                otherwise entered for the BCC list. You are strongly\n                cautioned against using unvalidated data from the request for this purpose.\n                Leave empty if unneeded. Your expression should evaluate as a sequence of strings.\n                PLEASE NOTE: errors in the evaluation of this expression will cause\n                an error on form display.\n            "
 #: ../content/formMailerAdapter.py:441
-#, fuzzy
 msgid "help_bcc_override_text"
 msgstr ""
 "Una expresión TALES que se evaluará para sobreescribir cualquier valor introducido en la lista BCC.\n"
@@ -472,18 +451,17 @@ msgstr ""
 "asigna valores por omisión para múltiples campos pre-llenando\n"
 "\"request.form\".\n"
 "Cualquier valor devuelto por la expresión será ignorado.\n"
-"NOTAR, POR FAVOR: errores en la evaluación de esta expresión causarán\n"
+"NOTA: errores en la evaluación de esta expresión causarán\n"
 "errores al mostrar el formulario."
 
 #. Default: "NOTE: For a checkbox field, the required flag doesn't do anything beyond\n           putting a 'required' marker next to the label. If you wish to require a\n           particular input, choose a validator below.\n        "
 #: ../content/fields.py:358
-#, fuzzy
 msgid "help_boolrequired_text"
 msgstr ""
-"NOTA: Para un campo de caja de marcado, la bandera 'requerido' no hace\n"
-"nada más allá de poner el marcador de requerido junto a la\n"
-"etiqueta. Si desea que sea obligatoria una entrada determinada, escoja\n"
-"un validador debajo."
+"NOTA: Para un campo marcado, la bandera 'requerido' no hace\n"
+"nada más que poner el marcador de requerido al lado de la etiqueta\n"
+"Si desea que una entrada determinada sea obligatoria, escoja\n"
+"un validador."
 
 #. Default: "\n                Check this to employ Cross-Site Request Forgery protection.\n                Note that only HTTP Post actions will be allowed.\n            "
 #: ../content/form.py:279
@@ -495,13 +473,11 @@ msgstr ""
 
 #. Default: "The text will be displayed after the form fields."
 #: ../content/form.py:156
-#, fuzzy
 msgid "help_epilogue_text"
-msgstr "El texto se mostrará después de los campos de la planilla."
+msgstr "El texto se mostrará después de los campos del formulario."
 
 #. Default: "\n                A TALES expression that will be evaluated to determine whether or not\n                to execute this action.\n                Leave empty if unneeded, and the action will be executed. \n                Your expression should evaluate as a boolean; return True if you wish\n                the action to execute.\n                PLEASE NOTE: errors in the evaluation of this expression will cause\n                an error on form display.\n            "
 #: ../content/actionAdapter.py:40
-#, fuzzy
 msgid "help_execcondition_text"
 msgstr ""
 "Una expresión TALES que será evaluada para determinar si se ejecuta\n"
@@ -510,7 +486,7 @@ msgstr ""
 "Su expresión debería evaluar a booleano; retornar True si desea que se\n"
 "ejecute la acción.\n"
 "NOTAR, POR FAVOR: errores en la evaluación de esta expresión causarán un\n"
-"error al mostrar la planilla."
+"error al mostrar el formulario."
 
 #. Default: "String to use in thanks page and mail when the field's checkbox is unchecked."
 #: ../content/fields.py:353
@@ -531,10 +507,9 @@ msgstr "Escoja un validador para requerir una respuesta particular."
 
 #: ../content/fields.py:328
 #: ../content/fieldsBase.py:276
-#, fuzzy
 msgid "help_fgdefault_text"
 msgstr ""
-"El valor que el campo debería contener cuando la planilla se muestra\n"
+"El valor que el campo debería contener cuando el formulario se muestra\n"
 "por primera vez.\n"
 "Note que esto puede ser sobreescrito dinámicamente."
 
@@ -561,9 +536,8 @@ msgstr ""
 
 #. Default: "\n                    The text to display in the form.\n                "
 #: ../content/fields.py:1106
-#, fuzzy
 msgid "help_fglabelbody_text"
-msgstr "El texto a mostrar en la planilla."
+msgstr "El texto a mostrar en el formulario."
 
 #. Default: "List of possible answers for each of the questions;\n                    these will be the columns of the table."
 #: ../content/formLikertField.py:80
@@ -579,10 +553,9 @@ msgstr "Lista las preguntas; serán las filas de la tabla."
 
 #. Default: "\n                    The values the field should contain when the form is first displayed.\n                    Use one value per line.\n                    Note that this may be overridden dynamically.\n                "
 #: ../content/fieldsBase.py:294
-#, fuzzy
 msgid "help_fglinesdefault_text"
 msgstr ""
-"Los valores que el campo debería contener cuando la planilla se\n"
+"Los valores que el campo debería contener cuando el formulario se\n"
 "muestra por primera vez.\n"
 "Use un valor por línea.\n"
 "Observe que esto puede sobreescribirse dinámicamente."
@@ -631,15 +604,14 @@ msgstr "Prueba la entrada contra patrones de cadena simples."
 #. Default: "\n                    A TALES expression that will be evaluated when the form is displayed\n                    to get the field default value.\n                    Leave empty if unneeded. Your expression should evaluate as a string.\n                    PLEASE NOTE: errors in the evaluation of this expression will cause\n                    an error on form display.\n                "
 #: ../content/fields.py:1120
 #: ../content/fieldsBase.py:218
-#, fuzzy
 msgid "help_fgtdefault_text"
 msgstr ""
-"Una expresión TALES que será evaluada cuando la planilla se muestra\n"
+"Una expresión TALES que será evaluada cuando el formulario se muestra\n"
 "para obtener el valor por omisión del campo.\n"
 "Déjela vacía si no la necesita. Su expresión debería evaluarse como\n"
 "una cadena.\n"
 "NOTAR, POR FAVOR: errores en la evaluación de esta expresión causarán\n"
-"un error al mostrar la planilla."
+"un error al mostrar el formulario."
 
 #. Default: "\n                    A TALES expression that will be evaluated when the form is displayed\n                    to determine whether or not the field is enabled.\n                    Your expression should evaluate as True if\n                    the field should be included in the form, False if it should be omitted.\n                    Leave this expression field empty if unneeded: the field will be included. \n                    PLEASE NOTE: errors in the evaluation of this expression will cause\n                    an error on form display.\n                "
 #: ../content/fieldsBase.py:237
@@ -655,50 +627,46 @@ msgstr ""
 
 #. Default: "\n                    The text the field should contain when the form is first displayed.\n                    Note that this may be overridden dynamically.\n                "
 #: ../content/fieldsBase.py:333
-#, fuzzy
 msgid "help_fgtextdefault_text"
 msgstr ""
-"El texto que el campo debería contener cuando la planilla se muestra\n"
+"El texto que el campo debería contener cuando el formulario se muestra\n"
 "por primera vez.\n"
 "Observe que esto puede sobreescribirse dinámicamente."
 
 #. Default: "\n                    A TALES expression that will be evaluated when the form is displayed\n                    to get the field default value.\n                    Leave empty if unneeded. Your expression should evaluate as a list or tuple.\n                    PLEASE NOTE: errors in the evaluation of this expression will cause\n                    an error on form display.\n                "
 #: ../content/fieldsBase.py:310
-#, fuzzy
 msgid "help_fgtlinesdefault_text"
 msgstr ""
-"Una expresión TALES que será evaluada cuando la planilla se muestra\n"
+"Una expresión TALES que será evaluada cuando el formulario se muestra\n"
 "para obtener el valor por omisión del campo.\n"
 "Déjela vacía si no la necesita. Su expresión debería evaluar como una\n"
 "lista o tupla.\n"
 "NOTAR, POR FAVOR: errores en la evaluación de esta expresión causarán\n"
-"un error al mostrar la planilla."
+"un error al mostrar el formulario."
 
 #. Default: "\n                    A TALES expression that will be evaluated when the form is validated.\n                    Validate against 'value', which will contain the field input.\n                    Return False if valid; if not valid return a string error message.\n                    E.G., \"python: test(value=='eggs', False, 'input must be eggs')\" will\n                    require \"eggs\" for input.\n                    PLEASE NOTE: errors in the evaluation of this expression will cause\n                    an error on form display.\n                "
 #: ../content/fieldsBase.py:77
-#, fuzzy
 msgid "help_fgtvalidator_text"
 msgstr ""
-"Una expresión TALES que será evaluada cuando la planilla es validada.\n"
+"Una expresión TALES que será evaluada cuando el formulario es validado.\n"
 "Valide contra 'value', el cual contendrá la entrada del campo.\n"
 "Retorne falso si es válida; si no es válida retorne una cadena con el\n"
 "mensaje de error. Ej.: \"pyton: test(value == 'sal', False, 'necesitamos sal para los huevos')\n"
 " requerirá 'sal' en la entrada.\n"
 "NOTAR, POR FAVOR: errores en la evaluación de esta expresión pueden\n"
-"causar un error al mostrar la planilla."
+"causar un error al mostrar el formulario."
 
 #. Default: "\n                A TALES expression that will be evaluated when the form is displayed\n                to get the field options.\n                Leave empty if unneeded.\n                Your TALES expression should evaluate as a list of (key, value) tuples.\n                PLEASE NOTE: errors in the evaluation of this expression will cause\n                an error on form display.\n            "
 #: ../content/fieldsBase.py:168
-#, fuzzy
 msgid "help_fgtvocabulary_text"
 msgstr ""
-"Una expresión TALES que será evaluada cuando la planilla se muestra\n"
+"Una expresión TALES que será evaluada cuando el formulario se muestra\n"
 "para obtener las opciones del campo.\n"
 "Dejar vacía si no se necesita.\n"
 "Su expresión TALES debería evaluarse como una lista de tuplas\n"
 "(llave, valor).\n"
 "NOTAR, POR FAVOR: errores en la evaluación de esta expresión causarán\n"
-"un error al mostrar la planilla."
+"un error al mostrar el formulario."
 
 #. Default: "\n                Use one line per option.\n                Note that this may be overridden dynamically.\n                [Note, you may optionally use a \"value|label\" format.]\n                "
 #: ../content/fieldsBase.py:150
@@ -726,12 +694,11 @@ msgstr ""
 
 #. Default: "\n                Use this field to override the form action attribute.\n                Specify a URL to which the form will post.\n                This will bypass form validation, success action\n                adapter and thanks page.\n            "
 #: ../content/form.py:193
-#, fuzzy
 msgid "help_formactionoverride_text"
 msgstr ""
-"Use este campo para reescribir el atributo ACTION de la planilla.\n"
-"Especifique un URL al cual la planilla enviará los datos.  Esto\n"
-"evitará la validación de la planilla, adaptadores de acción exitosa, y\n"
+"Use este campo para reescribir el atributo ACTION del formulario.\n"
+"Especifique un URL al cual el formulario enviará los datos.  Esto\n"
+"evitará la validación del formulario, adaptadores de acción exitosa, y\n"
 "página de agradecimiento."
 
 #. Default: "\n                Additional e-mail-header lines.\n                Only use RFC822-compliant headers.\n                "
@@ -770,12 +737,11 @@ msgstr ""
 
 #. Default: "This is a Zope Page Template\n            used for rendering of the mail-body. You don't need to modify \n            it, but if you know TAL (Zope's Template Attribute Language) \n            you have the full power to customize your outgoing mails."
 #: ../content/formMailerAdapter.py:279
-#, fuzzy
 msgid "help_formmailer_body_pt"
 msgstr ""
-"Esto es una planilla de Zope (\"Zope Page Template\") usada para la\n"
+"Esto es un formulario de Zope (\"Zope Page Template\") usada para la\n"
 "composición del cuerpo del mensaje. Usted no necesita modificarla,\n"
-"pero si conoce TAL (Lenguaje de Atributos para Planillas de Zope)\n"
+"pero si conoce TAL (Lenguaje de Atributos para formularios de Zope)\n"
 "usted tiene el poder total para personalizar sus mensajes salientes."
 
 #. Default: "Set the mime-type of the mail-body. \n            Change this setting only if you know exactly what you are doing. \n            Leave it blank for default behaviour."
@@ -801,16 +767,14 @@ msgstr "La dirección de correo-e del destinatario."
 
 #. Default: "\n                The full name of the recipient of the mailed form.\n                "
 #: ../content/formMailerAdapter.py:73
-#, fuzzy
 msgid "help_formmailer_recipient_fullname"
-msgstr "El nombre completo del destinatario de la planilla enviada."
+msgstr "El nombre completo del destinatario del formulario enviado."
 
 #. Default: "\n                Choose a form field from which you wish to extract\n                input for the Reply-To header. NOTE: You should\n                activate e-mail address verification for the designated\n                field.\n                "
 #: ../content/formMailerAdapter.py:150
-#, fuzzy
 msgid "help_formmailer_replyto_extract"
 msgstr ""
-"Escoja un campo de la planilla del cual usted desea extraer la\n"
+"Escoja un campo del formulario del cual usted desea extraer la\n"
 "entrada para el encabezado Responder-A. NOTA: Usted debería activar la\n"
 "verificación de dirección de correo-e para el campo designado."
 
@@ -832,10 +796,9 @@ msgstr ""
 
 #. Default: "\n                Choose a form field from which you wish to extract\n                input for the To header. If you choose anything other\n                than \"None\", this will override the \"Recipient's e-mail address\"\n                setting above. Be very cautious about allowing unguarded user\n                input for this purpose.\n                "
 #: ../content/formMailerAdapter.py:102
-#, fuzzy
 msgid "help_formmailer_to_extract"
 msgstr ""
-"Escoja un campo de la planilla del cual desea extraer el valor de la\n"
+"Escoja un campo del formulario del cual desea extraer el valor de la\n"
 "cabecera Para. Si escoge cualquier opción diferente de \"Ninguno\", esta\n"
 "sobreescribirá la entrada en \"Dirección de correo-e del Destinatario\"\n"
 "más arriba.\n"
@@ -852,20 +815,18 @@ msgstr ""
 
 #. Default: "\n                    Give your key-id, e-mail address or\n                    whatever works to match a public key from current keyring.\n                    It will be used to encrypt the message body.\n                    Contact the site administrator if you need to\n                    install a new public key.\n                    Note that you will probably wish to change your message\n                    template to plain text if you're using encryption.\n                    TEST THIS FEATURE BEFORE GOING PUBLIC!\n                    "
 #: ../content/formMailerAdapter.py:353
-#, fuzzy
 msgid "help_gpg_key_id"
 msgstr ""
 "Propocione su key-id, dirección de correo-e o cualquier cosa que sirva\n"
 "para encontrar una llave pública del anillo de llaves actual. Se usará\n"
 "para encriptar el cuerpo del mensaje. Contacte el administrador del\n"
 "sitio si necesita instalar una llave publica nueva. Note que usted\n"
-"probablemente deseará cambiar su planilla del mensaje a texto plano si\n"
+"probablemente deseará cambiar su formulario del mensaje a texto plano si\n"
 "usa encriptación.\n"
-"¡PRUEBE ESTA FUNCIONALIDAD ANTES DE HACER PÚBLICA LA PLANILLA!"
+"¡PRUEBE ESTA FUNCIONALIDAD ANTES DE HACER PÚBLICO EL FORMULARIO!"
 
 #. Default: "\n                This override field allows you to insert content into the xhtml\n                head. The typical use is to add custom CSS or JavaScript.\n                Specify a TALES expression returning a string. The string will\n                be inserted with no interpretation.\n                PLEASE NOTE: errors in the evaluation of this expression will\n                cause an error on form display.\n            "
 #: ../content/form.py:261
-#, fuzzy
 msgid "help_headerInjection_text"
 msgstr ""
 "Este campo de sobreescritura le permite insertar contenido en el\n"
@@ -873,7 +834,7 @@ msgstr ""
 "personalizado. Especifique una expresión TALES que retorne una\n"
 "cadena. La caden se insertará sin interpretación.\n"
 "NOTAR, POR FAVOR: errores en la evaluación de esta expresión causarán\n"
-"un error al mostrar la planilla."
+"un error al mostrar el formulario."
 
 #. Default: "\n                Check this to display field titles\n                for fields that received no input. Uncheck\n                to leave fields with no input off the list.\n                "
 #: ../content/thanksPage.py:67
@@ -909,24 +870,21 @@ msgstr ""
 
 #. Default: "\n                    The form will not accept values greater than the number you enter here.\n                "
 #: ../content/fields.py:185
-#, fuzzy
 msgid "help_maxval_text"
-msgstr "La planilla no aceptará valores mayores que el número que entre aquí."
+msgstr "El formulario no aceptará valores mayores que el número que entre aquí."
 
 #. Default: "\n            The form will not accept values less than the number you enter here.\n                "
 #: ../content/fields.py:174
-#, fuzzy
 msgid "help_minval_text"
-msgstr "La planilla no aceptará valores menores que el número que entre aquí."
+msgstr "El formulario no aceptará valores menores que el número que entre aquí."
 
 #. Default: "\n                The text to display if the browser reaches this\n                thanks page without submitting a form. Typically, this\n                would direct the reader to the form.\n                "
 #: ../content/thanksPage.py:122
-#, fuzzy
 msgid "help_nosubmit_text"
 msgstr ""
 "El texto que se mostrará si el navegador alcanza esta página de\n"
-"agradecimiento sin enviar la planilla. Típicamente, esto dirigiría al\n"
-"lector hacia la planilla."
+"agradecimiento sin enviar el formulario. Típicamente, esto dirigiría al\n"
+"lector hacia el formulario."
 
 #. Default: "Not displayed on form."
 #: ../content/fields.py:1133
@@ -936,13 +894,11 @@ msgstr "No se mostrará en el formulario."
 
 #. Default: "This text will be displayed above the form fields."
 #: ../content/form.py:137
-#, fuzzy
 msgid "help_prologue_text"
-msgstr "Este texto se mostrará encima de los campos de la planilla."
+msgstr "Este texto se mostrará encima de los campos del formulario."
 
 #. Default: "\n                A TALES expression that will be evaluated to override any value\n                otherwise entered for the recipient e-mail address. You are strongly\n                cautioned against using unvalidated data from the request for this purpose.\n                Leave empty if unneeded. Your expression should evaluate as a string.\n                PLEASE NOTE: errors in the evaluation of this expression will cause\n                an error on form display.\n            "
 #: ../content/formMailerAdapter.py:420
-#, fuzzy
 msgid "help_recipient_override_text"
 msgstr ""
 "Una expresión TALES que será evaluada para sobreescribir cualquier\n"
@@ -951,7 +907,7 @@ msgstr ""
 "validar. Dejar vacío si no se necesita. Su expresión debería evaluarse\n"
 "como cadena.\n"
 "NOTAR, POR FAVOR: errores en la evaluación de esta expresión causarán\n"
-"un error al mostrar la planilla."
+"un error al mostrar el formulario."
 
 #: ../content/fieldsBase.py:96
 #, fuzzy
@@ -960,11 +916,10 @@ msgstr "Introduzca el número de filas para este campo. Este valores aplicable �
 
 #. Default: "\n                    Pick any extra data you'd like saved with the form input.\n                    "
 #: ../content/saveDataAdapter.py:56
-#, fuzzy
 msgid "help_savedataextra_text"
 msgstr ""
-"Elija cualesquiera datos extra que querría guardar con la entrada de\n"
-"la planilla."
+"Elija cualesquiera datos extra que querría guardar con la entrada del\n"
+"el formulario."
 
 #: ../content/saveDataAdapter.py:90
 #, fuzzy
@@ -985,14 +940,13 @@ msgstr " Rol bajo el cual se correrá el guión. "
 
 #. Default: "\n                A TALES expression that will be evaluated to override the \"From\" header.\n                Leave empty if unneeded. Your expression should evaluate as a string.\n                PLEASE NOTE: errors in the evaluation of this expression will cause\n                an error on form display.\n            "
 #: ../content/formMailerAdapter.py:401
-#, fuzzy
 msgid "help_sender_override_text"
 msgstr ""
 "Una expresión TALES que será evaluada para sobreescribir cualquier\n"
 "valor dado para el encabezado \"De\".\n"
 "Déjela vacía si no se necesita. Su expresión debería evaluar como una cadena.\n"
 "NOTAR, POR FAVOR: errores en la evaluación de esta expresión causarán\n"
-"un error al mostrar la planilla."
+"un error al mostrar el formulario."
 
 #. Default: "\n                Check this to display input for all fields\n                (except label and file fields). If you check\n                this, the choices in the pick box below\n                will be ignored.\n                "
 #: ../content/thanksPage.py:41
@@ -1024,14 +978,13 @@ msgstr "Muestra el título como leyenda"
 
 #. Default: "\n                A TALES expression that will be evaluated to override any value\n                otherwise entered for the e-mail subject header.\n                Leave empty if unneeded. Your expression should evaluate as a string.\n                PLEASE NOTE: errors in the evaluation of this expression will cause\n                an error on form display.\n            "
 #: ../content/formMailerAdapter.py:380
-#, fuzzy
 msgid "help_subject_override_text"
 msgstr ""
 "Una expresión TALES que será evaluada para sobreescribir cualquier\n"
 "valor que se haya dado para el asunto del mensaje.\n"
 "Déjelo vacío si no lo necesita. Su expresión debería evaluar como una cadena.\n"
 "NOTAR, POR FAVOR: errores en la evaluación de esta expresión causarán\n"
-"un error al mostrar la planilla."
+"un error al mostrar el formulario."
 
 #: ../content/form.py:61
 #, fuzzy
@@ -1046,23 +999,21 @@ msgstr "El texto que se mostrará después de las entradas de los campos."
 
 #. Default: "\n                Pick a contained page you wish to show on a successful\n                form submit. (If none are available, add one.)\n                Choose none to simply display the form\n                field values.\n            "
 #: ../content/form.py:101
-#, fuzzy
 msgid "help_thankspage_text"
 msgstr ""
 "Elija la página contenida que desea que se muestre al enviar\n"
-"exitosamente una planilla. (Si no hay ninguna disponible, adicione\n"
-"una) Escoja \"Ninguna\" para mostrar simplemente los valores de los\n"
-"campos de la planilla."
+"exitosamente un formulario. (Si no hay ninguno disponible, añada\n"
+"uno) Escoja \"Ninguna\" para mostrar simplemente los valores de los\n"
+"campos del formulario."
 
 #. Default: "\n                Use this field in place of a thanks-page designation\n                to determine final action after calling\n                your action adapter (if you have one). You would usually use\n                this for a custom success template or script.\n                Leave empty if unneeded. Otherwise, specify as you would a\n                CMFFormController action type and argument,\n                complete with type of action to execute\n                (e.g., \"redirect_to\" or \"traverse_to\")\n                and a TALES expression. For example,\n                \"redirect_to:string:thanks-page\" would redirect to\n                'thanks-page'.\n            "
 #: ../content/form.py:170
-#, fuzzy
 msgid "help_thankspageoverride_text"
 msgstr ""
 "Use este campo en lugar de una página de agradecimiento para\n"
 "determinar una acción final después de llamar su adaptador de acción\n"
-"(si tiene uno). Usualmente usaría esteo para una planilla o guión de\n"
-"éxito personalidos.  Dejar vacío si no se necesita. Si no, especifique\n"
+"(si tiene uno). Usualmente usaría éste para un formulario o script \n"
+"personalizado enviado con éxito. Dejar vacío si no se necesita. Si no, especifique\n"
 "como lo haría con un tipo de acción y argumento de un\n"
 "CMFFormController, completo con el tipo de acción a ejecutar (ej.:\n"
 "\"redirect_to\" o \"traverse_to\") y una expresión TALES. Por ejemplo:\n"
@@ -1102,9 +1053,8 @@ msgstr "Guión Posterior a la Validación"
 
 #. Default: "Form Setup Script"
 #: ../content/form.py:210
-#, fuzzy
 msgid "label_OnDisplayOverride_text"
-msgstr "Guión de preparación de la planilla"
+msgstr "Guión de preparación del formulario"
 
 #. Default: "Action Adapter"
 #: ../content/form.py:85
@@ -1157,9 +1107,8 @@ msgstr "vaya aquí"
 
 #. Default: "Form Epilogue"
 #: ../content/form.py:155
-#, fuzzy
 msgid "label_epilogue_text"
-msgstr "Epílogo de la Planilla"
+msgstr "Epílogo del formulario"
 
 #. Default: "Execution Condition"
 #: ../content/actionAdapter.py:39
@@ -1346,9 +1295,8 @@ msgstr "Forzar SSL"
 
 #. Default: "Custom Form Action"
 #: ../content/form.py:192
-#, fuzzy
 msgid "label_formactionoverride_text"
-msgstr "Acción Personalizada de la Planilla"
+msgstr "Acción personalizada del formulario"
 
 #. Default: "Additional Headers"
 #: ../content/formMailerAdapter.py:335
@@ -1382,9 +1330,8 @@ msgstr "Cuerpo (al principio)"
 
 #. Default: "Mail-Body Template"
 #: ../content/formMailerAdapter.py:284
-#, fuzzy
 msgid "label_formmailer_body_pt"
-msgstr "Planilla del cuerpo del mensaje"
+msgstr "Plantilla del cuerpo del mensaje"
 
 #. Default: "Mail-Body Type"
 #: ../content/formMailerAdapter.py:300
@@ -1506,9 +1453,8 @@ msgstr "Anterior"
 
 #. Default: "Form Prologue"
 #: ../content/form.py:136
-#, fuzzy
 msgid "label_prologue_text"
-msgstr "Prólogo de la Planilla"
+msgstr "Prólogo del formulario"
 
 #. Default: "Recipient Expression"
 #: ../content/formMailerAdapter.py:419
@@ -1542,9 +1488,8 @@ msgstr "Datos Extra"
 
 #. Default: "Saved Form Input"
 #: ../content/saveDataAdapter.py:89
-#, fuzzy
 msgid "label_savedatainput_text"
-msgstr "Entrada de la Planilla Guardada"
+msgstr "Entrada del formulario guardado"
 
 #. Default: "Script body"
 #: ../content/customScriptAdapter.py:105
