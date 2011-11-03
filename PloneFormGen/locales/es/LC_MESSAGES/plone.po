@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PloneFormGen 0.2\n"
 "POT-Creation-Date: 2011-10-31 07:54+0000\n"
-"PO-Revision-Date: 2011-10-31 12:15+0100\n"
+"PO-Revision-Date: 2011-11-03 11:49+0100\n"
 "Last-Translator: Corina Riba Santos <corina.riba@upcnet.es>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -465,10 +465,9 @@ msgstr ""
 
 #. Default: "\n                Check this to employ Cross-Site Request Forgery protection.\n                Note that only HTTP Post actions will be allowed.\n            "
 #: ../content/form.py:279
-#, fuzzy
 msgid "help_csrf"
 msgstr ""
-"Marque esto para proteger la solicitud de falsificación entre sitios.\n"
+"Marque esta opción para proteger la solicitud de falsificación entre sitios.\n"
 "Tenga en cuenta que solo están admitidas las acciones HTTP."
 
 #. Default: "The text will be displayed after the form fields."
@@ -490,7 +489,6 @@ msgstr ""
 
 #. Default: "String to use in thanks page and mail when the field's checkbox is unchecked."
 #: ../content/fields.py:353
-#, fuzzy
 msgid "help_fgbooleanfalsestring_text"
 msgstr "Frase para usar en la página de agradecimiento y en los correos cuando la casilla de verificación está desmarcada."
 
@@ -501,7 +499,6 @@ msgstr "Cadena a usar en la página de agradecimientos cuando la palomilla del c
 
 #. Default: "Choose a validator to require a particular response."
 #: ../content/fields.py:335
-#, fuzzy
 msgid "help_fgbooleanvalidator_text"
 msgstr "Escoja un validador para requerir una respuesta particular."
 
@@ -515,24 +512,21 @@ msgstr ""
 
 #. Default: "The last year to offer in the year drop-down.\n                 Leave this empty if you wish to instead use a number of future years."
 #: ../content/fields.py:465
-#, fuzzy
 msgid "help_fgendingyear_text"
 msgstr ""
 "El último año a mostrar en el desplegable de años.\n"
 " Deje el desplegable vacío si desea usar el número de años futuros."
 
 #: ../content/fields.py:706
-#, fuzzy
 msgid "help_fgformat_text"
-msgstr "Tipo de la presentación"
+msgstr "Tipo de presentación"
 
 #. Default: "The number of future years to offer in the year drop-down.\n                 (This is only applicable if you have not specified an ending year.)"
 #: ../content/fields.py:475
-#, fuzzy
 msgid "help_fgfutureyears_text"
 msgstr ""
 "El número de años futuros a mostrar en el desplegable de años.\n"
-" (Sólo es aplicable si no has especificado el último año.)"
+" (Sólo es aplicable se ha especificado el último año.)"
 
 #. Default: "\n                    The text to display in the form.\n                "
 #: ../content/fields.py:1106
@@ -541,13 +535,11 @@ msgstr "El texto a mostrar en el formulario."
 
 #. Default: "List of possible answers for each of the questions;\n                    these will be the columns of the table."
 #: ../content/formLikertField.py:80
-#, fuzzy
 msgid "help_fglikert_answers"
 msgstr "Liste las posibles respuesta para cada pregunta; serán las columnas de la tabla."
 
 #. Default: "List of questions; these will be the rows of the table."
 #: ../content/formLikertField.py:70
-#, fuzzy
 msgid "help_fglikert_questions"
 msgstr "Lista las preguntas; serán las filas de la tabla."
 
@@ -562,42 +554,35 @@ msgstr ""
 
 #. Default: "\n                The maximum number of characters the user will be able to input.\n                "
 #: ../content/fieldsBase.py:105
-#, fuzzy
 msgid "help_fgmaxlength_text"
 msgstr ""
 "El número máximo de caracteres que el usuario podrá entrar.\n"
 "Use 0 para no poner límite."
 
 #: ../content/fields.py:803
-#, fuzzy
 msgid "help_fgmsformat_text"
-msgstr "Control de Presentación"
+msgstr "Control de presentación"
 
 #. Default: "Input tests using HTMLTidy (if installed)."
 #: ../content/fields.py:1026
-#, fuzzy
 msgid "help_fgrtvalidator_text"
-msgstr "Prueba la entrada con HTMLTidy (de estar instalado)."
+msgstr "Prueba la entrada con HTMLTidy (si está instalado)."
 
 #: ../content/fields.py:447
-#, fuzzy
 msgid "help_fgshowhm_text"
 msgstr "Mostrar las opciones de selección horaria"
 
 #. Default: "The size of the text-entry box, in characters."
 #: ../content/fieldsBase.py:140
-#, fuzzy
 msgid "help_fgsize_text"
 msgstr "El tamaño de la caja de entrada de texto, en caracteres."
 
 #: ../content/fields.py:456
-#, fuzzy
 msgid "help_fgstartingyear_text"
 msgstr "El primer año que aparecerá en el desplegable"
 
 #. Default: "Tests input against simple string patterns."
 #: ../content/fields.py:57
-#, fuzzy
 msgid "help_fgstringvalidator_text"
 msgstr "Prueba la entrada contra patrones de cadena simples."
 
@@ -615,12 +600,11 @@ msgstr ""
 
 #. Default: "\n                    A TALES expression that will be evaluated when the form is displayed\n                    to determine whether or not the field is enabled.\n                    Your expression should evaluate as True if\n                    the field should be included in the form, False if it should be omitted.\n                    Leave this expression field empty if unneeded: the field will be included. \n                    PLEASE NOTE: errors in the evaluation of this expression will cause\n                    an error on form display.\n                "
 #: ../content/fieldsBase.py:237
-#, fuzzy
 msgid "help_fgtenable_text"
 msgstr ""
 "Una expresión TALES que será evaluada cuando el formulario se muestre\n"
 "para obtener el valor por omisión del campo.\n"
-"Deje-la vacía si no la necesita. Su expresión se tendría que evaluar como\n"
+"Dejela vacía si no la necesita. Su expresión se tendría que evaluar como\n"
 "una cadena.\n"
 "NOTA: los errores en la evaluación de esta expresión causarán\n"
 "un error al mostrar el formulario."
@@ -670,25 +654,22 @@ msgstr ""
 
 #. Default: "\n                Use one line per option.\n                Note that this may be overridden dynamically.\n                [Note, you may optionally use a \"value|label\" format.]\n                "
 #: ../content/fieldsBase.py:150
-#, fuzzy
 msgid "help_fgvocabulary_text"
 msgstr ""
 "Use una línea por opción.\n"
-"Observe que esto puede sobreescribirse dinámicamente.\n"
-"[Nota: usted puede opcionalmente usar un formato \"valor|etiqueta\".]"
+"Observe que puede sobreescribirse dinámicamente.\n"
+"[Nota: opcionalmente puede usarse un formato \"valor|etiqueta\".]"
 
 #. Default: "Set to 0 for no limit."
 #: ../content/fields.py:1195
-#, fuzzy
 msgid "help_filemaxmb_text"
 msgstr "Poner a 0 para no poner límite."
 
 #. Default: "\n                Check this to make the form redirect to an SSL-enabled\n                version of itself (https://) if accessed via a non-SSL\n                URL (http://).  In order to function properly,\n                this requires a web server that has been configured to\n                handle the HTTPS protocol on port 443 and forward it to Zope.\n            "
 #: ../content/form.py:115
-#, fuzzy
 msgid "help_force_ssl"
 msgstr ""
-"Marque esto para hacer una redirección SSL de si mismo (https: / /)\n"
+"Marque esta opción para hacer una redirección SSL de si mismo (https: / /)\n"
 "en caso de acceder a través de una no-SSL URL (http://). Para funcionar correctamente,\n"
 "requiere un servidor web configurado con el protocolo HTTPS en el puerto 443 y lo remitirá a Zope."
 
@@ -703,36 +684,31 @@ msgstr ""
 
 #. Default: "\n                Additional e-mail-header lines.\n                Only use RFC822-compliant headers.\n                "
 #: ../content/formMailerAdapter.py:336
-#, fuzzy
 msgid "help_formmailer_additional_headers"
 msgstr ""
-"Cabeceras adicionares de correo-e.\n"
-"Use sólo cabeceras que conformen con RFC822."
+"Cabeceras adicionares de correo electrónico.\n"
+"Use sólo cabeceras conformes con RFC822."
 
 #. Default: "E-mail addresses which receive a blind carbon copy."
 #: ../content/formMailerAdapter.py:136
-#, fuzzy
 msgid "help_formmailer_bcc_recipients"
-msgstr "Direcciones de correo-e que recibirán una copia de carbón ciega."
+msgstr "Direcciones de correo electrónico que recibirán el mensaje en copia oculta."
 
 #. Default: "Text used as the footer at bottom, delimited from the body by a dashed line."
 #: ../content/formMailerAdapter.py:225
-#, fuzzy
 msgid "help_formmailer_body_footer"
 msgstr "Texto usado como la firma al final, delimitado del cuerpo por una línea rayada."
 
 #. Default: "Text appended to fields listed in mail-body"
 #: ../content/formMailerAdapter.py:212
-#, fuzzy
 msgid "help_formmailer_body_post"
 msgstr "Texto adicionado a los campos listados"
 
 #. Default: "Text prepended to fields listed in mail-body"
 #: ../content/formMailerAdapter.py:200
-#, fuzzy
 msgid "help_formmailer_body_pre"
 msgstr ""
-"Texto adicionado al principio de los campos listados en el cuerpo del\n"
+"Texto añadido al principio de los campos listados en el cuerpo del\n"
 "correo."
 
 #. Default: "This is a Zope Page Template\n            used for rendering of the mail-body. You don't need to modify \n            it, but if you know TAL (Zope's Template Attribute Language) \n            you have the full power to customize your outgoing mails."
@@ -746,7 +722,6 @@ msgstr ""
 
 #. Default: "Set the mime-type of the mail-body. \n            Change this setting only if you know exactly what you are doing. \n            Leave it blank for default behaviour."
 #: ../content/formMailerAdapter.py:296
-#, fuzzy
 msgid "help_formmailer_body_type"
 msgstr ""
 "Establece el tipo MIME del cuerpo del mensaje. Cambie esto solo si\n"
@@ -755,15 +730,13 @@ msgstr ""
 
 #. Default: "E-mail addresses which receive a carbon copy."
 #: ../content/formMailerAdapter.py:122
-#, fuzzy
 msgid "help_formmailer_cc_recipients"
-msgstr "Direcciones de correo-e que recibirán una copia de carbón."
+msgstr "Direcciones de correo electrónico que recibirán una copia del mensaje."
 
 #. Default: "The recipients e-mail address."
 #: ../content/formMailerAdapter.py:88
-#, fuzzy
 msgid "help_formmailer_recipient_email"
-msgstr "La dirección de correo-e del destinatario."
+msgstr "La dirección de correo electrónico del destinatario."
 
 #. Default: "\n                The full name of the recipient of the mailed form.\n                "
 #: ../content/formMailerAdapter.py:73
@@ -780,7 +753,6 @@ msgstr ""
 
 #. Default: "\n                Subject line of message. This is used if you\n                do not specify a subject field or if the field\n                is empty.\n                "
 #: ../content/formMailerAdapter.py:166
-#, fuzzy
 msgid "help_formmailer_subject"
 msgstr ""
 "Línea del asunto del mensaje. Esta se usa si no especifica un campo de\n"
@@ -788,10 +760,9 @@ msgstr ""
 
 #. Default: "\n                Choose a form field from which you wish to extract\n                input for the mail subject line.\n                "
 #: ../content/formMailerAdapter.py:185
-#, fuzzy
 msgid "help_formmailer_subject_extract"
 msgstr ""
-"Escoja un campo del formulario del cual usted desea extraer la entrada\n"
+"Escoja un campo del formulario, del cual se desea extraer la entrada\n"
 "para la línea de asunto."
 
 #. Default: "\n                Choose a form field from which you wish to extract\n                input for the To header. If you choose anything other\n                than \"None\", this will override the \"Recipient's e-mail address\"\n                setting above. Be very cautious about allowing unguarded user\n                input for this purpose.\n                "
@@ -807,10 +778,9 @@ msgstr ""
 
 #. Default: "NOTE: For a fixed-point field, the required flag will not allow\n           entry of a '0' value.\n        "
 #: ../content/fields.py:267
-#, fuzzy
 msgid "help_fprequired_text"
 msgstr ""
-"NOTA: Para un campo decimal, si está seleccionado el flag requerido no\n"
+"NOTA: Para un campo decimal, si está  el flag seleccionado no\n"
 "permitirá la entrada del valor '0'."
 
 #. Default: "\n                    Give your key-id, e-mail address or\n                    whatever works to match a public key from current keyring.\n                    It will be used to encrypt the message body.\n                    Contact the site administrator if you need to\n                    install a new public key.\n                    Note that you will probably wish to change your message\n                    template to plain text if you're using encryption.\n                    TEST THIS FEATURE BEFORE GOING PUBLIC!\n                    "
@@ -838,7 +808,6 @@ msgstr ""
 
 #. Default: "\n                Check this to display field titles\n                for fields that received no input. Uncheck\n                to leave fields with no input off the list.\n                "
 #: ../content/thanksPage.py:67
-#, fuzzy
 msgid "help_includeEmpties_text"
 msgstr ""
 "Marque esto para mostrar los títulos de los campos para aquellos que\n"
@@ -847,13 +816,11 @@ msgstr ""
 
 #. Default: "\n                Check this to include titles\n                for fields that received no input. Uncheck\n                to leave fields with no input out of the e-mail.\n                "
 #: ../content/formMailerAdapter.py:267
-#, fuzzy
 msgid "help_mailEmpties_text"
-msgstr "Seleccionar para incluir los títulos de los campos sin respuesta. Si no se selecciona no se incluirán los campos sin respuesta en el correo."
+msgstr "Seleccionar para incluir los títulos de los campos sin respuesta. Si no se selecciona, no se incluirán los campos sin respuesta en el correo."
 
 #. Default: "\n                Check this to include input for all fields\n                (except label and file fields). If you check\n                this, the choices in the pick box below\n                will be ignored.\n                "
 #: ../content/formMailerAdapter.py:239
-#, fuzzy
 msgid "help_mailallfields_text"
 msgstr ""
 "Seleccione para incluir la entrada de todos los campos\n"
@@ -862,11 +829,10 @@ msgstr ""
 
 #. Default: "\n                Pick the fields whose inputs you'd like to include in\n                the e-mail.\n                "
 #: ../content/formMailerAdapter.py:254
-#, fuzzy
 msgid "help_mailfields_text"
 msgstr ""
-"Seleccione los campos que desea incluir la respuesta en\n"
-" el correo."
+"Seleccione los campos cuya respuesta desea incluir en\n"
+" el correo electrónico."
 
 #. Default: "\n                    The form will not accept values greater than the number you enter here.\n                "
 #: ../content/fields.py:185
@@ -888,7 +854,6 @@ msgstr ""
 
 #. Default: "Not displayed on form."
 #: ../content/fields.py:1133
-#, fuzzy
 msgid "help_notdisplayed_text"
 msgstr "No se mostrará en el formulario."
 
@@ -910,9 +875,8 @@ msgstr ""
 "un error al mostrar el formulario."
 
 #: ../content/fieldsBase.py:96
-#, fuzzy
 msgid "help_rows_text"
-msgstr "Introduzca el número de filas para este campo. Este valores aplicable únicamente en el tipo 'área de texto'"
+msgstr "Introduzca el número de filas para este campo. Este valor es aplicable únicamente en el tipo 'área de texto'."
 
 #. Default: "\n                    Pick any extra data you'd like saved with the form input.\n                    "
 #: ../content/saveDataAdapter.py:56
@@ -922,21 +886,18 @@ msgstr ""
 "el formulario."
 
 #: ../content/saveDataAdapter.py:90
-#, fuzzy
 msgid "help_savedatainput_text"
 msgstr "Entrada del formulario guardada"
 
 #. Default: " Write your script here. "
 #: ../content/customScriptAdapter.py:108
-#, fuzzy
 msgid "help_script_body"
 msgstr "Escribir el script aquí."
 
 #. Default: " Role under which to run the script. "
 #: ../content/customScriptAdapter.py:94
-#, fuzzy
 msgid "help_script_proxy"
-msgstr " Rol bajo el cual se correrá el guión. "
+msgstr "Rol bajo el cual se ejecutará el script."
 
 #. Default: "\n                A TALES expression that will be evaluated to override the \"From\" header.\n                Leave empty if unneeded. Your expression should evaluate as a string.\n                PLEASE NOTE: errors in the evaluation of this expression will cause\n                an error on form display.\n            "
 #: ../content/formMailerAdapter.py:401
@@ -950,29 +911,25 @@ msgstr ""
 
 #. Default: "\n                Check this to display input for all fields\n                (except label and file fields). If you check\n                this, the choices in the pick box below\n                will be ignored.\n                "
 #: ../content/thanksPage.py:41
-#, fuzzy
 msgid "help_showallfields_text"
 msgstr ""
-"Marque esto para mostrar la entrada para todos los campos (excepto\n"
+"Marque esta opción para mostrar la entrada para todos los campos (excepto\n"
 "etiquetas y campos de archivos). Si marca esto, las opciones en la\n"
 "caja de elección debajo serán ignoradas."
 
 #: ../content/form.py:71
-#, fuzzy
 msgid "help_showcancel_text"
 msgstr "Muestra el botón \"Reiniciar\""
 
 #. Default: "\n                Pick the fields whose inputs you'd like to display on\n                the success page.\n                "
 #: ../content/thanksPage.py:55
-#, fuzzy
 msgid "help_showfields_text"
 msgstr ""
-"Elija los campos cuyas entradas a usted le gustaría mostrar en la\n"
-"página de éxito."
+"Elija los campos cuyas entradas le gustaría mostrar en la\n"
+"página de final correcto."
 
 #: ../content/fields.py:1317
 #: ../content/fieldset.py:46
-#, fuzzy
 msgid "help_showlegend_text"
 msgstr "Muestra el título como leyenda"
 
@@ -987,13 +944,11 @@ msgstr ""
 "un error al mostrar el formulario."
 
 #: ../content/form.py:61
-#, fuzzy
 msgid "help_submitlabel_text"
 msgstr "Nombre que aparecerá en el botón que se utilizará para enviar."
 
 #. Default: "The text will be displayed after the field inputs."
 #: ../content/thanksPage.py:103
-#, fuzzy
 msgid "help_thanksepilogue_text"
 msgstr "El texto que se mostrará después de las entradas de los campos."
 
@@ -1022,34 +977,29 @@ msgstr ""
 
 #. Default: "This text will be displayed above the selected field inputs."
 #: ../content/thanksPage.py:86
-#, fuzzy
 msgid "help_thanksprologue_text"
-msgstr "Este texto se mostrará arriba de los campos de entrada seleccionados."
+msgstr "Este texto se mostrará encima de los campos de entrada seleccionados."
 
 #. Default: "Do you wish to have column names on the first line of downloaded input?"
 #: ../content/saveDataAdapter.py:77
-#, fuzzy
 msgid "help_usecolumnnames_text"
-msgstr "Desea tener nombres de columnas en la primera línea de entrada descargada?"
+msgstr "¿Desea incluir los nombres de columnas en la primera línea de la entrada descargada?"
 
 #. Default: "\n                Pick any items from the HTTP headers that\n                you'd like to insert as X- headers in the\n                message.\n                "
 #: ../content/formMailerAdapter.py:319
-#, fuzzy
 msgid "help_xinfo_headers_text"
 msgstr ""
 "Elija los elementos de los encabezados HTTP que le gustaría insertar\n"
-"como cabeceras X- en el mensaje."
+"como cabeceras en el mensaje."
 
 #: ../browser/exportimport.py:48
-#, fuzzy
 msgid "import"
 msgstr "Importar"
 
 #. Default: "After Validation Script"
 #: ../content/form.py:234
-#, fuzzy
 msgid "label_AfterValidationOverride_text"
-msgstr "Guión Posterior a la Validación"
+msgstr "Después de la validación del script"
 
 #. Default: "Form Setup Script"
 #: ../content/form.py:210
@@ -1058,21 +1008,18 @@ msgstr "Guión de preparación del formulario"
 
 #. Default: "Action Adapter"
 #: ../content/form.py:85
-#, fuzzy
 msgid "label_actionadapter_text"
-msgstr "Adaptador de Acción"
+msgstr "Adaptador de acción"
 
 #. Default: "Apply Changes"
 #: ../skins/PloneFormGen/prefs_pfg_addressing.cpt:109
 #: ../skins/PloneFormGen/prefs_pfg_mtemplate.cpt:101
 #: ../skins/PloneFormGen/prefs_pfg_permits.cpt:104
-#, fuzzy
 msgid "label_apply_changes"
-msgstr "Aplicar Cambios"
+msgstr "Aplicar cambios"
 
 #. Default: "BCC Expression"
 #: ../content/formMailerAdapter.py:440
-#, fuzzy
 msgid "label_bcc_override_text"
 msgstr "Expresión de CCO"
 
@@ -1083,25 +1030,21 @@ msgstr "Cancelar"
 
 #. Default: "CSRF Protection"
 #: ../content/form.py:278
-#, fuzzy
 msgid "label_csrf"
 msgstr "Protección CSRF"
 
 #. Default: "Download Format"
 #: ../content/saveDataAdapter.py:69
-#, fuzzy
 msgid "label_downloadformat_text"
-msgstr "Formato de Descarga"
+msgstr "Formato de descarga"
 
 #. Default: "You are editing the default view of a container. If you wanted to edit the container itself, ${go_here}."
 #: ../skins/PloneFormGen/fg_edit_macros_p3.pt:41
-#, fuzzy
 msgid "label_edit_default_view_container"
 msgstr "Está editando la vista por defecto de un contenedor. Si desea editar el propio contenedor, ${go_here}."
 
 #. Default: "go here"
 #: ../skins/PloneFormGen/fg_edit_macros_p3.pt:41
-#, fuzzy
 msgid "label_edit_default_view_container_go_here"
 msgstr "vaya aquí"
 
@@ -1112,9 +1055,8 @@ msgstr "Epílogo del formulario"
 
 #. Default: "Execution Condition"
 #: ../content/actionAdapter.py:39
-#, fuzzy
 msgid "label_execcondition_text"
-msgstr "Condición de Ejecución"
+msgstr "Condición de ejecución"
 
 #. Default: "False Display String"
 #: ../content/fields.py:352
@@ -1128,135 +1070,113 @@ msgstr "Cadena a mostrar para 'Verdadero'"
 
 #. Default: "Validator"
 #: ../content/fields.py:334
-#, fuzzy
 msgid "label_fgbooleanvalidator_text"
 msgstr "Validador"
 
 #. Default: "Default"
 #: ../content/fields.py:327
 #: ../content/fieldsBase.py:275
-#, fuzzy
 msgid "label_fgdefault_text"
 msgstr "Por omisión"
 
 #. Default: "Ending Year"
 #: ../content/fields.py:464
-#, fuzzy
 msgid "label_fgendingyear_text"
 msgstr "Año final"
 
 #. Default: "Presentation Widget"
 #: ../content/fields.py:705
-#, fuzzy
 msgid "label_fgformat_text"
-msgstr "Control de Presentación"
+msgstr "Control de presentación"
 
 #. Default: "Future Years To Display"
 #: ../content/fields.py:474
-#, fuzzy
 msgid "label_fgfutureyears_text"
 msgstr "Años futuros a mostrar"
 
 #. Default: "Label body"
 #: ../content/fields.py:1105
-#, fuzzy
 msgid "label_fglabelbody_text"
 msgstr "Cuerpo de la etiqueta"
 
 #. Default: "Answers"
 #: ../content/formLikertField.py:79
-#, fuzzy
 msgid "label_fglikert_answers"
 msgstr "Respuestas"
 
 #. Default: "Questions"
 #: ../content/formLikertField.py:69
-#, fuzzy
 msgid "label_fglikert_questions"
 msgstr "Preguntas"
 
 #. Default: "Default"
 #: ../content/fieldsBase.py:293
-#, fuzzy
 msgid "label_fglinesdefault_text"
 msgstr "Por omisión"
 
 #. Default: "Max Length"
 #: ../content/fieldsBase.py:104
-#, fuzzy
 msgid "label_fgmaxlength_text"
-msgstr "Longitud Máxima"
+msgstr "Longitud máxima"
 
 #. Default: "Presentation Widget"
 #: ../content/fields.py:802
-#, fuzzy
 msgid "label_fgmsformat_text"
-msgstr "Control de Presentación"
+msgstr "Control de presentación"
 
 #. Default: "Show Time Selection Options"
 #: ../content/fields.py:446
-#, fuzzy
 msgid "label_fgshowhm_text"
-msgstr "Mostrar Opciones de Selección de Hora"
+msgstr "Mostrar opciones de selección de hora"
 
 #. Default: "Size"
 #: ../content/fieldsBase.py:139
-#, fuzzy
 msgid "label_fgsize_text"
 msgstr "Tamaño"
 
 #. Default: "Starting Year"
 #: ../content/fields.py:455
-#, fuzzy
 msgid "label_fgstartingyear_text"
 msgstr "Año incial"
 
 #. Default: "Validator"
 #: ../content/fields.py:55
-#, fuzzy
 msgid "label_fgstringvalidator_text"
 msgstr "Validador"
 
 #. Default: "Default Expression"
 #: ../content/fields.py:1119
 #: ../content/fieldsBase.py:216
-#, fuzzy
 msgid "label_fgtdefault_text"
-msgstr "Expresión por Omisión"
+msgstr "Expresión por omisión"
 
 #. Default: "Enabling Expression"
 #: ../content/fieldsBase.py:236
-#, fuzzy
 msgid "label_fgtenable_text"
 msgstr "Activar expresión"
 
 #. Default: "Default"
 #: ../content/fieldsBase.py:332
-#, fuzzy
 msgid "label_fgtextdefault_text"
-msgstr "Por Omisión"
+msgstr "Por omisión"
 
 #. Default: "Default Expression"
 #: ../content/fieldsBase.py:309
-#, fuzzy
 msgid "label_fgtlinesdefault_text"
-msgstr "Expresión por Omisión"
+msgstr "Expresión por omisión"
 
 #. Default: "Custom Validator"
 #: ../content/fieldsBase.py:76
-#, fuzzy
 msgid "label_fgtvalidator_text"
-msgstr "Validador Personalizado"
+msgstr "Validador personalizado"
 
 #. Default: "Options Vocabulary"
 #: ../content/fieldsBase.py:166
-#, fuzzy
 msgid "label_fgtvocabulary_text"
-msgstr "Vocabulario de Opciones"
+msgstr "Vocabulario de opciones"
 
 #. Default: "Options"
 #: ../content/fieldsBase.py:148
-#, fuzzy
 msgid "label_fgvocabulary_text"
 msgstr "Opciones"
 
@@ -1272,7 +1192,6 @@ msgstr "Etiqueta del Campo"
 
 #. Default: "Fieldset Help"
 #: ../content/fieldset.py:51
-#, fuzzy
 msgid "label_fieldsethelp_text"
 msgstr "Ayuda del conjunto de campos"
 
@@ -1283,13 +1202,11 @@ msgstr "Tipo de archivo"
 
 #. Default: "Maximum Upload Size (Megabytes)"
 #: ../content/fields.py:1194
-#, fuzzy
 msgid "label_filemaxmb_text"
-msgstr "Tamaño Máximo de la Subida (Megabytes)"
+msgstr "Tamaño máximo de la subida (Mbytes)"
 
 #. Default: "Force SSL connection"
 #: ../content/form.py:114
-#, fuzzy
 msgid "label_force_ssl"
 msgstr "Forzar SSL"
 
@@ -1300,31 +1217,26 @@ msgstr "Acción personalizada del formulario"
 
 #. Default: "Additional Headers"
 #: ../content/formMailerAdapter.py:335
-#, fuzzy
 msgid "label_formmailer_additional_headers"
-msgstr "Cabeceras Adicionales"
+msgstr "Cabeceras adicionales"
 
 #. Default: "BCC Recipients"
 #: ../content/formMailerAdapter.py:134
-#, fuzzy
 msgid "label_formmailer_bcc_recipients"
 msgstr "Destinatarios BCC"
 
 #. Default: "Body (signature)"
 #: ../content/formMailerAdapter.py:228
-#, fuzzy
 msgid "label_formmailer_body_footer"
 msgstr "Cuerpo (firma)"
 
 #. Default: "Body (appended)"
 #: ../content/formMailerAdapter.py:214
-#, fuzzy
 msgid "label_formmailer_body_post"
-msgstr "Cuerpo (adicionado)"
+msgstr "Cuerpo (añadido)"
 
 #. Default: "Body (prepended)"
 #: ../content/formMailerAdapter.py:202
-#, fuzzy
 msgid "label_formmailer_body_pre"
 msgstr "Cuerpo (al principio)"
 
@@ -1335,105 +1247,88 @@ msgstr "Plantilla del cuerpo del mensaje"
 
 #. Default: "Mail-Body Type"
 #: ../content/formMailerAdapter.py:300
-#, fuzzy
 msgid "label_formmailer_body_type"
-msgstr "Tipo del Cuerpo del Mensaje"
+msgstr "Tipo de cuerpo del mensaje"
 
 #. Default: "CC Recipients"
 #: ../content/formMailerAdapter.py:120
-#, fuzzy
 msgid "label_formmailer_cc_recipients"
 msgstr "Destinatarios CC"
 
 #. Default: "Recipient's e-mail address"
 #: ../content/formMailerAdapter.py:86
-#, fuzzy
 msgid "label_formmailer_recipient_email"
-msgstr "Dirección de correo-e del destinatario"
+msgstr "Dirección de correo electrónico del destinatario"
 
 #. Default: "Recipient's full name"
 #: ../content/formMailerAdapter.py:71
-#, fuzzy
 msgid "label_formmailer_recipient_fullname"
 msgstr "Nombre completo del destinatario"
 
 #. Default: "Extract Reply-To From"
 #: ../content/formMailerAdapter.py:148
-#, fuzzy
 msgid "label_formmailer_replyto_extract"
-msgstr "Extraer Responder-A Desde"
+msgstr "Extraer \"Responder a\" de"
 
 #. Default: "Subject"
 #: ../content/formMailerAdapter.py:172
-#, fuzzy
 msgid "label_formmailer_subject"
 msgstr "Asunto"
 
 #. Default: "Extract Subject From"
 #: ../content/formMailerAdapter.py:183
-#, fuzzy
 msgid "label_formmailer_subject_extract"
-msgstr "Extraer el Asunto Desde"
+msgstr "Extraer \"Asunto\" de"
 
 #. Default: "Extract Recipient From"
 #: ../content/formMailerAdapter.py:101
-#, fuzzy
 msgid "label_formmailer_to_extract"
-msgstr "Extraer Destinatario Desde"
+msgstr "Extraer \"Destinatario\" de"
 
 #. Default: "Key-Id"
 #: ../content/formMailerAdapter.py:363
-#, fuzzy
 msgid "label_gpg_key_id"
 msgstr "Clave GPG"
 
 #. Default: "Header Injection"
 #: ../content/form.py:259
-#, fuzzy
 msgid "label_headerInjection_text"
-msgstr "Inyección de Encabezado"
+msgstr "Inyección de encabezado"
 
 #. Default: "Hidden"
 #: ../content/fieldsBase.py:206
-#, fuzzy
 msgid "label_hidden_text"
 msgstr "Oculto"
 
 #. Default: "Include Empties"
 #: ../content/thanksPage.py:66
-#, fuzzy
 msgid "label_includeEmpties_text"
-msgstr "Incluir Vacíos"
+msgstr "Incluir vacíos"
 
 #. Default: "Include Empties"
 #: ../content/formMailerAdapter.py:266
-#, fuzzy
 msgid "label_mailEmpties_text"
 msgstr "Incluir campos vacíos"
 
 #. Default: "Include All Fields"
 #: ../content/formMailerAdapter.py:238
-#, fuzzy
 msgid "label_mailallfields_text"
 msgstr "Incluir todos los campos"
 
 #. Default: "Show Responses"
 #: ../content/formMailerAdapter.py:253
-#, fuzzy
 msgid "label_mailfields_text"
 msgstr "Muestra respuestas"
 
 #. Default: "Maximum Acceptable Value"
 #: ../content/fields.py:184
-#, fuzzy
 msgid "label_maxval_text"
-msgstr "Valor Máximo Aceptable"
+msgstr "Valor máximo aceptado"
 
 #. Default: "Minimum Acceptable Value"
 #: ../content/fields.py:172
-#, fuzzy
 msgid "label_minval_text"
-msgstr "Valor Mínimo Aceptable"
+msgstr "Valor mínimo aceptado"
 
 #. Default: "Next"
 #: ../skins/PloneFormGen/fg_edit_macros_p3.pt:212
@@ -1442,9 +1337,8 @@ msgstr "Siguiente"
 
 #. Default: "No Submit Message"
 #: ../content/thanksPage.py:121
-#, fuzzy
 msgid "label_nosubmit_text"
-msgstr "Mensaje de No Envío"
+msgstr "Mensaje de no enviado"
 
 #. Default: "Previous"
 #: ../skins/PloneFormGen/fg_edit_macros_p3.pt:205
@@ -1458,33 +1352,28 @@ msgstr "Prólogo del formulario"
 
 #. Default: "Recipient Expression"
 #: ../content/formMailerAdapter.py:419
-#, fuzzy
 msgid "label_recipient_override_text"
-msgstr "Expresión para Recipiente"
+msgstr "Expresión para el receptor"
 
 #. Default: "Required"
 #: ../content/fieldsBase.py:198
-#, fuzzy
 msgid "label_required_text"
 msgstr "Requerido"
 
 #. Default: "Reset Button Label"
 #: ../content/form.py:79
-#, fuzzy
 msgid "label_reset_button"
-msgstr "Nombre que saldrá en el botón que se utilizará para Reiniciar"
+msgstr "Nombre que saldrá en el botón que se utilizará para \"Reiniciar\""
 
 #. Default: "Rows"
 #: ../content/fieldsBase.py:95
-#, fuzzy
 msgid "label_rows_text"
 msgstr "Filas"
 
 #. Default: "Extra Data"
 #: ../content/saveDataAdapter.py:55
-#, fuzzy
 msgid "label_savedataextra_text"
-msgstr "Datos Extra"
+msgstr "Datos extra"
 
 #. Default: "Saved Form Input"
 #: ../content/saveDataAdapter.py:89
@@ -1493,50 +1382,42 @@ msgstr "Entrada del formulario guardado"
 
 #. Default: "Script body"
 #: ../content/customScriptAdapter.py:105
-#, fuzzy
 msgid "label_script_body"
-msgstr "Cuerpo del guión"
+msgstr "Cuerpo del script"
 
 #. Default: "Proxy role"
 #: ../content/customScriptAdapter.py:93
-#, fuzzy
 msgid "label_script_proxy"
 msgstr "Rol proxy"
 
 #. Default: "Sender Expression"
 #: ../content/formMailerAdapter.py:399
-#, fuzzy
 msgid "label_sender_override_text"
-msgstr "Expresión para el Remitente"
+msgstr "Expresión para el \"Remitente\""
 
 #. Default: "Server-Side Variable"
 #: ../content/fieldsBase.py:256
-#, fuzzy
 msgid "label_server_side_text"
-msgstr "Variable del lado del servidor"
+msgstr "Variable del servidor"
 
 #. Default: "Show All Fields"
 #: ../content/thanksPage.py:40
-#, fuzzy
 msgid "label_showallfields_text"
-msgstr "Mostrar Todos los Campos"
+msgstr "Mostrar todos los campos"
 
 #. Default: "Show Reset Button"
 #: ../content/form.py:69
-#, fuzzy
 msgid "label_showcancel_text"
-msgstr "Mostrar botón de Cancelar"
+msgstr "Mostrar botón de \"Cancelar\""
 
 #. Default: "Show Responses"
 #: ../content/thanksPage.py:54
-#, fuzzy
 msgid "label_showfields_text"
-msgstr "Mostrar Respuestas"
+msgstr "Mostrar respuestas"
 
 #. Default: "Show Title as Legend"
 #: ../content/fields.py:1316
 #: ../content/fieldset.py:45
-#, fuzzy
 msgid "label_showlegend_text"
 msgstr "Muestra el título como una leyenda"
 
@@ -1547,43 +1428,36 @@ msgstr "Tamaño"
 
 #. Default: "Subject Expression"
 #: ../content/formMailerAdapter.py:379
-#, fuzzy
 msgid "label_subject_override_text"
-msgstr "Expresión del Asunto"
+msgstr "Expresión del \"Asunto\""
 
 #. Default: "Submit Button Label"
 #: ../content/form.py:60
-#, fuzzy
 msgid "label_submitlabel_text"
-msgstr "Etiqueta del Botón de Enviado"
+msgstr "Etiqueta del botón de \"Enviado\""
 
 #. Default: "Thanks Epilogue"
 #: ../content/thanksPage.py:102
-#, fuzzy
 msgid "label_thanksepilogue_text"
-msgstr "Epílogo de Agradecimiento"
+msgstr "Epílogo de agradecimiento"
 
 #. Default: "Thanks Page"
 #: ../content/form.py:100
-#, fuzzy
 msgid "label_thankspage_text"
 msgstr "Página de agradecimiento"
 
 #. Default: "Custom Success Action"
 #: ../content/form.py:168
-#, fuzzy
 msgid "label_thankspageoverride_text"
-msgstr "Acción Personalizada de Éxito"
+msgstr "Acción personalizada de éxito"
 
 #. Default: "Thanks Prologue"
 #: ../content/thanksPage.py:85
-#, fuzzy
 msgid "label_thanksprologue_text"
-msgstr "Prólogo de Agradecimiento"
+msgstr "Prólogo de agradecimiento"
 
 #. Default: "Title"
 #: ../content/fields.py:1132
-#, fuzzy
 msgid "label_title"
 msgstr "Título"
 
@@ -1591,31 +1465,26 @@ msgstr "Título"
 #: ../skins/PloneFormGen/prefs_pfg_addressing.cpt:55
 #: ../skins/PloneFormGen/prefs_pfg_mtemplate.cpt:55
 #: ../skins/PloneFormGen/prefs_pfg_permits.cpt:57
-#, fuzzy
 msgid "label_up_to_plone_setup"
-msgstr "Subir a Configuración de Plone"
+msgstr "Subir a configuración de Plone"
 
 #. Default: "Include Column Names"
 #: ../content/saveDataAdapter.py:76
-#, fuzzy
 msgid "label_usecolumnnames_text"
-msgstr "Incluir Nombres de Columnas"
+msgstr "Incluir nombres de columnas"
 
 #. Default: "Reject Text with Links?"
 #: ../content/fields.py:936
-#, fuzzy
 msgid "label_validate_link_spam_text"
 msgstr "¿Descartar texto con enlaces?"
 
 #. Default: "HTTP Headers"
 #: ../content/formMailerAdapter.py:318
-#, fuzzy
 msgid "label_xinfo_headers_text"
 msgstr "Cabeceras HTTP"
 
 #. Default: "Less fields..."
 #: ../browser/jsvariables.py:22
-#, fuzzy
 msgid "less_fields_msg"
 msgstr "Menos campos..."
 
@@ -1626,7 +1495,6 @@ msgstr "mensaje"
 
 #. Default: "More fields..."
 #: ../browser/jsvariables.py:21
-#, fuzzy
 msgid "more_fields_msg"
 msgstr "Más campos..."
 
@@ -1637,13 +1505,11 @@ msgstr "sin entrada"
 
 #. Default: "Captcha field hidden by form editor. Refresh to view it."
 #: ../browser/jsvariables.py:19
-#, fuzzy
 msgid "no_captcha_msg"
-msgstr "Campo Captcha oculto por el  editor del formulario. Recargue para visualizarlo."
+msgstr "Campo Captcha oculto por el editor del formulario. Recargue para visualizarlo."
 
 #. Default: "Order"
 #: ../browser/jsvariables.py:16
-#, fuzzy
 msgid "order"
 msgstr "Orden"
 
@@ -1654,163 +1520,136 @@ msgstr "sobreescrituras"
 
 #. Default: "An answer is required for each question."
 #: ../content/likertField.py:95
-#, fuzzy
 msgid "pfg_allRequired"
 msgstr "Es obligatoria una respuesta para cada pregunta."
 
 #. Default: "Comments"
 #: ../content/form.py:888
-#, fuzzy
 msgid "pfg_commentsfield_title"
 msgstr "Comentarios"
 
 #. Default: "Reset"
 #: ../content/form.py:817
-#, fuzzy
 msgid "pfg_formfolder_reset"
 msgstr "Reiniciar"
 
 #. Default: "Submit"
 #: ../content/form.py:816
-#, fuzzy
 msgid "pfg_formfolder_submit"
 msgstr "Enviar"
 
 #. Default: "Form Submission"
 #: ../content/formMailerAdapter.py:479
-#, fuzzy
 msgid "pfg_formmaileradapter_msg_subject"
 msgstr "Envío de formulario"
 
 #. Default: "This box must be checked."
 #: ../content/validationMessages.py:37
-#, fuzzy
 msgid "pfg_isChecked"
-msgstr "Esta caja debe estar marcada."
+msgstr "Esta opción debe estar marcada."
 
 #. Default: "This field requires a decimal value."
 #: ../content/validationMessages.py:26
-#, fuzzy
 msgid "pfg_isDecimal"
 msgstr "Este campo requiere un valor decimal."
 
 #. Default: "This field requires an integer value."
 #: ../content/validationMessages.py:27
-#, fuzzy
 msgid "pfg_isInt"
 msgstr "Este campo requiere un valor entero."
 
 #. Default: "This is not a valid mailto: url."
 #: ../content/validationMessages.py:35
-#, fuzzy
 msgid "pfg_isMailto"
-msgstr "Esto no es un URL 'mailto:' válido."
+msgstr "Esto no es un URL 'mailto:' válida."
 
 #. Default: "This value contains unprintable characters."
 #: ../content/validationMessages.py:28
-#, fuzzy
 msgid "pfg_isPrintable"
 msgstr "Este valor contiene caracteres no imprimibles."
 
 #. Default: "This field is required."
 #: ../content/validationMessages.py:43
-#, fuzzy
 msgid "pfg_isRequired"
 msgstr "Este campo es requerido."
 
 #. Default: "This is not a well formed SSN."
 #: ../content/validationMessages.py:29
-#, fuzzy
 msgid "pfg_isSSN"
 msgstr "Esto no es un SSN bien formado."
 
 #. Default: "This box must be unchecked."
 #: ../content/validationMessages.py:38
-#, fuzzy
 msgid "pfg_isUnchecked"
-msgstr "Esta caja no puede estar marcada."
+msgstr "Esta opción no puede estar marcada."
 
 #. Default: "This name is not a valid identifier."
 #: ../content/validationMessages.py:36
-#, fuzzy
 msgid "pfg_isUnixLikeName"
 msgstr "Este nombre no es un identificador válido"
 
 #. Default: "The date entered was invalid."
 #: ../content/validationMessages.py:39
-#, fuzzy
 msgid "pfg_isValidDate"
 msgstr "La fecha introducida no es correcta."
 
 #. Default: "This text appears to contain links."
 #: ../content/validationMessages.py:40
-#, fuzzy
 msgid "pfg_isnotlinkspam"
 msgstr "Parece que el texto contiene enlaces."
 
 #. Default: "E-Mails Form Input"
 #: ../content/form.py:836
-#, fuzzy
 msgid "pfg_mailer_description"
-msgstr "Formulario de entrada correos electrónicos"
+msgstr "Formulario de entrada de correos electrónicos"
 
 #. Default: "Mailer"
 #: ../content/form.py:832
-#, fuzzy
 msgid "pfg_mailer_title"
 msgstr "Envío de correo"
 
 #. Default: "Please enter a number here."
 #: ../content/validationMessages.py:74
-#, fuzzy
 msgid "pfg_not_number"
 msgstr "Por favor introduce aquí un número."
 
 #. Default: "'${value}' is too large. Must be no greater than ${max}."
 #: ../content/validationMessages.py:84
-#, fuzzy
 msgid "pfg_number_too_large"
 msgstr "El valor ${value} es demasiado grande. Debería ser como máximo ${max}."
 
 #. Default: "'${value}' is too small. Must be at least ${min}."
 #: ../content/validationMessages.py:78
-#, fuzzy
 msgid "pfg_number_too_small"
 msgstr "El valor ${value} es demasiado pequeño. Debería ser como mínimo ${min}."
 
 #. Default: "Your E-Mail Address"
 #: ../content/form.py:853
-#, fuzzy
 msgid "pfg_replytofield_title"
 msgstr "Su dirección de correo electrónico"
 
 #. Default: "<p>No input was received. Please <a title=\"Test Folder\" href=\".\">visit the form</a>.</p>"
 #: ../content/thanksPage.py:191
-#, fuzzy
 msgid "pfg_thankspage_nosubmitmessage"
 msgstr "<p>No se ha recibido ningún dato. Por favor <a title=\"Test Folder\" href=\".\">visita el formulario</a>.</p>"
 
 #. Default: "Thanks for your input."
 #: ../content/form.py:903
-#, fuzzy
 msgid "pfg_thankyou_description"
 msgstr "Gracias por su colaboración"
 
 #. Default: "Thank You"
 #: ../content/form.py:901
-#, fuzzy
 msgid "pfg_thankyou_title"
 msgstr "Gracias"
 
 #. Default: "'Entry too long. It should be no more than ${max} characters."
 #: ../content/validationMessages.py:91
-#, fuzzy
 msgid "pfg_too_long"
 msgstr "Entrada demasiado larga. No debería tener más de ${max} caracteres."
 
 #. Default: "Subject"
 #: ../content/form.py:872
-#, fuzzy
 msgid "pfg_topicfield_title"
 msgstr "Asunto"
 
@@ -1821,62 +1660,52 @@ msgstr "plantilla"
 
 #. Default: "Required"
 #: ../skins/PloneFormGen/widget_fieldset_start.pt:38
-#, fuzzy
 msgid "title_required"
 msgstr "Obligatorio"
 
 #. Default: "Checkbox list"
 #: ../content/fields.py:869
-#, fuzzy
 msgid "vocabulary_checkbox_text"
-msgstr "Lista de cajas de marcado"
+msgstr "Lista de opciones de marcado"
 
 #. Default: "Flexible (radio for short, select for longer)"
 #: ../content/fields.py:755
-#, fuzzy
 msgid "vocabulary_flex_text"
-msgstr "Flexible (radio para cortos, select para más largos)"
+msgstr "Flexible (tipo \"radio\" para opciones cortas, tipo \"select\" para más largas)"
 
 #. Default: "Is checked"
 #: ../content/fields.py:410
-#, fuzzy
 msgid "vocabulary_ischecked_text"
 msgstr "Está marcado"
 
 #. Default: "Is not checked"
 #: ../content/fields.py:413
-#, fuzzy
 msgid "vocabulary_isnotchecked_text"
 msgstr "No está marcado"
 
 #. Default: "Is Tidy HTML (fails on errors and warnings)"
 #: ../content/fields.py:1075
-#, fuzzy
 msgid "vocabulary_istidyhtml_text"
 msgstr "Es Tidy HTML (falla al encontrar errores y advertencias)"
 
 #. Default: "Tidy HTML With Cleanup (fails on errors, cleans up rest)"
 #: ../content/fields.py:1078
-#, fuzzy
 msgid "vocabulary_istidyhtmlwithcleanup_text"
 msgstr "Tidy HTML con limpieza (falla al encontrar errores, limpia el resto)"
 
 #. Default: "None"
 #: ../content/fields.py:407
 #: ../content/form.py:723
-#, fuzzy
 msgid "vocabulary_none_text"
 msgstr "Ninguno"
 
 #. Default: "Radio buttons"
 #: ../content/fields.py:761
-#, fuzzy
 msgid "vocabulary_radio_text"
 msgstr "Botones de selección"
 
 #. Default: "Selection list"
 #: ../content/fields.py:758
-#, fuzzy
 msgid "vocabulary_selection_text"
 msgstr "Lista de selección"
 
