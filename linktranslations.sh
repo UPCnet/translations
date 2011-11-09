@@ -49,11 +49,13 @@ add '/windowZ/configure.zcml' '/src/Products.windowZ/Products/windowZ/'
 # EGGS
 ########
 
-# PloneFormGen
+# PloneFormGen (desactivat) 
+# a 1.7rc1, tenim les nostres traduccions!!!
+#
 # PloneFormGen no te traducció al català linkem tota la carpeta
-add '/PloneFormGen/locales/ca/' '/eggs/Products.PloneFormGen*.egg/Products/PloneFormGen/locales/'
+#add '/PloneFormGen/locales/ca/' '/eggs/Products.PloneFormGen*.egg/Products/PloneFormGen/locales/'
 # plone form gen si té traducció al español
-add '/PloneFormGen/locales/es/LC_MESSAGES/*' '/eggs/Products.PloneFormGen*.egg/Products/PloneFormGen/locales/es/LC_MESSAGES/'
+#add '/PloneFormGen/locales/es/LC_MESSAGES/*' '/eggs/Products.PloneFormGen*.egg/Products/PloneFormGen/locales/es/LC_MESSAGES/'
 
 #plone.app.locales
 # Esborrat: al nou paquet està la traducció de la Lidia
