@@ -59,6 +59,8 @@ add '/windowZ/configure.zcml' '/src/Products.windowZ/Products/windowZ/'
 
 #plone.app.locales
 # Esborrat: al nou paquet està la traducció de la Lidia
+# L'afegim ja que hi han cadenes que sobreeescribim
+add '/plone.app.locales/ca/*' '/eggs/plone.app.locales*.egg/plone/app/locales/locales/ca/LC_MESSAGES/'
 
 #plone.app.discussion
 add '/plone.app.discussion/ca/*' '/eggs/plone.app.discussion*.egg/plone/app/discussion/locales/ca/LC_MESSAGES/'

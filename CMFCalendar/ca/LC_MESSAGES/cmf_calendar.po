@@ -11,7 +11,6 @@ msgstr ""
 "Domain: cmf_calendar\n"
 "X-Poedit-Language: Catalan\n"
 
-
 #: Products/CMFCalendar/browser/event.py:104
 msgid "URL"
 msgstr "URL"
@@ -38,7 +37,7 @@ msgstr "Títol"
 #: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:21
 #: Products/CMFCalendar/skins/zpt_calendar/event_view_template.pt:16
 msgid "Contact Name"
-msgstr "Nom de contacte"
+msgstr "Contacte"
 
 #: Products/CMFCalendar/browser/event.py:82
 #: Products/CMFCalendar/skins/zpt_calendar/event_edit_template.pt:29
@@ -181,7 +180,6 @@ msgid "Event"
 msgstr "Esdeveniment"
 
 #: Products/CMFCalendar/profiles/default/types/Event.xml:6
-#, fuzzy
 msgid "Events are objects for use in Calendar topical queries on the catalog."
 msgstr "Els esdeveniments són objectes per fer servir a les crides al catàleg del Calendari."
 
