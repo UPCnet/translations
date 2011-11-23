@@ -3548,7 +3548,7 @@ msgstr "Tipo de contenido a comprobar."
 
 #: plone.app.controlpanel/plone/app/controlpanel/navigation.py:40
 msgid "The content types that should be shown in the navigation and site map."
-msgstr "Los tipos de contenido que deberían ser mostrados en la navegación y en el mapa del sitio."
+msgstr "Los tipos de contenido que deberían ser mostrados en la navegación y en el mapa del web."
 
 #: CMFPlone/RegistrationTool.py:267
 msgid "The email address did not validate."
@@ -3727,7 +3727,7 @@ msgstr "El valor de este campo debe ser 1 o superior."
 
 #: plone.app.controlpanel/plone/app/controlpanel/navigation.py:49
 msgid "The workflow states that should be shown in the navigation tree and the site map."
-msgstr "Los estados de flujo de trabajo que deberían ser mostrados en el árbol de navegación y en el mapa del sitio."
+msgstr "Los estados de flujo de trabajo que deberían ser mostrados en el árbol de navegación y en el mapa del web."
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/wftransition.py:21
 msgid "The workflow transitions to check for."
@@ -3842,7 +3842,7 @@ msgstr "Este portlet muestra el contenido modificado recientemente."
 #: plone.app.event/plone/app/event/portlets/events.py:112
 #: plone.app.portlets/plone/app/portlets/portlets/events.py:115
 msgid "This portlet lists upcoming Events."
-msgstr "Este portlet lista los Eventos próximos."
+msgstr "Este portlet lista los próximos eventos."
 
 #: plone.app.portlets/plone/app/portlets/portlets/search.py:57
 msgid "This portlet shows a search box."
@@ -6260,7 +6260,7 @@ msgstr "Número de niveles de carpetas bajo la raíz del sitio que deben ser inc
 #. Default: "The content types that should be shown in the navigation and site map."
 #: CMFPlone/skins/plone_deprecated/prefs_navigation_form.cpt:135
 msgid "help_navigationtypes"
-msgstr "Los tipos de contenido que deberían ser mostrados en la navegación y en el mapa del sitio."
+msgstr "Los tipos de contenido que deberían ser mostrados en la navegación y en el mapa del web."
 
 #. Default: "Enter your new password. Minimum 5 characters."
 #: CMFPlone/skins/plone_login/login_password.cpt:69
@@ -6540,7 +6540,7 @@ msgstr "Introduzca el nombre de usuario que desee utilizar. Generalmente algo co
 #. Default: "The workflow states that should be shown in the navigation tree and the site map."
 #: CMFPlone/skins/plone_deprecated/prefs_navigation_form.cpt:183
 msgid "help_wf_states"
-msgstr "Los estados de flujo de trabajo que deberían mostrarse en el árbol de navegación y el mapa del sitio."
+msgstr "Los estados de flujo de trabajo que deberían mostrarse en el árbol de navegación y el mapa del web."
 
 #. Default: "Wysiwyg editor to use."
 #: plone.app.users/plone/app/users/browser/personalpreferences.py:43
@@ -8384,7 +8384,7 @@ msgstr "administración del sitio"
 #. Default: "Site map"
 #: CMFPlone/skins/plone_templates/sitemap.pt:19
 msgid "label_site_map"
-msgstr "Mapa del sitio"
+msgstr "Mapa del web"
 
 #. Default: "Size"
 #: CMFPlone/skins/plone_content/image_view.pt:28

@@ -3248,7 +3248,7 @@ msgstr "Administrador del lloc"
 #. Default: "Site Map"
 #: CMFPlone/profiles/default/actions.xml
 msgid "Site Map"
-msgstr "Mapa del lloc"
+msgstr "Mapa del web"
 
 #. Default: "Site Setup"
 #: CMFPlone/profiles/default/actions.xml
@@ -3555,7 +3555,7 @@ msgstr "El tipus de contingut a verificar."
 
 #: plone.app.controlpanel/plone/app/controlpanel/navigation.py:40
 msgid "The content types that should be shown in the navigation and site map."
-msgstr "Els tipus de contingut que s'han de mostrar en la navegació i el mapa del lloc"
+msgstr "Els tipus de contingut que s'han de mostrar en la navegació i el mapa del web"
 
 #: CMFPlone/RegistrationTool.py:267
 msgid "The email address did not validate."
@@ -3734,7 +3734,7 @@ msgstr "El valor d'aquest camp ha de ser 1 o superior."
 
 #: plone.app.controlpanel/plone/app/controlpanel/navigation.py:49
 msgid "The workflow states that should be shown in the navigation tree and the site map."
-msgstr "Els estats de flux de treball que s'han de mostrar en l'arbre de navegació i el mapa del lloc."
+msgstr "Els estats de flux de treball que s'han de mostrar en l'arbre de navegació i el mapa del web."
 
 #: plone.app.contentrules/plone/app/contentrules/conditions/wftransition.py:21
 msgid "The workflow transitions to check for."
@@ -4415,7 +4415,7 @@ msgstr "<code>4</code> — Focus al camp de cerca"
 #. Default: "<code>3</code> — Site Map"
 #: CMFPlone/skins/plone_templates/accessibility-info.pt:69
 msgid "accesskey_sitemap"
-msgstr "<code>3</code> — Mapa del lloc"
+msgstr "<code>3</code> — Mapa del web"
 
 #. Default: "<code>2</code> — Skip to content"
 #: CMFPlone/skins/plone_templates/accessibility-info.pt:68
@@ -6268,7 +6268,7 @@ msgstr "Quantes carpetes s'inclouran abans que s'aturi l'arbre de navegació. 0 
 #. Default: "The content types that should be shown in the navigation and site map."
 #: CMFPlone/skins/plone_deprecated/prefs_navigation_form.cpt:135
 msgid "help_navigationtypes"
-msgstr "Els tipus de contingut que es mostraran a la navegació i al mapa del lloc web."
+msgstr "Els tipus de contingut que es mostraran a la navegació i al mapa del web."
 
 #. Default: "Enter your new password. Minimum 5 characters."
 #: CMFPlone/skins/plone_login/login_password.cpt:69
@@ -6548,7 +6548,7 @@ msgstr "Introduïu un nom d'usuari, normalment del tipus <em>jpujol</em>. No uti
 #. Default: "The workflow states that should be shown in the navigation tree and the site map."
 #: CMFPlone/skins/plone_deprecated/prefs_navigation_form.cpt:183
 msgid "help_wf_states"
-msgstr "Els estats del circuit de treball que s'haurien de mostrar en l'arbre de navegació i en el mapa del lloc web."
+msgstr "Els estats del circuit de treball que s'haurien de mostrar en l'arbre de navegació i en el mapa del web."
 
 #. Default: "Wysiwyg editor to use."
 #: plone.app.users/plone/app/users/browser/personalpreferences.py:43
@@ -8392,7 +8392,7 @@ msgstr "administració del lloc"
 #. Default: "Site map"
 #: CMFPlone/skins/plone_templates/sitemap.pt:19
 msgid "label_site_map"
-msgstr "Mapa del lloc"
+msgstr "Mapa del web"
 
 #. Default: "Size"
 #: CMFPlone/skins/plone_content/image_view.pt:28
@@ -9975,7 +9975,7 @@ msgstr "Envia un correu electrònic a aquest usuari"
 #. Default: "Site Map"
 #: plone.app.layout/plone/app/layout/links/navigation.pt:9
 msgid "title_sitemap"
-msgstr "Mapa del lloc"
+msgstr "Mapa del web"
 
 #. Default: "Small Text"
 #: CMFPlone/skins/plone_templates/accessibility-info.pt:32
