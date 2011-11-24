@@ -40,9 +40,10 @@ add '/Poi/locales/ca/LC_MESSAGES/*' '/src/Products.Poi/Products/Poi/locales/ca/L
 add '/Poi/locales/es/LC_MESSAGES/*' '/src/Products.Poi/Products/Poi/locales/es/LC_MESSAGES/'
 
 # WindowZ
-add '/windowZ/locales/' '/src/Products.windowZ/Products/windowZ/'
+# 2011-11-24 Ara esta al pypi upc
+#add '/windowZ/locales/' '/src/Products.windowZ/Products/windowZ/'
 # WindowZ no te locales al configure el sobreescribim
-add '/windowZ/configure.zcml' '/src/Products.windowZ/Products/windowZ/'
+#add '/windowZ/configure.zcml' '/src/Products.windowZ/Products/windowZ/'
 
 
 ########
