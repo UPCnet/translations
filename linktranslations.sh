@@ -2,7 +2,8 @@
 #Directori on estan les traduccions
 TRANS=`pwd`
 # BUILD tindria que ser el directori on esta el gw4, el valor seguent es la ruta relativa sense barra al final
-BUILD=${TRANS//\/src\/translations/}
+BUILD=${TRANS//\/translations/}
+
 
 SOURCES=( )
 
@@ -19,31 +20,31 @@ function add {
 
 # Collage
 # Collage ja té locales només actualitzar traduccions
-add '/Collage/locales/es/LC_MESSAGES/*' '/src/Products.Collage/Products/Collage/locales/es/LC_MESSAGES/'
-add '/Collage/locales/ca/LC_MESSAGES/*' '/src/Products.Collage/Products/Collage/locales/ca/LC_MESSAGES/'
+add '/Collage/locales/es/LC_MESSAGES/*' '/eggs/Products.Collage*/Products/Collage/locales/es/LC_MESSAGES/'
+add '/Collage/locales/ca/LC_MESSAGES/*' '/eggs/Products.Collage*/Products/Collage/locales/ca/LC_MESSAGES/'
 
 #Ploneboard
-add '/PloneBoard/configure.zcml' '/src/Products.Ploneboard/Products/Ploneboard/'
-add '/PloneBoard/locales/' '/src/Products.Ploneboard/Products/Ploneboard/'
+add '/PloneBoard/configure.zcml' '/eggs/Products.Ploneboard*/Products/Ploneboard/'
+add '/PloneBoard/locales/' '/eggs/Products.Ploneboard*/Products/Ploneboard/'
 
 #PlonePopoll
-add '/PlonePopoll/configure.zcml' '/src/Products.PlonePopoll/Products/PlonePopoll/'
-add '/PlonePopoll/locales/' '/src/Products.PlonePopoll/Products/PlonePopoll/'
+add '/PlonePopoll/configure.zcml' '/eggs/Products.PlonePopoll*/Products/PlonePopoll/'
+add '/PlonePopoll/locales/' '/eggs/Products.PlonePopoll*/Products/PlonePopoll/'
 
 #PloneSurvey
-add '/PloneSurvey/configure.zcml' '/src/Products.PloneSurvey/Products/PloneSurvey/'
-add '/PloneSurvey/locales/' '/src/Products.PloneSurvey/Products/PloneSurvey/'
+add '/PloneSurvey/configure.zcml' '/eggs/Products.PloneSurvey*/Products/PloneSurvey/'
+add '/PloneSurvey/locales/' '/eggs/Products.PloneSurvey*/Products/PloneSurvey/'
 
 # Poi
 # Poi ja té locales només actualitzar traduccions
-add '/Poi/locales/ca/LC_MESSAGES/*' '/src/Products.Poi/Products/Poi/locales/ca/LC_MESSAGES/'
-add '/Poi/locales/es/LC_MESSAGES/*' '/src/Products.Poi/Products/Poi/locales/es/LC_MESSAGES/'
+add '/Poi/locales/ca/LC_MESSAGES/*' '/eggs/Products.Poi*/Products/Poi/locales/ca/LC_MESSAGES/'
+add '/Poi/locales/es/LC_MESSAGES/*' '/eggs/Products.Poi*/Products/Poi/locales/es/LC_MESSAGES/'
 
 # WindowZ
 # 2011-11-24 Ara esta al pypi upc
-#add '/windowZ/locales/' '/src/Products.windowZ/Products/windowZ/'
+#add '/windowZ/locales/' '/eggs/Products.windowZ/Products/windowZ/'
 # WindowZ no te locales al configure el sobreescribim
-#add '/windowZ/configure.zcml' '/src/Products.windowZ/Products/windowZ/'
+#add '/windowZ/configure.zcml' '/eggs/Products.windowZ/Products/windowZ/'
 
 
 ########
