@@ -6441,6 +6441,11 @@ msgstr "La dirección de correo a quien vaya a enviar este enlace."
 msgid "help_sender_from_address"
 msgstr "Por favor, introduzca su dirección de correo electrónico"
 
+#. Default: "Please enter the subject of the message you want to send."
+#: PloneTeam GW3.4
+msgid "help_subject"
+msgstr "Por favor, introduzca el asunto del mensaje que desea enviar."
+
 #. Default: "Please enter your full name"
 #: CMFPlone/skins/plone_templates/contact-info.cpt:65
 msgid "help_sender_fullname"
