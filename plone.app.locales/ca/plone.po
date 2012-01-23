@@ -6449,6 +6449,11 @@ msgstr "L'adreça de correu a la que voleu enviar aquest enllaç."
 msgid "help_sender_from_address"
 msgstr "Si us plau, escriviu la vostra adreça de correu electrònic"
 
+#. Default: "Please enter the subject of the message you want to send."
+#: PloneTeam GW3.4
+msgid "help_subject"
+msgstr "Si us plau, entreu l'assumpte del missatge que voleu enviar."
+
 #. Default: "Please enter your full name"
 #: CMFPlone/skins/plone_templates/contact-info.cpt:65
 msgid "help_sender_fullname"
