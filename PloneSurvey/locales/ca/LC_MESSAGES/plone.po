@@ -71,7 +71,7 @@ msgid "label_schema_Comment Field"
 msgstr "Camp de commentaris"
 
 #. Default: Email Invite
-msgid "label_schema_Email Invite"
+msgid "label_email_invite"
 msgstr "Invitació per correu"
 
 #. Default: Introduction

@@ -1143,3 +1143,6 @@ msgstr "veure enquestats"
 msgid "view_results_barchart"
 msgstr "Mostra resultats del qüestionari en un gràfic de barres"
 
+#. Default: Email Invite
+msgid "label_email_invite"
+msgstr "Invitació per correu"
