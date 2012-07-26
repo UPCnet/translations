@@ -4775,10 +4775,30 @@ msgstr "Formato de texto plano. Los URLs se convertirán en enlaces."
 msgid "description_add_new_item"
 msgstr "Seleccione el tipo de elemento que desea agregar a su carpeta."
 
-#. Default: "This search form enables you to find content on the site by specifying one or more search terms. <br /> Remember that you can use the quick search anytime, it's normally good enough, this search form is just if you want to be more specific."
+#. Default: "This search form enables you to find content on the site by specifying one or more search terms."
 #: CMFPlone/skins/plone_deprecated/search_form.pt:19
-msgid "description_advanced_search"
-msgstr "Este formulario de búsqueda le permitirá encontrar contenido en el site especificando uno o más términos de búsqueda. <br /> Recuerde que puede usar la búsqueda rápida en cualquier momento, la cual es normalmente suficiente. Este formulario de búsqueda es sólo por si desea ser más específico."
+msgid "description_custom_advanced_search"
+msgstr "Este formulario de búsqueda le permitirá encontrar contenido en el sitio especificando uno o más términos de búsqueda."
+
+#. Default: "Remember that you can also use the "
+#: CMFPlone/skins/plone_deprecated/search_form.pt:24
+msgid "custom_search_upc_1"
+msgstr "Recuerde que también puede utilizar el "
+
+#. Default: "Search UPC"
+#: CMFPlone/skins/plone_deprecated/search_form.pt:24
+msgid "search_upc"
+msgstr "Buscador UPC"
+
+#. Default: " to search all UPC sites."
+#: CMFPlone/skins/plone_deprecated/search_form.pt:24
+msgid "custom_search_upc_2"
+msgstr " para hacer búsquedas en todas las webs de la UPC."
+
+#. Default: "This search form enables you to find content on the site by specifying one or more search terms."
+#: CMFPlone/skins/plone_deprecated/search_form.pt:23
+msgid "description_custom_advanced_search"
+msgstr "Este formulario de búsqueda le permitirá encontrar contenido en el site especificando uno o más términos de búsqueda."
 
 #. Default: "If you want to contact this author, fill in the form below."
 #: CMFPlone/skins/plone_content/author.cpt:169
@@ -9311,6 +9331,16 @@ msgstr "¿No ha encontrado lo que buscaba? Pruebe con la ${advanced_search} para
 #: CMFPlone/skins/plone_deprecated/search.pt:64
 msgid "search_results_advanced_link"
 msgstr "búsqueda avanzada"
+
+#. Default: "If you have not found what you are looking for, try the "
+#: CMFPlone/skins/plone_deprecated/search.pt:72
+msgid "search_part1">"
+msgstr "Si no encuentra lo que está buscando, pruebe con la"
+
+#. Default: " to refine your search or the <a href="http://cercador.upc.edu">Search UPC</a> to search all of the UPC's websites."
+#: CMFPlone/skins/plone_deprecated/search.pt:76
+msgid "search_part2">"
+msgstr " para refinar su búsqueda o con el <a href="http://www.upc.edu/busqueda">Buscador UPC</a> para buscar en todas las webs de la UPC."
 
 #. Default: "This link is sent to you from ${portal_url} You are receiving this mail because someone read a page at ${portal_title} and thought it might interest you. It is sent by ${from_address} with the following comment: \"${comment}\" ${document_title} ${document_description} ${document_url}"
 #: CMFPlone/skins/plone_templates/sendto_template.pt:25
